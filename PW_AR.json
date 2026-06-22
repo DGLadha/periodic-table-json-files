@@ -7,9 +7,9 @@
         "electronic_configuration":"1s",
         "VanderWaal_Radius":110.0,
         "Metallic_Radius":78.0,
-        "Covalent_Radius":31.0,
+        "Covalent_Radius":32,
         "jmol_color":"#ffffff",
-        "Atomic Radius":31.0,
+        "Atomic Radius":32,
         "Analysis":"In Period 1, the atomic radius trend differs from other periods. Typically, atomic size decreases across a period due to increasing nuclear charge, but helium is an exception. As a noble gas, its atomic size is measured by the Van der Waals radius, which is larger than covalent or metallic radii. This makes helium\u2019s atomic radius greater than hydrogen\u2019s, despite its higher nuclear charge."
     },
     {
@@ -20,9 +20,9 @@
         "electronic_configuration":"1s2",
         "VanderWaal_Radius":140.0,
         "Metallic_Radius":122.0,
-        "Covalent_Radius":28.0,
+        "Covalent_Radius":28,
         "jmol_color":"#d9ffff",
-        "Atomic Radius":140.0,
+        "Atomic Radius":28,
         "Analysis":"Since the Vander Waal radius is always larger than the covalent radius, therefore, helium has a higher atomic radius than hydrogen, even though the addition of electrons is in the same shell for both cases and effective nuclear charge is higher in case of helium."
     },
     {
@@ -33,10 +33,10 @@
         "electronic_configuration":"[He] 2s",
         "VanderWaal_Radius":182.0,
         "Metallic_Radius":155.0,
-        "Covalent_Radius":128.0,
+        "Covalent_Radius":130,
         "jmol_color":"#cc80ff",
-        "Atomic Radius":155.0,
-        "Analysis":"In Period 2, atomic radius decreases from lithium to fluorine as increasing nuclear charge pulls valence electrons closer without extra shielding. However, neon, a noble gas, has a larger Van der Waals radius than expected, making its atomic size the larger than Fluorine and other elements of the period 1 except lithium. Lithium shows slightly higher atomic radius than neon."
+        "Atomic Radius":130,
+        "Analysis":"In Period 2, atomic radius decreases from lithium to fluorine as increasing nuclear charge pulls valence electrons closer without extra shielding. However, neon, a noble gas, has a larger Van der Waals radius than expected, making its atomic size the larger than Fluorine and other elements of the period 1."
     },
     {
         "atomic_number":4,
@@ -46,9 +46,9 @@
         "electronic_configuration":"[He] 2s2",
         "VanderWaal_Radius":153.0,
         "Metallic_Radius":112.0,
-        "Covalent_Radius":96.0,
+        "Covalent_Radius":99,
         "jmol_color":"#c2ff00",
-        "Atomic Radius":96.0,
+        "Atomic Radius":99,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from lithium to beryllium because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period. Thus, valence electrons are more attracted towards the nucleus decreasing the atomic radius of beryllium."
     },
     {
@@ -59,9 +59,9 @@
         "electronic_configuration":"[He] 2s2 2p",
         "VanderWaal_Radius":192.0,
         "Metallic_Radius":98.0,
-        "Covalent_Radius":84.0,
+        "Covalent_Radius":84,
         "jmol_color":"#ffb5b5",
-        "Atomic Radius":84.0,
+        "Atomic Radius":84,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from beryllium to boron because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period. Thus, valence electrons are more attracted towards the nucleus decreasing the atomic radius of boron."
     },
     {
@@ -72,9 +72,9 @@
         "electronic_configuration":"[He] 2s2 2p2",
         "VanderWaal_Radius":170.0,
         "Metallic_Radius":86.0,
-        "Covalent_Radius":73.0,
+        "Covalent_Radius":75,
         "jmol_color":"#909090",
-        "Atomic Radius":73.0,
+        "Atomic Radius":75,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from boron to carbon because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -85,9 +85,9 @@
         "electronic_configuration":"[He] 2s2 2p3",
         "VanderWaal_Radius":155.0,
         "Metallic_Radius":53.0,
-        "Covalent_Radius":71.0,
+        "Covalent_Radius":71,
         "jmol_color":"#3050f8",
-        "Atomic Radius":71.0,
+        "Atomic Radius":71,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from carbon to nitrogen because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -98,9 +98,9 @@
         "electronic_configuration":"[He] 2s2 2p4",
         "VanderWaal_Radius":152.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":66.0,
+        "Covalent_Radius":64,
         "jmol_color":"#ff0d0d",
-        "Atomic Radius":66.0,
+        "Atomic Radius":64,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from nitrogen to oxygen because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -111,9 +111,9 @@
         "electronic_configuration":"[He] 2s2 2p5",
         "VanderWaal_Radius":147.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":57.0,
+        "Covalent_Radius":60,
         "jmol_color":"#90e050",
-        "Atomic Radius":57.0,
+        "Atomic Radius":60,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from oxygen to fluorine because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -124,9 +124,9 @@
         "electronic_configuration":"[He] 2s2 2p6",
         "VanderWaal_Radius":154.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":58.0,
+        "Covalent_Radius":62,
         "jmol_color":"#b3e3f5",
-        "Atomic Radius":154.0,
+        "Atomic Radius":154,
         "Analysis":"It is only for neon that we consider the Vander Waals radius as it is a noble gas, and due to this reason, the atomic radius (Vander Waals) for neon becomes highest in period 2 elements."
     },
     {
@@ -137,10 +137,10 @@
         "electronic_configuration":"[Ne] 3s",
         "VanderWaal_Radius":227.0,
         "Metallic_Radius":190.0,
-        "Covalent_Radius":166.0,
+        "Covalent_Radius":160,
         "jmol_color":"#ab5cf2",
-        "Atomic Radius":190.0,
-        "Analysis":"In Period 3, atomic radius decreases from sodium to chlorine due to increasing effective nuclear charge, which pulls electrons closer to the nucleus. For argon, a noble gas, the Van der Waals radius is considered, making its atomic size larger than chlorine\u2019s but smaller than sodium."
+        "Atomic Radius":160,
+        "Analysis":"In Period 3, atomic radius decreases from sodium to chlorine due to increasing effective nuclear charge, which pulls electrons closer to the nucleus. For argon, a noble gas, the Van der Waals radius is considered, making its atomic size larger than sodium covalent radius. However, when metallic radius of sodium is compared with the Vander Waal radius of argon, it is the metallic radius of sodium which is higher than Vander Waal radius of argon. This is because the way metallic radius is calculated and it always higher than a covalent radius."
     },
     {
         "atomic_number":12,
@@ -150,9 +150,9 @@
         "electronic_configuration":"[Ne] 3s2",
         "VanderWaal_Radius":173.0,
         "Metallic_Radius":160.0,
-        "Covalent_Radius":141.0,
+        "Covalent_Radius":140,
         "jmol_color":"#8aff00",
-        "Atomic Radius":160.0,
+        "Atomic Radius":140,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from sodium to magnesium because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -163,9 +163,9 @@
         "electronic_configuration":"[Ne] 3s2 3p",
         "VanderWaal_Radius":184.0,
         "Metallic_Radius":143.0,
-        "Covalent_Radius":121.0,
+        "Covalent_Radius":124,
         "jmol_color":"#bfa6a6",
-        "Atomic Radius":143.0,
+        "Atomic Radius":124,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from magnesium to aluminium because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -176,9 +176,9 @@
         "electronic_configuration":"[Ne] 3s2 3p2",
         "VanderWaal_Radius":210.0,
         "Metallic_Radius":138.0,
-        "Covalent_Radius":111.0,
+        "Covalent_Radius":114,
         "jmol_color":"#f0c8a0",
-        "Atomic Radius":138.0,
+        "Atomic Radius":114,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from aluminium to silicon because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -189,9 +189,9 @@
         "electronic_configuration":"[Ne] 3s2 3p3",
         "VanderWaal_Radius":180.0,
         "Metallic_Radius":128.0,
-        "Covalent_Radius":107.0,
+        "Covalent_Radius":109,
         "jmol_color":"#ff8000",
-        "Atomic Radius":107.0,
+        "Atomic Radius":109,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from silicon to phosphorus because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -202,9 +202,9 @@
         "electronic_configuration":"[Ne] 3s2 3p4",
         "VanderWaal_Radius":180.0,
         "Metallic_Radius":127.0,
-        "Covalent_Radius":105.0,
+        "Covalent_Radius":104,
         "jmol_color":"#ffff30",
-        "Atomic Radius":105.0,
+        "Atomic Radius":104,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from phosphorus to sulfur because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -215,9 +215,9 @@
         "electronic_configuration":"[Ne] 3s2 3p5",
         "VanderWaal_Radius":175.0,
         "Metallic_Radius":91.0,
-        "Covalent_Radius":102.0,
+        "Covalent_Radius":100,
         "jmol_color":"#1ff01f",
-        "Atomic Radius":102.0,
+        "Atomic Radius":100,
         "Analysis":"The atomic radius (covalent radius) decreases on moving across a period from sulfur to chlorine because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -228,9 +228,9 @@
         "electronic_configuration":"[Ne] 3s2 3p6",
         "VanderWaal_Radius":188.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":106.0,
+        "Covalent_Radius":101,
         "jmol_color":"#80d1e3",
-        "Atomic Radius":188.0,
+        "Atomic Radius":188,
         "Analysis":"It is only for argon that we consider the Vander Waals radius as it is a noble gas, and due to this reason, the atomic radius (Vander Waals) for argon is considered to be highest in period 3 elements."
     },
     {
@@ -241,10 +241,10 @@
         "electronic_configuration":"[Ar] 4s",
         "VanderWaal_Radius":275.0,
         "Metallic_Radius":235.0,
-        "Covalent_Radius":203.0,
+        "Covalent_Radius":200,
         "jmol_color":"#8f40d4",
-        "Atomic Radius":235.0,
-        "Analysis":"In Period 4, atomic radius decreases from potassium to zinc due to increasing nuclear charge and poor d-orbital shielding. After zinc, the radius increases from gallium to arsenic due to electron-electron repulsion in the 4p subshell. Selenium and bromine have nearly identical radii as nuclear attraction and repulsion effects balance out. However, Krypton, being a noble gas, its Van der Waals radius is considered which is higher than bromine and other elements except potassium."
+        "Atomic Radius":200,
+        "Analysis":"In Period 4, atomic radius decreases from potassium to zinc due to increasing nuclear charge and poor d-orbital shielding. After zinc, the covalent radius slightly decreases from gallium to geranium and same for germanium and arsenic. This is due to an additional factor of electron-electron repulsion in the 4p subshell that tries to increase the size of germanium and arsenic. However, if their metallic radius is compared, it is slightly higher for germanium and arsenic. Selenium and bromine have nearly identical radii as nuclear attraction and repulsion effects balance out. However, Krypton, being a noble gas, its Van der Waals radius is considered which is higher than bromine and slightly higher than potassium covalent radius. However, if metallic radius of potassium is compared with the Vander Waal radius of krypton, it is the metallic radius of potassium that is higher than the Vander Waal radius of krypton. This is because the way metallic radius is calculated. The metallic radius is always higher than the covalent radius."
     },
     {
         "atomic_number":20,
@@ -254,9 +254,9 @@
         "electronic_configuration":"[Ar] 4s2",
         "VanderWaal_Radius":231.0,
         "Metallic_Radius":197.0,
-        "Covalent_Radius":176.0,
+        "Covalent_Radius":174,
         "jmol_color":"#3dff00",
-        "Atomic Radius":197.0,
+        "Atomic Radius":174,
         "Analysis":"Metallic radius is considered for potassium and calcium. The atomic radius decreases on moving across a period from potassium to calcium because valence electrons are added at the same energy level, and the number of protons increases in the nucleus. This leads to an increase in effective nuclear charge that becomes the dominating factor as the number of shells remains constant across the period."
     },
     {
@@ -267,9 +267,9 @@
         "electronic_configuration":"[Ar] 3d 4s2",
         "VanderWaal_Radius":215.0,
         "Metallic_Radius":162.0,
-        "Covalent_Radius":170.0,
+        "Covalent_Radius":159,
         "jmol_color":"#e6e6e6",
-        "Atomic Radius":162.0,
+        "Atomic Radius":159,
         "Analysis":"The atomic radius (metallic radius) decreases from calcium to scandium due to increased effective nuclear charge with the number of shells remaining the same.  The electronic configuration of scadium is [Ar] 4s2 3d1. There is one electron in the d-orbital. The shielding power of the d orbital is low, and thus the outer electrons will be attracted more towards the nucleus resulting in a decrease in atomic radius. The trend of rest of transition metals will come under transition metals trend in the dropdown menu."
     },
     {
@@ -280,9 +280,9 @@
         "electronic_configuration":"[Ar] 3d10 4s2 4p",
         "VanderWaal_Radius":187.0,
         "Metallic_Radius":140.0,
-        "Covalent_Radius":122.0,
+        "Covalent_Radius":123,
         "jmol_color":"#c28f8f",
-        "Atomic Radius":140.0,
+        "Atomic Radius":123,
         "Analysis":"The last element of transition metals series I is zinc. It has the atomic radius of 134 pm. The atomic radius of gallium is higher than zinc. In gallium, there is addition of one electron in the 4p. Due to higher shielding effect of s-orbital, the electron in 4p orbitals will be less attracted towards the nucleus that may lead to increase in the atomic radius of gallium."
     },
     {
@@ -293,9 +293,9 @@
         "electronic_configuration":"[Ar] 3d10 4s2 4p2",
         "VanderWaal_Radius":211.0,
         "Metallic_Radius":144.0,
-        "Covalent_Radius":120.0,
+        "Covalent_Radius":120,
         "jmol_color":"#668f8f",
-        "Atomic Radius":144.0,
+        "Atomic Radius":120,
         "Analysis":"The atomic radius of germanium is higher than gallium as there is addition of one more electron in the orbital of 4p subshell leading to to increase electron-electron repulsion . Also, the electron in 4p orbitals will be less attracted towards the nucleus due to high shielding power of s-orbital."
     },
     {
@@ -306,9 +306,9 @@
         "electronic_configuration":"[Ar] 3d10 4s2 4p3",
         "VanderWaal_Radius":185.0,
         "Metallic_Radius":148.0,
-        "Covalent_Radius":119.0,
+        "Covalent_Radius":120,
         "jmol_color":"#bd80e3",
-        "Atomic Radius":148.0,
+        "Atomic Radius":120,
         "Analysis":"The atomic radius of arsenic is higher than germanium as there is addition of one more electron in the in the orbital of 4p subshell leading to increase electron-electron repulsion.  Also, the electron in 4p orbitals will be less attracted towards the nucleus due to high shielding power of s-orbital."
     },
     {
@@ -319,9 +319,9 @@
         "electronic_configuration":"[Ar] 3d10 4s2 4p4",
         "VanderWaal_Radius":190.0,
         "Metallic_Radius":140.0,
-        "Covalent_Radius":120.0,
+        "Covalent_Radius":118,
         "jmol_color":"#ffa100",
-        "Atomic Radius":120.0,
+        "Atomic Radius":118,
         "Analysis":"The atomic radius decreases from arsenic to selenium due to an increase in effective nuclear charge as the domination factor."
     },
     {
@@ -332,9 +332,9 @@
         "electronic_configuration":"[Ar] 3d10 4s2 4p5",
         "VanderWaal_Radius":185.0,
         "Metallic_Radius":117.0,
-        "Covalent_Radius":120.0,
+        "Covalent_Radius":117,
         "jmol_color":"#a62929",
-        "Atomic Radius":120.0,
+        "Atomic Radius":117,
         "Analysis":"The atomic radius is almost similar for selenium and bromine. An increase in effective nuclear charge and the electron-electron repulsion factor could be dominating due to which they have similar atomic radius."
     },
     {
@@ -345,9 +345,9 @@
         "electronic_configuration":"[Ar] 3d10 4s2 4p6",
         "VanderWaal_Radius":202.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":116.0,
+        "Covalent_Radius":116,
         "jmol_color":"#5cb8d1",
-        "Atomic Radius":202.0,
+        "Atomic Radius":202,
         "Analysis":"The atomic radius of krypton is highest as it is a noble gas due to which its Vander Waal radius is considered and is always higher than metallic and covalent radius."
     },
     {
@@ -358,10 +358,10 @@
         "electronic_configuration":"[Kr] 5s",
         "VanderWaal_Radius":303.0,
         "Metallic_Radius":248.0,
-        "Covalent_Radius":220.0,
+        "Covalent_Radius":215,
         "jmol_color":"#702eb0",
-        "Atomic Radius":248.0,
-        "Analysis":"In Period 5, the atomic radius generally decreases from rubidium to cadmium due to increasing effective nuclear charge. After cadmium, it increases from indium to antimony due to electron-electron repulsion in the 5p subshell. A rise in nuclear charge causes a slight decrease from antimony to tellurium. Despite these variations, xenon, a noble gas, has the higher Van der Waals radius in the period, surpassing strontium."
+        "Atomic Radius":215,
+        "Analysis":"In Period 5, the atomic radius generally decreases from rubidium to cadmium due to increasing effective nuclear charge. After cadmium, it only slightly decreases from indium to antimony. This is due to an additional factor of electron-electron repulsion in the 5p subshell which tries to increase the radius for antimony. However, there is a slight increase in metallic radius from indium to antimony due to the combined effect of the way metallic radius is calculated and the electron-electron repulsion. A rise in nuclear charge causes a slight decrease from antimony to tellurium. Despite these variations, xenon, a noble gas, has the higher Van der Waals radius in the period, surpassing strontium but 1pm less than that of rubidium. However, if metallic radius of rubidium is compared with the Vander Waal radius of xenon, it is the metallic radius of rubidium that is higher than the Vander Waal radius of xenon. This is because the way metallic radius is calculated. The metallic radius is always higher than the covalent radius."
     },
     {
         "atomic_number":38,
@@ -371,9 +371,9 @@
         "electronic_configuration":"[Kr] 5s2",
         "VanderWaal_Radius":249.0,
         "Metallic_Radius":215.0,
-        "Covalent_Radius":195.0,
+        "Covalent_Radius":190,
         "jmol_color":"#00ff00",
-        "Atomic Radius":215.0,
+        "Atomic Radius":190,
         "Analysis":"The atomic radius decreases from rubidium to strontium due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same. "
     },
     {
@@ -384,10 +384,10 @@
         "electronic_configuration":"[Kr] 4d 5s2",
         "VanderWaal_Radius":232.0,
         "Metallic_Radius":180.0,
-        "Covalent_Radius":190.0,
+        "Covalent_Radius":176,
         "jmol_color":"#94ffff",
-        "Atomic Radius":180.0,
-        "Analysis":"The atomic radius of yttrium is 180 pm. The atomic radius decreases from strontium to yttrium due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same.  The trend of rest of transition metals in series II will come under transition metals trend in the dropdown menu."
+        "Atomic Radius":176,
+        "Analysis":"The atomic radius of yttrium is 176 pm. The atomic radius decreases from strontium to yttrium due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same.  The trend of rest of transition metals in series II will come under transition metals trend in the dropdown menu."
     },
     {
         "atomic_number":49,
@@ -397,9 +397,9 @@
         "electronic_configuration":"[Kr] 4d10 5s2 5p",
         "VanderWaal_Radius":193.0,
         "Metallic_Radius":158.0,
-        "Covalent_Radius":142.0,
+        "Covalent_Radius":142,
         "jmol_color":"#a67573",
-        "Atomic Radius":158.0,
+        "Atomic Radius":142,
         "Analysis":"The last element of transition metals series II is cadmium with atomic number of 151 pm. The atomic radius increases from cadmium to indium. In indium, there is addition of one electron in the 5p. Due to higher shielding effect of 5s-orbital, the electron in 5p orbitals will be less attracted towards the nucleus that may lead to increase in the atomic radius of indium"
     },
     {
@@ -410,9 +410,9 @@
         "electronic_configuration":"[Kr] 4d10 5s2 5p2",
         "VanderWaal_Radius":217.0,
         "Metallic_Radius":163.0,
-        "Covalent_Radius":139.0,
+        "Covalent_Radius":140,
         "jmol_color":"#668080",
-        "Atomic Radius":163.0,
+        "Atomic Radius":140,
         "Analysis":"The atomic radius increases from indium to tin as there is addition of one more electron in the orbital of 5p subshell leading to increase electron-electron repulsion.  Also, the electrons in 5p orbitals might be less attracted towards the nucleus due to high shielding power of 5s-orbital."
     },
     {
@@ -423,9 +423,9 @@
         "electronic_configuration":"[Kr] 4d10 5s2 5p3",
         "VanderWaal_Radius":206.0,
         "Metallic_Radius":166.0,
-        "Covalent_Radius":139.0,
+        "Covalent_Radius":140,
         "jmol_color":"#9e63b5",
-        "Atomic Radius":166.0,
+        "Atomic Radius":140,
         "Analysis":"The atomic radius increases from tin to antimony as there is addition of one more electron in the orbital of 5p subshell leading to increase electron-electron repulsion.  Also, the electrons in 5p orbitals might be less attracted towards the nucleus due to high shielding power of 5s-orbital."
     },
     {
@@ -436,9 +436,9 @@
         "electronic_configuration":"[Kr] 4d10 5s2 5p4",
         "VanderWaal_Radius":206.0,
         "Metallic_Radius":160.0,
-        "Covalent_Radius":138.0,
+        "Covalent_Radius":137,
         "jmol_color":"#d47a00",
-        "Atomic Radius":160.0,
+        "Atomic Radius":137,
         "Analysis":"The atomic radius decreases from antimony to tellurium due to an increase in effective nuclear charge as the domination factor as compared to the electron-electron repulsion in the 5p orbitals. "
     },
     {
@@ -449,9 +449,9 @@
         "electronic_configuration":"[Kr] 4d10 5s2 5p5",
         "VanderWaal_Radius":198.0,
         "Metallic_Radius":139.0,
-        "Covalent_Radius":139.0,
+        "Covalent_Radius":136,
         "jmol_color":"#940094",
-        "Atomic Radius":139.0,
+        "Atomic Radius":136,
         "Analysis":"The atomic radius is less for iodine due to an increase in effective nuclear charge as the domination factor. "
     },
     {
@@ -462,9 +462,9 @@
         "electronic_configuration":"[Kr] 4d10 5s2 5p6",
         "VanderWaal_Radius":216.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":140.0,
+        "Covalent_Radius":136,
         "jmol_color":"#429eb0",
-        "Atomic Radius":216.0,
+        "Atomic Radius":216,
         "Analysis":"The atomic radius is highest for xenon as it is a noble gas due to which its Vander-Waal radius is considered, which is higher than covalent and metallic radius. Even though there is so much variation in the atomic radius, the Vander Waal radius of xenon is higher than strontium."
     },
     {
@@ -475,10 +475,10 @@
         "electronic_configuration":"[Xe] 6s",
         "VanderWaal_Radius":343.0,
         "Metallic_Radius":267.0,
-        "Covalent_Radius":244.0,
+        "Covalent_Radius":238,
         "jmol_color":"#57178f",
-        "Atomic Radius":267.0,
-        "Analysis":"In Period 6, the atomic radius generally decreases due to increasing effective nuclear charge, but deviations arise from electron-electron repulsion. Lanthanide contraction causes a decrease from barium to lanthanum, while relativistic effects and shielding influence variations from mercury to bismuth. Relativistic effects arise due to the high speeds of electrons in heavy elements (typically beyond the 5th period of the periodic table). The atomic radius increases from mercury to thallium, lead, and bismuth due to repulsion in 6p orbitals, with relativistic contraction reducing nuclear attraction. Relativistic contraction occurs when mass of an electron increases as its velocity approaches the speed of light (as per Einstein's theory of relativity). This increased mass causes the electron to be pulled closer to the nucleus, leading to a contraction of the atomic orbitals. The metallic radius of polonium is unavailable, but its covalent radius (covalent radius is always smaller than the metallic radius) is smaller than the metallic radius of bismuth. The covalent radius of bismuth (148 pm) is larger than that of polonium, which deviates from the trend due to calculation methods and poor shielding by d- and f-orbitals. Astatine\u2019s radius data shows discrepancies, likely due to electron repulsion and shielding, while radon has the higher radius than Astatine's radius as it's Van der Waals radius is considered."
+        "Atomic Radius":238,
+        "Analysis":"In Period 6, the atomic radius generally decreases due to increasing effective nuclear charge, but deviations arise from electron-electron repulsion. Lanthanide contraction causes a decrease from barium to lanthanum, while relativistic effects and shielding influence variations from mercury to bismuth. Relativistic effects arise due to the high speeds of electrons in heavy elements (typically beyond the 5th period of the periodic table). The atomic radius increases from mercury to thallium, lead, and bismuth due to repulsion in 6p orbitals, with relativistic contraction reducing nuclear attraction. Relativistic contraction occurs when mass of an electron increases as its velocity approaches the speed of light (as per Einstein's theory of relativity). This increased mass causes the electron to be pulled closer to the nucleus, leading to a contraction of the atomic orbitals. The metallic radius of polonium is unavailable, but its covalent radius (covalent radius is always smaller than the metallic radius) is smaller than that of bismuth. This deviates from the trend due to poor shielding by d- and f-orbitals. Astatine\u2019s radius data shows discrepancies, likely due to electron repulsion and shielding, while radon has the higher radius than Astatine's radius as it's Van der Waals radius is considered. However, the radon radius is less than that of covalent and metallic radius of cesium following the rule of effective nuclear charge."
     },
     {
         "atomic_number":56,
@@ -488,9 +488,9 @@
         "electronic_configuration":"[Xe] 6s2",
         "VanderWaal_Radius":268.0,
         "Metallic_Radius":222.0,
-        "Covalent_Radius":215.0,
+        "Covalent_Radius":206,
         "jmol_color":"#00c900",
-        "Atomic Radius":222.0,
+        "Atomic Radius":206,
         "Analysis":"The covalent radius decreases from cesium to barium due to an increase in effective nuclear charge with the number of shells remaining the same and the number of electrons increasing in the valence shell, and poor shielding effect of electrons in 4f subshells."
     },
     {
@@ -501,10 +501,10 @@
         "electronic_configuration":"[Xe] 5d 6s2",
         "VanderWaal_Radius":243.0,
         "Metallic_Radius":187.0,
-        "Covalent_Radius":207.0,
+        "Covalent_Radius":194,
         "jmol_color":"#70d4ff",
-        "Atomic Radius":187.0,
-        "Analysis":"The atomic radius (covalent radius) of lanthanum is 187 pm. The covalent radius decreases from barium to lanthanum due to an increase in effective nuclear charge with the number of shells remaining the same and poor shielding effect of electrons in 4f and 5d subshells, causing lanthanide contraction.  The trend of rest of lanthanides will come under lanthanides and actinides trend in the dropdown menu."
+        "Atomic Radius":194,
+        "Analysis":"The atomic radius (covalent radius) of lanthanum is 194 pm. The covalent radius decreases from barium to lanthanum due to an increase in effective nuclear charge with the number of shells remaining the same and poor shielding effect of electrons in 4f and 5d subshells, causing lanthanide contraction.  The trend of rest of lanthanides will come under lanthanides and actinides trend in the dropdown menu."
     },
     {
         "atomic_number":"72-80",
@@ -514,10 +514,10 @@
         "electronic_configuration":"[Xe] 4f14 5d2 6s2",
         "VanderWaal_Radius":223.0,
         "Metallic_Radius":159.0,
-        "Covalent_Radius":175.0,
+        "Covalent_Radius":164,
         "jmol_color":"#4dc2ff",
-        "Atomic Radius":159.0,
-        "Analysis":"The next element after lanthanides is hafnium which is the starting element of transition metal series 3. The atomic radius of hafnium is 159 pm. The atomic radius first decreases then increases for transition metal series 3. The atomic radius trend analysis of transition metals comes under transition metals dropdown. "
+        "Atomic Radius":164,
+        "Analysis":"The next element after lanthanides is hafnium which is the starting element of transition metal series 3. The atomic radius of hafnium is 164 pm. The atomic radius first decreases then increases for transition metal series 3. The atomic radius trend analysis of transition metals comes under transition metals dropdown. "
     },
     {
         "atomic_number":81,
@@ -527,10 +527,10 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p",
         "VanderWaal_Radius":196.0,
         "Metallic_Radius":160.0,
-        "Covalent_Radius":145.0,
+        "Covalent_Radius":144,
         "jmol_color":"#a6544d",
-        "Atomic Radius":160.0,
-        "Analysis":"The last element of transition metals series 3 is mercury with atomic radius of 151 pm. The atomic radius increases from mercury to thallium due to electron-electron repulsion in d and f-orbitals. The relativistic contraction of 6s orbital is higher that leads to higher shield effect due to which the additional electron in 6p orbital of thallium will be less attracted towards the nucleus and thus thallium has higher atomic radius than mercury."
+        "Atomic Radius":144,
+        "Analysis":"The last element of transition metals series 3 is mercury with atomic radius of 132 pm. The atomic radius increases from mercury to thallium due to electron-electron repulsion in d and f-orbitals. The relativistic contraction of 6s orbital is higher that leads to higher shield effect due to which the additional electron in 6p orbital of thallium will be less attracted towards the nucleus and thus thallium has higher atomic radius than mercury."
     },
     {
         "atomic_number":82,
@@ -540,9 +540,9 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p2",
         "VanderWaal_Radius":202.0,
         "Metallic_Radius":170.0,
-        "Covalent_Radius":146.0,
+        "Covalent_Radius":145,
         "jmol_color":"#575961",
-        "Atomic Radius":170.0,
+        "Atomic Radius":145,
         "Analysis":"The atomic radius increases from thallium to lead due to electron-electron repulsion in 6p-orbitals dominates the proton in nucleus and electron attraction. There will be less attraction of electrons in 6p-orbitals towards the nucleus due to higher shielding effect of s-orbitals. The 6p orbital in lead has 2 electrons but in two different orbitals while 1 electron in case of thallium. Although, the repulsion should be less due to presence of electrons in two different orbitals but still there will be relatively more electron-electron repulsion in lead as compared to thallium. This could be the probable reason of higher atomic radius of lead than thallium. Such variations might also depends upon the way the atomic radius is calculated."
     },
     {
@@ -553,9 +553,9 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p3",
         "VanderWaal_Radius":207.0,
         "Metallic_Radius":178.0,
-        "Covalent_Radius":148.0,
+        "Covalent_Radius":150,
         "jmol_color":"#9e4fb5",
-        "Atomic Radius":178.0,
+        "Atomic Radius":150,
         "Analysis":"The atomic radius increases from lead to bismuth due to electron-electron repulsion in 6p-orbitals  dominates the proton-electron attraction. There will be less attraction of electrons in 6p-orbitals towards the nucleus due to higher shielding effect of 6s-orbitals due to relativistic contraction. The 6p orbital in bismuth has 3 electrons but in three different orbitals while 2 electrons in case of lead. Since, there are 3 electrons in p-orbital of bismuth, the electron-electron repulsion can be relatively more that could be the probable reason of its higher atomic radius than lead."
     },
     {
@@ -566,9 +566,9 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p4",
         "VanderWaal_Radius":197.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":140.0,
+        "Covalent_Radius":142,
         "jmol_color":"#ab5c00",
-        "Atomic Radius":140.0,
+        "Atomic Radius":142,
         "Analysis":"The metallic radius of polonium is unavailable in the dataset. The covalent radius of polonium is less than the metallic radius of bismuth. This could be due to the fact that the covalent radius is always smaller than the metallic radius because in a covalent bond the pair of electrons are strongly attracted by the nuclei of two atoms. The covalent radius of bismuth is 148 pm which is also larger than that of polonium. This could be due to protons in nucleus  and valence electrons attraction dominates the electron-electron repulsion in case of polonium. However, such huge variations from the ideal behavior of decreasing atomic radius along the period for thallium, lead, bismuth, polonium could be due to the way their atomic radius is calculated and also due to the presence of electrons in d and f-orbitals."
     },
     {
@@ -579,9 +579,9 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p5",
         "VanderWaal_Radius":202.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":150.0,
+        "Covalent_Radius":148,
         "jmol_color":"#754f45",
-        "Atomic Radius":150.0,
+        "Atomic Radius":148,
         "Analysis":"There is some discrepancies in the astatine atomic radius data. It should be less than polonium due to increase in effective nuclear charge. However, it is showing higher atomic radius. This could be again due to electon-electron repulsion and less attraction of electrons in 6p-orbitals towards the nucleus due to higher shielding effect of 6s-orbital due to relativistic contraction. However, such huge variations from the ideal behavior of decreasing atomic radius along the period for thallium, lead, bismuth, polonium, astatine could be due to the way their atomic radius is calculated."
     },
     {
@@ -592,9 +592,9 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p6",
         "VanderWaal_Radius":220.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":150.0,
+        "Covalent_Radius":146,
         "jmol_color":"#428296",
-        "Atomic Radius":220.0,
+        "Atomic Radius":220,
         "Analysis":"The Vander Waals radius of radon is always higher and thus there is an increase in the atomic radius of radon from astatine."
     },
     {
@@ -605,10 +605,10 @@
         "electronic_configuration":"[Rn] 7s",
         "VanderWaal_Radius":348.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":260.0,
+        "Covalent_Radius":242,
         "jmol_color":"#420066",
-        "Atomic Radius":348.0,
-        "Analysis":"In Period 7, atomic radius data is unavailable for most elements. However, the general trend should follow a decrease from actinium to oganesson due to increasing effective nuclear charge and actinide contraction. The presence of relativistic effects may also influence atomic size, particularly for the heaviest elements."
+        "Atomic Radius":242,
+        "Analysis":"In Period 7, the atomic radius generally decreases due to increasing effective nuclear charge, but deviations arise from electron-electron repulsion. Actinide contraction causes a decrease from francium to nihonium, while relativistic effects and shielding influence variations from nihonium to oganesson. Relativistic effects arise due to the high speeds of electrons in heavy elements (typically beyond the 5th period of the periodic table). The atomic radius increases from nihonium to livermorium due to electron-electron repulsion in 7p orbitals. However, it is only from livermorium when 7p orbitals are doubly occupied that can cause repulsion and lead to increase in the atomic radius. The reason for increase in the atomic radius from nihonium to moscovium and then again decrease from livermorium to oganesson even if there is a repulsion between electrons in 7p orbitals is due to the relativistic effects. Sometimes it is the electron-electron repulsion or the way the radius is calculated that leads to discrepancy from the normal behaviour of the atomic radius tend. The decrease in the atomic radius from livermorium to oganesson can be due to relativistic contraction that occurs when mass of an electron increases as its velocity approaches the speed of light (as per Einstein's theory of relativity). This increased mass causes the electron to be pulled closer to the nucleus, leading to a contraction of the atomic orbitals. The Vander Waal radius of oganesson is unavailable otherwise it would have been higher than the covalent radius of tennessine."
     },
     {
         "atomic_number":88,
@@ -618,9 +618,9 @@
         "electronic_configuration":"[Rn] 7s2",
         "VanderWaal_Radius":283.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":221.0,
+        "Covalent_Radius":211,
         "jmol_color":"#007d00",
-        "Atomic Radius":283.0,
+        "Atomic Radius":211,
         "Analysis":"The atomic radius decreases on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 4f and 5d subshells causing lanthanide contraction. "
     },
     {
@@ -631,9 +631,9 @@
         "electronic_configuration":"[Rn] 6d 7s2",
         "VanderWaal_Radius":247.0,
         "Metallic_Radius":null,
-        "Covalent_Radius":215.0,
+        "Covalent_Radius":201,
         "jmol_color":"#70abfa",
-        "Atomic Radius":247.0,
+        "Atomic Radius":201,
         "Analysis":"The atomic radius decreases on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -644,9 +644,9 @@
         "electronic_configuration":"[Rn] 5f14 6d2 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":157,
         "jmol_color":"#cc0059",
-        "Atomic Radius":null,
+        "Atomic Radius":157,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -657,9 +657,9 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p1",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":136,
         "jmol_color":null,
-        "Atomic Radius":null,
+        "Atomic Radius":136,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -670,9 +670,9 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":143,
         "jmol_color":null,
-        "Atomic Radius":null,
+        "Atomic Radius":143,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -683,9 +683,9 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p3",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":162,
         "jmol_color":null,
-        "Atomic Radius":null,
+        "Atomic Radius":162,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -696,9 +696,9 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p4",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":175,
         "jmol_color":null,
-        "Atomic Radius":null,
+        "Atomic Radius":175,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -709,9 +709,9 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p5",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":165,
         "jmol_color":null,
-        "Atomic Radius":null,
+        "Atomic Radius":165,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     },
     {
@@ -722,9 +722,9 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p6",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":157,
         "jmol_color":null,
-        "Atomic Radius":null,
+        "Atomic Radius":157,
         "Analysis":"The atomic radius is not available from 104 to 118 atomic number elements. However, as a general trend, the atomic radius should decrease on moving across the 7th period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
     }
 ]

@@ -7,7 +7,7 @@
         "electronic_configuration":"[Ar] 3d 4s2",
         "VanderWaal_Radius":215.0,
         "Metallic_Radius":162.0,
-        "Covalent_Radius":170.0,
+        "Covalent_Radius":159,
         "jmol_color":"#e6e6e6",
         "Atomic Radius":162.0,
         "Analysis":"The atomic radius decreases from scandium to nickel due to the poor shielding effect of d-orbitals and increasing effective nuclear charge. The d-orbitals have low shielding ability, causing the outer electrons to be more strongly attracted to the nucleus, resulting in a gradual decrease in atomic radius. However, from nickel to zinc, the atomic radius increases due to electron-electron repulsion in the 3d subshell. As more electrons occupy the 3d orbitals, inter-electron repulsion counteracts the nuclear attraction, leading to a slight expansion in atomic size. This effect is more pronounced in zinc, making its atomic radius larger than that of copper."
@@ -20,7 +20,7 @@
         "electronic_configuration":"[Ar] 3d2 4s2",
         "VanderWaal_Radius":211.0,
         "Metallic_Radius":147.0,
-        "Covalent_Radius":160.0,
+        "Covalent_Radius":148,
         "jmol_color":"#bfc2c7",
         "Atomic Radius":147.0,
         "Analysis":"The atomic radius decreases from scandium to titanium due to poor shielding effect of d-orbitals and addition of electron in same 3d subshell leading to increased effective nuclear charge. The shielding power of d-orbital is low and thus the outer electrons will be attracted more towards the nucleus resulting in a decrease in atomic radius."
@@ -33,7 +33,7 @@
         "electronic_configuration":"[Ar] 3d3 4s2",
         "VanderWaal_Radius":207.0,
         "Metallic_Radius":134.0,
-        "Covalent_Radius":160.0,
+        "Covalent_Radius":144,
         "jmol_color":"#a6a6ab",
         "Atomic Radius":134.0,
         "Analysis":"The atomic radius decreases from titanium to vanadium due to poor shielding effect of d-orbitals and addition of electron in same 3d subshell leading to increased effective nuclear charge. The shielding power of d-orbital is low and thus the outer electrons will be attracted more towards the nucleus resulting in a decrease in atomic radius."
@@ -46,7 +46,7 @@
         "electronic_configuration":"[Ar] 3d5 4s",
         "VanderWaal_Radius":206.0,
         "Metallic_Radius":128.0,
-        "Covalent_Radius":139.0,
+        "Covalent_Radius":130,
         "jmol_color":"#8a99c7",
         "Atomic Radius":128.0,
         "Analysis":"The atomic radius decreases from vanadium to chromium due to poor shielding effect of d-orbitals and addition of electron in same 3d subshell leading to increased effective nuclear charge. The shielding power of d-orbital is low and thus the outer electrons will be attracted more towards the nucleus resulting in a decrease in atomic radius."
@@ -59,7 +59,7 @@
         "electronic_configuration":"[Ar] 3d5 4s2",
         "VanderWaal_Radius":205.0,
         "Metallic_Radius":127.0,
-        "Covalent_Radius":150.0,
+        "Covalent_Radius":129,
         "jmol_color":"#9c7ac7",
         "Atomic Radius":127.0,
         "Analysis":"The atomic radius decreases from chromium to manganese due to poor shielding effect of d-orbitals and addition of electron in same 3d subshell leading to increased effective nuclear charge. The shielding power of d-orbital is low and thus the outer electrons will be attracted more towards the nucleus resulting in a decrease in atomic radius."
@@ -72,7 +72,7 @@
         "electronic_configuration":"[Ar] 3d6 4s2",
         "VanderWaal_Radius":204.0,
         "Metallic_Radius":126.0,
-        "Covalent_Radius":142.0,
+        "Covalent_Radius":124,
         "jmol_color":"#e06633",
         "Atomic Radius":126.0,
         "Analysis":"There is only slight decrease in atomic radius of iron. As the number of electrons in the 3d subshell increases to 6 there are 2 electrons in same d-orbital and thus, there will be inter-electron repulsion, which may cause an increase in atomic radius. However, simultaneously the atomic radius decreases due to increased effective nuclear charge. The combination of both effects leads to neither increase nor decrease in the atomic radius to a significant extent."
@@ -85,7 +85,7 @@
         "electronic_configuration":"[Ar] 3d7 4s2",
         "VanderWaal_Radius":200.0,
         "Metallic_Radius":125.0,
-        "Covalent_Radius":138.0,
+        "Covalent_Radius":118,
         "jmol_color":"#f090a0",
         "Atomic Radius":125.0,
         "Analysis":"There is only slight decrease in atomic radius of cobalt. As the number of electrons in the 3d subshell increases to 7 there are 2 electrons in 2 similar d-orbitals and thus, there will be inter-electron repulsion, which may cause an increase in atomic radius. However, simultaneously the atomic radius decreases due to increased effective nuclear charge. The combination of both effects leads to neither increase nor decrease in the atomic radius to a significant extent."
@@ -98,7 +98,7 @@
         "electronic_configuration":"[Ar] 3d8 4s2",
         "VanderWaal_Radius":197.0,
         "Metallic_Radius":124.0,
-        "Covalent_Radius":124.0,
+        "Covalent_Radius":117,
         "jmol_color":"#50d050",
         "Atomic Radius":124.0,
         "Analysis":"There is only slight decrease in atomic radius of nickel. As the number of electrons in the 3d subshell increases to 8 there are 2 electrons in 3 similar d-orbitals and thus, there will be inter-electron repulsion, which may cause an increase in atomic radius. However, simultaneously the atomic radius decreases due to increased effective nuclear charge. The combination of both effects leads to neither increase nor decrease in the atomic radius to a significant extent."
@@ -111,7 +111,7 @@
         "electronic_configuration":"[Ar] 3d10 4s",
         "VanderWaal_Radius":196.0,
         "Metallic_Radius":128.0,
-        "Covalent_Radius":132.0,
+        "Covalent_Radius":122,
         "jmol_color":"#c88033",
         "Atomic Radius":128.0,
         "Analysis":"The atomic radius of copper is greater than that of nickel. As the number of electrons in the 3d subshell increases, there will be inter-electron repulsion, which may cause an increase in atomic radius. However, simultaneously the atomic radius decreases due to increased effective nuclear charge. There will be a domination of electron-electron repulsion, leading to an increase in copper's atomic radius."
@@ -124,7 +124,7 @@
         "electronic_configuration":"[Ar] 3d10 4s2",
         "VanderWaal_Radius":201.0,
         "Metallic_Radius":134.0,
-        "Covalent_Radius":122.0,
+        "Covalent_Radius":120,
         "jmol_color":"#7d80b0",
         "Atomic Radius":134.0,
         "Analysis":"The atomic radius of zinc is greater than that of copper. As the number of electrons in the 3d subshell increases, there will be inter-electron repulsion, which may cause an increase in atomic radius. However, simultaneously the atomic radius decreases due to increased effective nuclear charge. There will be a domination of electron-electron repulsion, leading to an increase in zinc atomic radius."
@@ -137,10 +137,10 @@
         "electronic_configuration":"[Kr] 4d 5s2",
         "VanderWaal_Radius":232.0,
         "Metallic_Radius":180.0,
-        "Covalent_Radius":190.0,
+        "Covalent_Radius":176,
         "jmol_color":"#94ffff",
         "Atomic Radius":180.0,
-        "Analysis":"The atomic radius decreases from yttrium to rhodium due to the poor shielding effect of d-orbitals increasing nuclear charge, while the number of shells remains constant. From technetium to rhodium, electron-electron repulsion in the 4d subshell counterbalances nuclear attraction, resulting in minimal change in atomic size. The radius then increases from rhodium to cadmium as electron-electron repulsion in d-orbitals dominates."
+        "Analysis":"The atomic radius decreases from yttrium to rhodium due to the poor shielding effect of d-orbitals and the increasing nuclear charge, while the number of electron shells remains constant. From technetium to rhodium, electron-electron repulsion in the 4d subshell counterbalances the nuclear attraction, resulting in minimal change in atomic size. However, from rhodium to cadmium, the atomic radius increases as electron-electron repulsion in the d-orbitals becomes more significant, overcoming the effects of increasing nuclear charge."
     },
     {
         "atomic_number":40,
@@ -150,7 +150,7 @@
         "electronic_configuration":"[Kr] 4d2 5s2",
         "VanderWaal_Radius":223.0,
         "Metallic_Radius":160.0,
-        "Covalent_Radius":175.0,
+        "Covalent_Radius":164,
         "jmol_color":"#94e0e0",
         "Atomic Radius":160.0,
         "Analysis":"The atomic radius decreases from yttrium to zirconium due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same. "
@@ -163,7 +163,7 @@
         "electronic_configuration":"[Kr] 4d4 5s",
         "VanderWaal_Radius":218.0,
         "Metallic_Radius":146.0,
-        "Covalent_Radius":164.0,
+        "Covalent_Radius":156,
         "jmol_color":"#73c2c9",
         "Atomic Radius":146.0,
         "Analysis":"The atomic radius decreases from zirconium to niobium due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same. "
@@ -176,7 +176,7 @@
         "electronic_configuration":"[Kr] 4d5 5s",
         "VanderWaal_Radius":217.0,
         "Metallic_Radius":139.0,
-        "Covalent_Radius":154.0,
+        "Covalent_Radius":146,
         "jmol_color":"#54b5b5",
         "Atomic Radius":139.0,
         "Analysis":"The atomic radius decreases from niobium to molybdenum due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same. "
@@ -189,7 +189,7 @@
         "electronic_configuration":"[Kr] 4d5 5s2",
         "VanderWaal_Radius":216.0,
         "Metallic_Radius":136.0,
-        "Covalent_Radius":147.0,
+        "Covalent_Radius":138,
         "jmol_color":"#3b9e9e",
         "Atomic Radius":136.0,
         "Analysis":"The atomic radius decreases from molybdenum to technetium due to an increase in effective nuclear charge, with the increase in protons and electrons but the number of shells remaining the same. "
@@ -202,7 +202,7 @@
         "electronic_configuration":"[Kr] 4d7 5s",
         "VanderWaal_Radius":213.0,
         "Metallic_Radius":134.0,
-        "Covalent_Radius":146.0,
+        "Covalent_Radius":136,
         "jmol_color":"#248f8f",
         "Atomic Radius":134.0,
         "Analysis":"The atomic radius from technetium to ruthenium is almost similar as the number of electrons in the 4d subshell increases and exceeds 5. Thus there will be electron-electron repulsion that will try to increase the atomic radius, but the increase in the effective nuclear charge tries to decrease the atomic radius. On combining both effects, the atomic radius will neither decrease nor increase to a significant extent. "
@@ -215,7 +215,7 @@
         "electronic_configuration":"[Kr] 4d8 5s",
         "VanderWaal_Radius":210.0,
         "Metallic_Radius":134.0,
-        "Covalent_Radius":142.0,
+        "Covalent_Radius":134,
         "jmol_color":"#0a7d8c",
         "Atomic Radius":134.0,
         "Analysis":"The atomic radius from ruthenium to rhodium is almost similar as the number of electrons in the 4d subshell increases and exceeds 5. Thus there will be electron-electron repulsion that will try to increase the atomic radius, but the increase in the effective nuclear charge tries to decrease the atomic radius. On combining both effects, the atomic radius will neither decrease nor increase to a significant extent. "
@@ -228,7 +228,7 @@
         "electronic_configuration":"[Kr] 4d10",
         "VanderWaal_Radius":210.0,
         "Metallic_Radius":137.0,
-        "Covalent_Radius":139.0,
+        "Covalent_Radius":130,
         "jmol_color":"#006985",
         "Atomic Radius":137.0,
         "Analysis":"The atomic radius increases from rhodium to palladium due to an increase in electron-electron repulsion in the d-orbitals as the dominating factor."
@@ -241,7 +241,7 @@
         "electronic_configuration":"[Kr] 4d10 5s",
         "VanderWaal_Radius":211.0,
         "Metallic_Radius":144.0,
-        "Covalent_Radius":145.0,
+        "Covalent_Radius":136,
         "jmol_color":"#c0c0c0",
         "Atomic Radius":144.0,
         "Analysis":"The atomic radius increases from palladium to silver due to an increase in electron-electron repulsion in the d-orbitals as the dominating factor."
@@ -254,7 +254,7 @@
         "electronic_configuration":"[Kr] 4d10 5s2",
         "VanderWaal_Radius":218.0,
         "Metallic_Radius":151.0,
-        "Covalent_Radius":144.0,
+        "Covalent_Radius":140,
         "jmol_color":"#ffd98f",
         "Atomic Radius":151.0,
         "Analysis":"The atomic radius increases from silver to cadmium due to an increase in electron-electron repulsion in the d-orbitals as the dominating factor."
@@ -267,10 +267,10 @@
         "electronic_configuration":"[Xe] 4f14 5d2 6s2",
         "VanderWaal_Radius":223.0,
         "Metallic_Radius":159.0,
-        "Covalent_Radius":175.0,
+        "Covalent_Radius":164,
         "jmol_color":"#4dc2ff",
         "Atomic Radius":159.0,
-        "Analysis":"The atomic radius increases from cadmium to hafnium due to dominant electron-electron repulsion in d-orbitals. It then decreases from hafnium to osmium as poor shielding by d- and f-orbitals enhances nuclear attraction. From osmium to mercury, the atomic radius increases due to rising electron-electron repulsion as d-orbital occupancy exceeds five."
+        "Analysis":"The atomic radius increases from cadmium to hafnium due to dominant electron-electron repulsion in d-orbitals. However, from hafnium to osmium, the atomic radius decreases as poor shielding by d- and f-orbitals enhances nuclear attraction, pulling electrons closer to the nucleus. From osmium to mercury, the atomic radius increases due to rising electron-electron repulsion as d-orbital occupancy exceeds five, counteracting the effects of increasing nuclear charge."
     },
     {
         "atomic_number":73,
@@ -280,7 +280,7 @@
         "electronic_configuration":"[Xe] 4f14 5d3 6s2",
         "VanderWaal_Radius":222.0,
         "Metallic_Radius":146.0,
-        "Covalent_Radius":170.0,
+        "Covalent_Radius":158,
         "jmol_color":"#4da6ff",
         "Atomic Radius":146.0,
         "Analysis":"The atomic radius decreases from hafnium to tantalum due to an increase in effective nuclear charge and poor shielding effect of electrons in orbitals of 4f and 5d subshells. The poor shielding effects leads to greater attraction of outershell electrons towards the nucleus causing decrease in the atomic radius."
@@ -293,7 +293,7 @@
         "electronic_configuration":"[Xe] 4f14 5d4 6s2",
         "VanderWaal_Radius":218.0,
         "Metallic_Radius":139.0,
-        "Covalent_Radius":162.0,
+        "Covalent_Radius":150,
         "jmol_color":"#2194d6",
         "Atomic Radius":139.0,
         "Analysis":"The atomic radius decreases from tantalum to tungsten due to an increase in effective nuclear charge and poor shielding effect of electrons in orbitals of 4f and 5d subshells. The poor shielding effects leads to higher attraction of outershell electrons towards the nucleus causing decrease in the atomic radius."
@@ -306,7 +306,7 @@
         "electronic_configuration":"[Xe] 4f14 5d5 6s2",
         "VanderWaal_Radius":216.0,
         "Metallic_Radius":137.0,
-        "Covalent_Radius":151.0,
+        "Covalent_Radius":141,
         "jmol_color":"#267dab",
         "Atomic Radius":137.0,
         "Analysis":"The atomic radius decreases from tungsten to rhenium due to an increase in effective nuclear charge and poor shielding effect of electrons in orbitals of 4f and 5d subshells. The poor shielding effects leads to more attraction of outershell electrons towards the nucleus causing decrease in the atomic radius."
@@ -319,7 +319,7 @@
         "electronic_configuration":"[Xe] 4f14 5d6 6s2",
         "VanderWaal_Radius":216.0,
         "Metallic_Radius":135.0,
-        "Covalent_Radius":144.0,
+        "Covalent_Radius":136,
         "jmol_color":"#266696",
         "Atomic Radius":135.0,
         "Analysis":"The atomic radius decreases from rhenium to osmium due to an increase in effective nuclear charge as the number of shells and poor shielding effect of electrons in orbitals of 4f and 5d subshells. The poor shielding effects leads to more attraction of outershell electrons towards the nucleus causing decrease in the atomic radius. There is only slight decrease in the atomic radius due to the number of electrons in d-orbitals exceeds 5 and thus inter electronic repulsion occurs."
@@ -332,7 +332,7 @@
         "electronic_configuration":"[Xe] 4f14 5d7 6s2",
         "VanderWaal_Radius":213.0,
         "Metallic_Radius":136.0,
-        "Covalent_Radius":141.0,
+        "Covalent_Radius":132,
         "jmol_color":"#175487",
         "Atomic Radius":136.0,
         "Analysis":"The atomic radius slightly increases from osmium to iridium due to increase in the number of electrons in d-orbitals that leads to electron-electron repulsion."
@@ -345,7 +345,7 @@
         "electronic_configuration":"[Xe] 4f14 5d9 6s",
         "VanderWaal_Radius":213.0,
         "Metallic_Radius":139.0,
-        "Covalent_Radius":136.0,
+        "Covalent_Radius":130,
         "jmol_color":"#d0d0e0",
         "Atomic Radius":139.0,
         "Analysis":"The atomic radius increases from iridium to platinum due to increase in the number of electrons in d-orbitals that leads to electron-electron repulsion."
@@ -358,7 +358,7 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s",
         "VanderWaal_Radius":214.0,
         "Metallic_Radius":144.0,
-        "Covalent_Radius":136.0,
+        "Covalent_Radius":130,
         "jmol_color":"#ffd123",
         "Atomic Radius":144.0,
         "Analysis":"The atomic radius increases from platinum to gold due to increase in the number of electrons in d-orbitals that leads to electron-electron repulsion."
@@ -371,7 +371,7 @@
         "electronic_configuration":"[Xe] 4f14 5d10 6s2",
         "VanderWaal_Radius":223.0,
         "Metallic_Radius":151.0,
-        "Covalent_Radius":132.0,
+        "Covalent_Radius":132,
         "jmol_color":"#b8b8d0",
         "Atomic Radius":151.0,
         "Analysis":"The atomic radius increases from gold to mercury due to increase in the number of electrons in d-orbitals that leads to electron-electron repulsion."
@@ -384,10 +384,10 @@
         "electronic_configuration":"[Rn] 5f14 6d2 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":157,
         "jmol_color":"#cc0059",
         "Atomic Radius":null,
-        "Analysis":"The atomic radius is not available for the fourth transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period from rutherfordium to copernicium due to increased effective nuclear charge and the poor shielding effect."
+        "Analysis":"The atomic radius is not available for the fourth transition elements with atomic numbers ranging from 104 to 112. However, based on periodic trends, the atomic radius should decrease across the period from rutherfordium to copernicium due to increasing effective nuclear charge and the poor shielding effect of d- and f-electrons. These factors cause stronger nuclear attraction, pulling the outer electrons closer and reducing atomic size."
     },
     {
         "atomic_number":105,
@@ -397,7 +397,7 @@
         "electronic_configuration":"[Rn] 5f14 6d3 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":149,
         "jmol_color":"#d1004f",
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -410,7 +410,7 @@
         "electronic_configuration":"[Rn] 5f14 6d4 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":143,
         "jmol_color":"#d90045",
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -423,7 +423,7 @@
         "electronic_configuration":"[Rn] 5f14 6d5 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":141,
         "jmol_color":"#e00038",
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -436,7 +436,7 @@
         "electronic_configuration":"[Rn] 5f14 6d6 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":134,
         "jmol_color":"#e6002e",
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -449,7 +449,7 @@
         "electronic_configuration":"[Rn] 5f14 6d7 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":129,
         "jmol_color":"#eb0026",
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -462,7 +462,7 @@
         "electronic_configuration":"[Rn] 5f14 6d9 7s1",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":128,
         "jmol_color":null,
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -475,7 +475,7 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s1",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":121,
         "jmol_color":null,
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "
@@ -488,7 +488,7 @@
         "electronic_configuration":"[Rn] 5f14 6d10 7s2",
         "VanderWaal_Radius":null,
         "Metallic_Radius":null,
-        "Covalent_Radius":null,
+        "Covalent_Radius":122,
         "jmol_color":null,
         "Atomic Radius":null,
         "Analysis":"The atomic radius is not available for the transition elements with atomic number ranging from 104 to 112. However, as a general trend, the atomic radius should decrease on moving across the period due to increased effective nuclear charge and the poor shielding effect of electrons in 5f and 6d subshells causing actinide contraction. "

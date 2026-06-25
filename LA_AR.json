@@ -9,8 +9,8 @@
         "Metallic_Radius":187.0,
         "Covalent_Radius":194,
         "jmol_color":"#70d4ff",
-        "Atomic Radius":207.0,
-        "Analysis":"The atomic radius decreases from lanthanum to lutetium due to lanthanide contraction, which results from the poor shielding ability of 4f electrons. This weak shielding increases the effective nuclear charge, pulling the outer electrons closer and reducing atomic size. While a continuous decrease is expected, certain anomalies exist in covalent radii, such as similar values for erbium-thulium, and cerium-praseodymium and thulium-ytterbium, showing a slight increase. These discrepancies may arise due to the use of covalent rather than metallic radii, as well as variations in measurement techniques."
+        "Atomic Radius":194,
+        "Analysis":"The lanthanides show one of the most famous trends in the periodic table\u2014lanthanide contraction. From lanthanum (La) to lutetium (Lu), the atomic radius gradually decreases because the 4f electrons shield the nucleus poorly. This increases the effective nuclear charge, pulling the outer electrons closer.\n\nBut the trend isn't perfectly smooth. A few elements, such as cerium\u2013praseodymium, erbium\u2013thulium, and thulium\u2013ytterbium, show nearly identical or slightly larger covalent radii. These small deviations arise because covalent radii are being compared instead of metallic radii (unavailable), and because different experimental and computational methods can produce slightly different values."
     },
     {
         "atomic_number":58,
@@ -22,7 +22,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":184,
         "jmol_color":"#ffffc7",
-        "Atomic Radius":204.0,
+        "Atomic Radius":184,
         "Analysis":"There is a slight decrease in the atomic radius from lanthanum to cerium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from lanthanum to cerium. This is known as the lanthanide contraction."
     },
     {
@@ -35,7 +35,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":190,
         "jmol_color":"#d9ffc7",
-        "Atomic Radius":203.0,
+        "Atomic Radius":190,
         "Analysis":"There is a slight decrease in the atomic radius from cerium to praseodymium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from cerium to praseodymium. This is known as the lanthanide contraction."
     },
     {
@@ -48,7 +48,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":188,
         "jmol_color":"#c7ffc7",
-        "Atomic Radius":201.0,
+        "Atomic Radius":188,
         "Analysis":"There is a slight decrease in the atomic radius from praseodymium to neodymium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from praseodymium to neodymium. This is known as the lanthanide contraction."
     },
     {
@@ -61,7 +61,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":186,
         "jmol_color":"#a3ffc7",
-        "Atomic Radius":199.0,
+        "Atomic Radius":186,
         "Analysis":"There is a slight decrease in the atomic radius from neodymium to promethium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from neodymium to promethium. This is known as the lanthanide contraction."
     },
     {
@@ -74,7 +74,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":185,
         "jmol_color":"#8fffc7",
-        "Atomic Radius":198.0,
+        "Atomic Radius":185,
         "Analysis":"There is a slight decrease in the atomic radius from promethium to samarium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from promethium to samarium. This is known as the lanthanide contraction."
     },
     {
@@ -87,7 +87,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":183,
         "jmol_color":"#61ffc7",
-        "Atomic Radius":198.0,
+        "Atomic Radius":183,
         "Analysis":"There should be decrease in the atomic radius from samarium to europium due to lanthanide contraction. However, the covalent radius of dsamarium and europium is similar. The discrepancy in the data could be due to the consideration of covalent radius and not the metallic radius and also on the way the covalent radius is calculated."
     },
     {
@@ -100,7 +100,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":182,
         "jmol_color":"#45ffc7",
-        "Atomic Radius":196.0,
+        "Atomic Radius":182,
         "Analysis":"There is a slight decrease in the atomic radius from europium to gadolinium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from lanthanum to lutetium. This is known as the lanthanide contraction."
     },
     {
@@ -113,7 +113,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":181,
         "jmol_color":"#30ffc7",
-        "Atomic Radius":194.0,
+        "Atomic Radius":181,
         "Analysis":"There is a slight decrease in the atomic radius from gadolinium to terbium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from lanthanum to lutetium. This is known as the lanthanide contraction."
     },
     {
@@ -126,7 +126,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":180,
         "jmol_color":"#1fffc7",
-        "Atomic Radius":192.0,
+        "Atomic Radius":180,
         "Analysis":"There is a decrease in the atomic radius from terbium to dysprosium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from lanthanum to lutetium. This is known as the lanthanide contraction."
     },
     {
@@ -139,7 +139,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":179,
         "jmol_color":"#00ff9c",
-        "Atomic Radius":192.0,
+        "Atomic Radius":179,
         "Analysis":"There should be a decrease in the atomic radius from dysprosium to holmium due to lanthanide contraction caused by poor shielding effect of 4f orbitals. However, the covalent radius of dysprosium and holmium is same. The discrepancy in the data could be due to the consideration of covalent radius and not the metallic radius and also on the way the covalent radius is calculated."
     },
     {
@@ -152,7 +152,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":177,
         "jmol_color":"#00e675",
-        "Atomic Radius":189.0,
+        "Atomic Radius":177,
         "Analysis":"There is a decrease in the atomic radius from holmium to erbium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from holmium to erbium. This is known as the lanthanide contraction."
     },
     {
@@ -165,7 +165,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":177,
         "jmol_color":"#00d452",
-        "Atomic Radius":190.0,
+        "Atomic Radius":177,
         "Analysis":"There should be a decrease in the atomic radius from erbium to thulium due to lanthanide contration caused by poor shielding effect of 4f orbitals. However, covalent radius of thulium is 190 pm while that of erbium is 189 pm. This could also be due to the ay covalent radius is calculated. It would have been better to consider the metallic radius for the analysis. Unfortunately, we could not find the metallic radius data for lanthanides. However, the overall trend remains the same."
     },
     {
@@ -178,7 +178,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":178,
         "jmol_color":"#00bf38",
-        "Atomic Radius":187.0,
+        "Atomic Radius":178,
         "Analysis":"There is a decrease in the atomic radius from thulium to ytterbium. This is due to the increase in the number of electrons in the orbitals of 4f (antepenultimate shell) subshell. The 4f subshell has a poor shielding effect due to which the outershell electrons are more attracted towards the nucleus decreasing the atomic radius from lanthanum to lutetium. This is known as the lanthanide contraction."
     },
     {
@@ -191,7 +191,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":174,
         "jmol_color":"#00ab24",
-        "Atomic Radius":187.0,
+        "Atomic Radius":174,
         "Analysis":"There should be a decrease in the atomic radius from ytterbium to lutetium due to lanthanide contraction caused by poor shielding effect of 4f orbitals. However, covalent radius of ytterbium and lutetium is same i.e. 187 pm. This could be due to the consideration of the covalent radius and also the way it is calculated. Thus, it would have been better to consider the metallic radius for the analysis. Unfortunately, we could not find the metallic radius data for lanthanides. However, the overall trend remains the same."
     },
     {
@@ -204,8 +204,8 @@
         "Metallic_Radius":null,
         "Covalent_Radius":201,
         "jmol_color":"#70abfa",
-        "Atomic Radius":215.0,
-        "Analysis":"Actinium has a higher atomic radius than lutetium due to an increase in the number of shells (6 to 7). The atomic radius then decreases from actinium to lawrencium due to actinide contraction, caused by poor shielding of 5f electrons, which enhances nuclear attraction. This weak shielding increases the effective nuclear charge, pulling the outer electrons closer and reducing atomic size. While a continuous decrease is expected, certain anomalies exist in covalent radii, such as similar values for neptunium-plutonium, curiun-berklium-californium and einsteinium-fermium, fermium-mendelivium and mendelivium-nobelium, showing a slight increase. These discrepancies may arise due to the use of covalent rather than metallic radii, as well as variations in measurement techniques."
+        "Atomic Radius":201,
+        "Analysis":"Actinium (Ac) is larger than lutetium (Lu) because it begins a new period, adding an extra electron shell.\n\nFrom actinium to lawrencium (Lr), the atomic radius gradually decreases due to actinide contraction. The 5f electrons shield the nucleus poorly, increasing the effective nuclear charge and pulling the outer electrons closer.\n\nBut just like the lanthanides, the trend isn't perfectly smooth. A few pairs, such as neptunium\u2013plutonium, fermium\u2013mendelevium, and mendelevium\u2013nobelium, along with the curium\u2013berkelium\u2013californium series, show nearly identical or slightly larger covalent radii. These small deviations arise because covalent radii are being compared instead of metallic radii (unavailable), and because different experimental and computational methods can produce slightly different values."
     },
     {
         "atomic_number":90,
@@ -217,7 +217,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":190,
         "jmol_color":"#00baff",
-        "Atomic Radius":206.0,
+        "Atomic Radius":190,
         "Analysis":"Atomic radius then decreases from actinium to thorium due to actinide contraction. The outermost shell in thorium is 7, the same as that of actinium. There is the presence of 2 electrons in the 6d subshell that has a poor shielding effect that leads to the attraction of the outermost electrons more toward the nucleus. Thus, there is decrease in its atomic radius. "
     },
     {
@@ -230,7 +230,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":184,
         "jmol_color":"#00a1ff",
-        "Atomic Radius":200.0,
+        "Atomic Radius":184,
         "Analysis":"Atomic radius then decreases from thorium to protactinium due to actinide contraction. The outermost shell in protactinium is 7, the same as that of thorium. There is the presence of 2 electrons in the 5f subshell that has a low shielding effect that leads to the attraction of the outermost electrons more toward the nucleus. Thus, there is decrease in its atomic radius. "
     },
     {
@@ -243,7 +243,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":183,
         "jmol_color":"#008fff",
-        "Atomic Radius":196.0,
+        "Atomic Radius":183,
         "Analysis":"From uranium, there is further addition of electrons in the f-orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius."
     },
     {
@@ -256,7 +256,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":180,
         "jmol_color":"#0080ff",
-        "Atomic Radius":190.0,
+        "Atomic Radius":180,
         "Analysis":"Atomic radius decreases from uranium to neptunium due to actinide contraction. There are 4 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius."
     },
     {
@@ -269,7 +269,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":180,
         "jmol_color":"#006bff",
-        "Atomic Radius":187.0,
+        "Atomic Radius":180,
         "Analysis":"Atomic radius decreases from neptunium to plutonium due to actinide contraction. There are 6 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius."
     },
     {
@@ -282,7 +282,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":173,
         "jmol_color":"#545cf2",
-        "Atomic Radius":180.0,
+        "Atomic Radius":173,
         "Analysis":"Atomic radius decreases from plutonium to amercium due to actinide contraction. There are 7 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius."
     },
     {
@@ -295,7 +295,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":168,
         "jmol_color":"#785ce3",
-        "Atomic Radius":169.0,
+        "Atomic Radius":168,
         "Analysis":"Atomic radius decreases from amercium to curium due to actinide contraction. There are 7 electrons in the f orbitals of 5f subshell and 1 electron in the 6d orbital. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius."
     },
     {
@@ -308,7 +308,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":168,
         "jmol_color":"#8a4fe3",
-        "Atomic Radius":244.0,
+        "Atomic Radius":168,
         "Analysis":"It is the Vander radius that is available for berkelium. Vander-Waal radius will always be higher than the covalent or metallic radius. Therefore, atomic radius of berkelium is depicted higher than curium. However, atomic radius should decrease from curium to berkelium due to actinide contraction. There are 9 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius. The database which is used for the analysis does not have covalent radius values of berkelium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of berkelium as per RSC website is 168 pm."
     },
     {
@@ -321,7 +321,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":168,
         "jmol_color":"#a136d4",
-        "Atomic Radius":245.0,
+        "Atomic Radius":168,
         "Analysis":"It is the Vander radius that is available for californium. Atomic radius should decrease from berkelium to californium due to actinide contraction. There are 10 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus and thus there should be decrease in its atomic radius. However, there is some discrepancy in the covalent radius data. This could be due to the way the covalent radius is calculated. The database which is used for the analysis does not have covalent radius values of californium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of californium as per RSC website is 168 pm. "
     },
     {
@@ -334,7 +334,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":165,
         "jmol_color":"#b31fd4",
-        "Atomic Radius":245.0,
+        "Atomic Radius":165,
         "Analysis":"It is the Vander radius that is available from einsteinium. Atomic radius decrease from californium to einsteinium due to actinide contraction. There are 11 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius. The database which is used for the analysis does not have covalent radius values of einsteinium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of einsteinium as per RSC website is 165 pm. "
     },
     {
@@ -347,7 +347,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":167,
         "jmol_color":"#b31fba",
-        "Atomic Radius":245.0,
+        "Atomic Radius":167,
         "Analysis":"It is the Vander radius that is available from fermium. Atomic radius should decrease from einsteinium to fermium due to actinide contraction. There are 12 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus and thus there should be decrease its atomic radius. However, there is some discrepancy in the covalent radius data. This could be due to the way the covalent radius is calculated. The database which is used for the analysis does not have covalent radius values of fermium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of fermium as per RSC website is 167 pm. "
     },
     {
@@ -360,7 +360,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":173,
         "jmol_color":"#b30da6",
-        "Atomic Radius":246.0,
+        "Atomic Radius":173,
         "Analysis":"It is the Vander radius that is available from mendelevium. Atomic radius should decrease from fermium to mendelevium due to actinide contraction. There are 13 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus and thus there should be decrease its atomic radius. However, there is some discrepancy in the covalent radius data. This could be due to the way the covalent radius is calculated. The database which is used for the analysis does not have the covalent radius values of mendelevium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of mendelevium as per RSC website is 173 pm. "
     },
     {
@@ -373,7 +373,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":176,
         "jmol_color":"#bd0d87",
-        "Atomic Radius":246.0,
+        "Atomic Radius":176,
         "Analysis":"It is the Vander radius that is available from nobelium. Atomic radius should decrease from mendelevium to nobelium due to actinide contraction. There are 14 electrons in the f orbitals of 5f subshell. Since f-orbital has poor shielding effect than d-orbital, therefore outermost electrons are more attracted towards the nucleus and thus there should be decrease its atomic radius. However, there is some discrepancy in the covalent radius data. This could be due to the way the covalent radius is calculated. The database which is used for the analysis does not have covalent radius values of nobelium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of nobelium as per RSC website is 176 pm. "
     },
     {
@@ -386,7 +386,7 @@
         "Metallic_Radius":null,
         "Covalent_Radius":161,
         "jmol_color":"#c70066",
-        "Atomic Radius":246.0,
+        "Atomic Radius":161,
         "Analysis":"It is the Vander radius that is available from lawrencium. Atomic radius decreases from nobelium to lawrencium due to actinide contraction. There are 14 electrons in the f orbitals of 5f subshell and 1 electron in the 6d orbital. Since f-orbital and d-orbital has poor shielding effect, therefore outermost electrons are more attracted towards the nucleus thereby decreasing its atomic radius. The database which is used for the analysis does not have covalent radius values of lawrencium. However, covalent radius for these elements can be referred from RSC website. The covalent radius of lawrencium as per RSC website is 161 pm. "
     }
 ]

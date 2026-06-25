@@ -10,7 +10,7 @@
         "Covalent_Radius":159,
         "jmol_color":"#e6e6e6",
         "Atomic Radius":162.0,
-        "Analysis":"The atomic radius decreases from scandium to nickel due to the poor shielding effect of d-orbitals and increasing effective nuclear charge. The d-orbitals have low shielding ability, causing the outer electrons to be more strongly attracted to the nucleus, resulting in a gradual decrease in atomic radius. However, from nickel to zinc, the atomic radius increases due to electron-electron repulsion in the 3d subshell. As more electrons occupy the 3d orbitals, inter-electron repulsion counteracts the nuclear attraction, leading to a slight expansion in atomic size. This effect is more pronounced in zinc, making its atomic radius larger than that of copper."
+        "Analysis":"The 3d transition series has an interesting trend. From scandium (Sc) to nickel (Ni), the atomic radius gradually decreases because the 3d electrons shield the nucleus poorly. This allows the increasing nuclear charge to pull the outer electrons closer.\n\nBut the trend doesn't end there! From nickel to zinc (Zn), the atomic radius increases slightly. As the 3d orbitals become nearly full, electron\u2013electron repulsion between the d-electrons begins to outweigh the increasing nuclear attraction, causing the atom to expand. As a result, zinc has a slightly larger atomic radius than copper."
     },
     {
         "atomic_number":22,
@@ -140,7 +140,7 @@
         "Covalent_Radius":176,
         "jmol_color":"#94ffff",
         "Atomic Radius":180.0,
-        "Analysis":"The atomic radius decreases from yttrium to rhodium due to the poor shielding effect of d-orbitals and the increasing nuclear charge, while the number of electron shells remains constant. From technetium to rhodium, electron-electron repulsion in the 4d subshell counterbalances the nuclear attraction, resulting in minimal change in atomic size. However, from rhodium to cadmium, the atomic radius increases as electron-electron repulsion in the d-orbitals becomes more significant, overcoming the effects of increasing nuclear charge."
+        "Analysis":"The 4d transition series begins with the expected trend. From yttrium (Y) to rhodium (Rh), the atomic radius decreases because the 4d electrons shield the nucleus poorly, allowing the increasing nuclear charge to pull the outer electrons closer.\n\nBut then the trend slows down. From technetium (Tc) to rhodium, electron\u2013electron repulsion in the 4d orbitals almost balances the increasing nuclear attraction, so the atomic size changes very little.\n\nFinally, from rhodium to cadmium (Cd), electron\u2013electron repulsion becomes strong enough to overcome the increasing nuclear charge, causing the atomic radius to increase."
     },
     {
         "atomic_number":40,
@@ -270,7 +270,7 @@
         "Covalent_Radius":164,
         "jmol_color":"#4dc2ff",
         "Atomic Radius":159.0,
-        "Analysis":"The atomic radius increases from cadmium to hafnium due to dominant electron-electron repulsion in d-orbitals. However, from hafnium to osmium, the atomic radius decreases as poor shielding by d- and f-orbitals enhances nuclear attraction, pulling electrons closer to the nucleus. From osmium to mercury, the atomic radius increases due to rising electron-electron repulsion as d-orbital occupancy exceeds five, counteracting the effects of increasing nuclear charge."
+        "Analysis":"The 5d transition series has a fascinating zigzag trend. From cadmium (Cd) to hafnium (Hf), the atomic radius increases because electron\u2013electron repulsion in the d-orbitals becomes more significant.\n\nBut then the trend reverses. From hafnium to osmium (Os), poor shielding by the d- and f-electrons strengthens the nuclear attraction, pulling the outer electrons closer and reducing the atomic radius.\n\nThe story changes once again from osmium to mercury (Hg). As the 5d orbitals become more than half-filled, electron\u2013electron repulsion increases enough to counter the growing nuclear charge, causing the atomic radius to increase once more."
     },
     {
         "atomic_number":73,
@@ -387,7 +387,7 @@
         "Covalent_Radius":157,
         "jmol_color":"#cc0059",
         "Atomic Radius":null,
-        "Analysis":"The atomic radius is not available for the fourth transition elements with atomic numbers ranging from 104 to 112. However, based on periodic trends, the atomic radius should decrease across the period from rutherfordium to copernicium due to increasing effective nuclear charge and the poor shielding effect of d- and f-electrons. These factors cause stronger nuclear attraction, pulling the outer electrons closer and reducing atomic size."
+        "Analysis":"The fourth transition series presents a unique challenge. The atomic radii (metallic radius) of elements from rutherfordium (Rf) to copernicium (Cn) have not been measured experimentally because these superheavy elements are extremely unstable.\n\nEven so, periodic trends allow us to make a prediction. As we move from rutherfordium to copernicium, the atomic radius is expected to decrease because the increasing effective nuclear charge, combined with the poor shielding by d- and f-electrons, pulls the outer electrons closer to the nucleus. This can be seen from their covalent radius which is available."
     },
     {
         "atomic_number":105,

@@ -179,7 +179,7 @@
         "Covalent_Radius":159,
         "jmol_color":"#e6e6e6",
         "Atomic Radius":159.0,
-        "Analysis":"As you move down Group 3, atomic size increases because new electron shells are added\u2014starting with four in scandium and reaching seven in actinium. However, across the lanthanides and actinides, atomic radius slightly shrinks. This happens because the 4f and 5f orbitals provide poor shielding, allowing the nucleus to pull outermost valence electrons in more tightly."
+        "Analysis":"As we move down Group 3, atomic size generally increases because each element gains an extra electron shell\u2014from four shells in scandium to seven in actinium.\n\nBut there's a twist! Across the lanthanides and actinides, the atomic radius slightly decreases. Why? The 4f and 5f electrons shield the outershell electrons poorly from the nucleus, so the nucleus pulls the outermost electrons closer, causing the atoms to shrink slightly despite having more electron shells."
     },
     {
         "atomic_number":39,
@@ -231,7 +231,7 @@
         "Covalent_Radius":148,
         "jmol_color":"#bfc2c7",
         "Atomic Radius":148.0,
-        "Analysis":"As you move down Group 4, atomic size generally increases due to additional electron shells. However, lanthanide contraction causes hafnium to have nearly the same size as zirconium. Rutherfordium has an estimated covalent radius of 157 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in rutherfordium having a slightly smaller atomic radius than hafnium."
+        "Analysis":"As we move down Group 4, atomic size generally increases because each element gains an extra electron shell.\n\nBut here's the surprise\u2014hafnium (Hf) is almost the same size as zirconium (Zr). This is due to lanthanide contraction, where the 4f electrons shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer.\n\nNow comes rutherfordium (Rf). Its covalent radius is estimated to be about 157 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making rutherfordium slightly smaller than hafnium."
     },
     {
         "atomic_number":40,
@@ -283,7 +283,7 @@
         "Covalent_Radius":144,
         "jmol_color":"#a6a6ab",
         "Atomic Radius":144.0,
-        "Analysis":"As you move down Group 5, atomic size increases from vanadium to tantalum due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell\u2014keeps tantalum\u2019s radius almost the same as niobium\u2019s. Dubnium has an estimated covalent radius of 149 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in dubnium having a smaller atomic radius than tantalum."
+        "Analysis":"As we move down Group 5, atomic size increases from vanadium (V) to niobium (Nb) because each element gains an extra electron shell.\n\nBut here's the twist\u2014tantalum (Ta) is almost the same size as niobium. This is due to lanthanide contraction, where the 4f electrons shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer.\n\nNow comes dubnium (Db). Its covalent radius is estimated to be about 149 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making dubnium slightly smaller than tantalum."
     },
     {
         "atomic_number":41,
@@ -335,7 +335,7 @@
         "Covalent_Radius":130,
         "jmol_color":"#8a99c7",
         "Atomic Radius":130.0,
-        "Analysis":"As you move down Group 6, atomic size increases from chromium to molybdenum due to added electron shells. However, lanthanide contraction keeps tungsten\u2019s radius only slightly higher than molybdenum molybdenum\u2019s. Seaborgium has an estimated covalent radius of 143 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in seaborgium having a smaller atomic radius than tungsten."
+        "Analysis":"As we move down Group 6, atomic size increases from chromium (Cr) to molybdenum (Mo) because each element gains an extra electron shell.\n\nBut here's an interesting twist\u2014tungsten (W) is only slightly larger than molybdenum. This happens because of lanthanide contraction. The 4f shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer and limiting the increase in size.\n\nNow comes seaborgium (Sg).\n\nIts covalent radius is estimated to be about 143 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making seaborgium slightly smaller than tungsten."
     },
     {
         "atomic_number":42,
@@ -387,7 +387,7 @@
         "Covalent_Radius":129,
         "jmol_color":"#9c7ac7",
         "Atomic Radius":129.0,
-        "Analysis":"As you move down Group 7, atomic size increases from manganese to technetium due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell\u2014keeps rhenium\u2019s radius nearly the same as technetium\u2019s. Bohrium has an estimated covalent radius of 141 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in bohrium having a similar atomic radius to rhenium. At this point, you may wonder: if other superheavy elements such as seaborgium and rutherfordium are predicted to have slightly smaller radii than their lighter congeners due to relativistic effects and actinide contraction, why does bohrium appear to have nearly the same radius as rhenium? The reason is that the radii of these superheavy elements are not experimentally measured but are obtained from quantum chemical calculations. Since these values are theoretical estimates, small variations and deviations from expected trends can occur depending on the computational methods and approximations used."
+        "Analysis":"As we move down Group 7, atomic size increases from manganese (Mn) to technetium (Tc) because each element has an extra electron shell. But here's the surprise\u2014rhenium (Re) is almost the same size as technetium. This is due to lanthanide contraction. The 4f electrons shield the outershell electrons poorly from the nucleus, so the outer electrons are pulled closer, limiting the increase in size. What about bohrium (Bh)?\nIts covalent radius is estimated to be about 141 pm, since its extreme instability makes direct measurement impossible. Quantum chemical calculations suggest that relativistic effects and actinide contraction keep its radius close to rhenium's.\nYou might wonder why bohrium isn't predicted to be slightly smaller, like some other superheavy elements. The reason is simple: bohrium's radius is a theoretical estimate, not an experimental value. Different computational methods can produce small variations, so slight deviations from the expected trend are normal."
     },
     {
         "atomic_number":43,
@@ -439,7 +439,7 @@
         "Covalent_Radius":124,
         "jmol_color":"#e06633",
         "Atomic Radius":124.0,
-        "Analysis":"As you move down Group 8, atomic size increases from iron to ruthenium due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell\u2014keeps osmium\u2019s radius same as ruthenium\u2019s. Hassium has an estimated covalent radius of 134 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in hassium having a slightly smaller atomic radius than osmium."
+        "Analysis":"As we move down Group 8, atomic size increases from iron (Fe) to ruthenium (Ru) because each element gains an extra electron shell.\n\nBut here's the surprise\u2014osmium (Os) is almost the same size as ruthenium. This is due to lanthanide contraction, where the 4f electrons shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer.\n\nNow comes hassium (Hs). Its covalent radius is estimated to be about 134 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making hassium slightly smaller than osmium."
     },
     {
         "atomic_number":44,
@@ -491,7 +491,7 @@
         "Covalent_Radius":118,
         "jmol_color":"#f090a0",
         "Atomic Radius":118.0,
-        "Analysis":"As you move down Group 9, atomic size increases from cobalt to rhodium due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell\u2014keeps iridium\u2019s radius nearly the same as rhodium\u2019s. Meitnerium has an estimated covalent radius of 129 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in meitnerium having a slightly smaller atomic radius than iridium."
+        "Analysis":"As we move down Group 9, atomic size increases from cobalt (Co) to rhodium (Rh) because each element gains an extra electron shell.\n\nBut here's the twist\u2014iridium (Ir) is almost the same size as rhodium. This is due to lanthanide contraction, where the 4f electrons  shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer.\n\nNow comes meitnerium (Mt). Its covalent radius is estimated to be about 129 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making meitnerium slightly smaller than iridium."
     },
     {
         "atomic_number":45,
@@ -543,7 +543,7 @@
         "Covalent_Radius":117,
         "jmol_color":"#50d050",
         "Atomic Radius":117.0,
-        "Analysis":"As you move down Group 10, atomic size increases from nickel to palladium due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell\u2014keeps platinum\u2019s radius same as palladium\u2019s. Darmstadtium has an estimated covalent radius of 128 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in darmstadtium having a slightly smaller atomic radius than platinum."
+        "Analysis":"As we move down Group 10, atomic size increases from nickel (Ni) to palladium (Pd) because each element gains an extra electron shell.\n\nBut here's the surprise\u2014platinum (Pt) is almost the same size as palladium. This is due to lanthanide contraction, where the 4f electrons shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer.\n\nNow comes darmstadtium (Ds). Its covalent radius is estimated to be about 128 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making darmstadtium slightly smaller than platinum."
     },
     {
         "atomic_number":46,
@@ -595,7 +595,7 @@
         "Covalent_Radius":122,
         "jmol_color":"#c88033",
         "Atomic Radius":122.0,
-        "Analysis":"As you move down Group 11, atomic size increases from copper to silver due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell\u2014keeps gold\u2019s radius slightly lower than silver\u2019s. Roentgenium has an estimated covalent radius of 121 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in roentgenium having a slightly smaller atomic radius than gold."
+        "Analysis":"As we move down Group 11, atomic size increases from copper (Cu) to silver (Ag) because each element gains an extra electron shell.\n\nBut here's an interesting twist\u2014gold (Au) is actually slightly smaller than silver! This is due to lanthanide contraction, where the 4f electrons shield the outershell electrons poorly from the nucleus, pulling the outer electrons closer.\n\nNow comes roentgenium (Rg). Its covalent radius is estimated to be about 121 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making roentgenium slightly smaller than gold."
     },
     {
         "atomic_number":47,
@@ -647,7 +647,7 @@
         "Covalent_Radius":120,
         "jmol_color":"#7d80b0",
         "Atomic Radius":120.0,
-        "Analysis":"As you move down Group 12, atomic size increases from zinc to cadmium due to added electron shells. However, lanthanide contraction\u2014caused by poor shielding of the 4f subshell should keep mercury\u2019s radius nearly the same as cadmium\u2019s. Mercury metallic radius is similar to cadmium. However, since we are comparing covalent radius, the value for mercury is lower than that of cadmium. Copernicium\u2019s  has an estimated covalent radius of 122 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in copernicium having a smaller atomic radius than mercury."
+        "Analysis":"As we move down Group 12, atomic size increases from zinc (Zn) to cadmium (Cd) because each element gains an extra electron shell.\n\nYou might expect mercury (Hg) to be much larger, but lanthanide contraction keeps its metallic radius nearly the same as cadmium's. However, we're comparing covalent radii, and mercury's covalent radius is actually slightly smaller than cadmium's due to the way the covalent radius is calculated (Remember: covalent radius for an element is smaller than metallic radius).\n\nNow comes copernicium (Cn). Its covalent radius is estimated to be about 122 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making copernicium smaller than mercury."
     },
     {
         "atomic_number":48,
@@ -699,7 +699,7 @@
         "Covalent_Radius":84,
         "jmol_color":"#ffb5b5",
         "Atomic Radius":84.0,
-        "Analysis":"The atomic radius increases from boron to aluminium due to added electron shells, but gallium\u2019s radius is smaller than aluminum\u2019s due to poor shielding by d-electrons. Thus the outer shell electrons get more attracted toward the nucleus, decreasing the gallium atomic radius. The radius increases from gallium to indium, while in thallium, the effect of added shells is offset by poor shielding from 4f-electrons, causing only a slight increase. Nihonium has an estimated covalent radius of 136 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in nihonium having a smaller atomic radius than thallium."
+        "Analysis":"As we move down Group 13, atomic size increases from boron (B) to aluminium (Al) because each element gains an extra electron shell.\n\nBut here's the first surprise\u2014gallium (Ga) is actually slightly smaller than aluminium! This happens because the 3d electrons shield the outer shell electrons poorly from the nucleus, so the outer electrons are pulled closer, reducing gallium's atomic radius.\n\nThe radius then increases from gallium to indium (In). In thallium (Tl), however, lanthanide contraction caused by the poorly shielding of 4f electrons that limits the expected increase, making thallium only slightly larger than indium.\n\nFinally comes nihonium (Nh). Its covalent radius is estimated to be about 136 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making nihonium smaller than thallium."
     },
     {
         "atomic_number":13,
@@ -777,7 +777,7 @@
         "Covalent_Radius":75,
         "jmol_color":"#909090",
         "Atomic Radius":75.0,
-        "Analysis":"As you move down Group 14, atomic size increases from carbon to lead due to added electron shells. However, the increase from tin to lead is smaller because poorly shielding d-electrons allow the nucleus to pull electrons in more tightly. Flerovium has an estimated covalent radius of 143 pm, based on quantum chemical calculations rather than experimental measurements, as its extreme instability prevents direct observation. Relativistic effects and actinide contraction result in flerovium having a slightly smaller atomic radius than lead."
+        "Analysis":"As we move down Group 14, atomic size increases from carbon (C) to tin (Sn) because each element gains an extra electron shell.\n\nBut here's the twist\u2014lead (Pb) is not much larger than tin. This is because the d-electrons shield the outer shell electrons poorly from the nucleus, allowing to pull the outer electrons closer to the nucleus and limiting the increase in size.\n\nNow comes flerovium (Fl). Its covalent radius is estimated to be about 143 pm because its extreme instability makes direct measurement impossible. Quantum chemical calculations predict that relativistic effects and actinide contraction pull its electrons even closer, making flerovium slightly smaller than lead."
     },
     {
         "atomic_number":14,
@@ -855,7 +855,7 @@
         "Covalent_Radius":71,
         "jmol_color":"#3050f8",
         "Atomic Radius":71.0,
-        "Analysis":"As you move down Group 15, atomic size increases from nitrogen to bismuth due to added electron shells. However, the increase from arsenic to bismuth is less pronounced because poorly shielding d- and f-electrons allow the nucleus to pull outer electrons closer. Moscovium\u2019s has estimated covalent radius of 162 pm which is higher than bismuth due to higher energy shells. However, actinide contraction influence it's radius, potentially limiting its radius despite having more energy levels than bismuth. At this point, you may wonder: if other superheavy elements such as seaborgium and rutherfordium are predicted to have slightly smaller radii than their lighter congeners due to relativistic effects and actinide contraction, why does moscovium appear to have higher radius than bismuth? The reason is that the radii of these superheavy elements are not experimentally measured but are obtained from quantum chemical calculations. Since these values are theoretical estimates, variations and deviations from expected trends can occur depending on the computational methods and approximations used."
+        "Analysis":"As we move down Group 15, atomic size generally increases from nitrogen (N) to bismuth (Bi) because each element gains an extra electron shell.\n\nBut there's a catch! From arsenic (As) to bismuth, the increase is smaller than expected. Why? The d- and f-electrons shield the outer shell electrons poorly from nucleus, allowing nucleus to pull the outer electrons closer and limiting the increase in size.\n\nNow comes moscovium (Mc). Its covalent radius is estimated to be about 162 pm because its extreme instability makes direct measurement impossible. Although actinide contraction tends to reduce its size, the addition of a new electron shell has a stronger effect, so moscovium is predicted to be slightly larger than bismuth.\n\nYou might wonder why this differs from some other superheavy elements that are predicted to be smaller than their lighter counterparts. The answer is simple: moscovium's radius is a theoretical estimate, not an experimental measurement. Different quantum chemical models use different approximations, so small deviations from the expected trend are perfectly normal."
     },
     {
         "atomic_number":15,
@@ -933,7 +933,7 @@
         "Covalent_Radius":64,
         "jmol_color":"#ff0d0d",
         "Atomic Radius":64.0,
-        "Analysis":"As you move down Group 16, atomic size increases from oxygen to polonium due to added electron shells. However, the increase from selenium to polonium is less noticeable as compared from oxygen to sulphur because poorly shielding d- and f-electrons allow the nucleus to pull outer electrons closer. Livermorium has higher atomic radius than polonium. Although actinide contraction should limit its growth, however, the higher number of energy levels outperform the actinide contraction making its covalent radius larger than polonium\u2019s."
+        "Analysis":"As we move down Group 16, atomic size generally increases from oxygen (O) to polonium (Po) because each element gains an extra electron shell.\n\nBut look closely\u2014the increase from selenium (Se) to polonium is much smaller than the jump from oxygen to sulfur. This is because the d- and f-electrons shield the outershell electrons poorly from the nucleus, allowing nucleus to pull the outer electrons closer and reducing the expected increase in size.\n\nNow comes livermorium (Lv). Although actinide contraction tends to shrink its size, the addition of a new electron shell has a stronger effect. As a result, livermorium is predicted to have a larger covalent radius than polonium."
     },
     {
         "atomic_number":16,
@@ -1011,7 +1011,7 @@
         "Covalent_Radius":60,
         "jmol_color":"#90e050",
         "Atomic Radius":60.0,
-        "Analysis":"As you move down Group 17, atomic size increases from fluorine to tennessine due to added electron shells. However, the increase from bromine to astatine is less pronounced because poorly shielding d- and f-electrons allow the nucleus to pull outer electrons closer."
+        "Analysis":"As we move down Group 17, atomic size generally increases from fluorine (F) to tennessine (Ts) because each element gains an extra electron shell.\n\nBut here's an interesting pattern\u2014the increase from bromine (Br) to astatine (At) is much smaller than the jump from fluorine to chlorine. This is because the d- and f-electrons shield the outer shell electrons poorly from the nucleus, allowing the nucleus to pull the outer electrons closer and limiting the increase in atomic size."
     },
     {
         "atomic_number":17,
@@ -1089,7 +1089,7 @@
         "Covalent_Radius":37,
         "jmol_color":"#d9ffff",
         "Atomic Radius":140.0,
-        "Analysis":"As you move down Group 18, the atomic size (Van der Waals radius) increases from helium to radon due to the addition of electron shells. Oganesson\u2019s Van der Waals radius is unknown, but based on the trend, it is expected to be larger than radon\u2019s due to the presence of an additional electron shell. Here , it is the Vander Waal radius that is considered for noble gases as there is difficulty in formation of covalent bonds in noble gases. However, if covalent radius are compared, it also increases on moving down the group."
+        "Analysis":"As we move down Group 18, atomic size\u2014measured using the van der Waals radius\u2014increases from helium (He) to radon (Rn) because each element gains an extra electron shell.\n\nWhat about oganesson (Og)? Its van der Waals radius hasn't been measured yet, but it is expected to be larger than radon's because it has one more electron shell.\n\nYou may wonder why we're using the van der Waals radius instead of the covalent radius. That's because noble gases rarely form covalent bonds, making their covalent radii difficult to determine. Even so, where covalent radii are available, they also increase down the group, just like the van der Waals radii."
     },
     {
         "atomic_number":10,

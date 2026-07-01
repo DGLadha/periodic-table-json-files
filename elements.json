@@ -1,0 +1,6375 @@
+{
+ "_meta": {
+  "description": "Element data for the periodic table. Each element's 'topics' object links to the periodic-trend topic pages and is sourced from the same dataset the topic charts use (DGLadha/periodic-table-json-files group-wise files), keyed by atomic number. To add a topic: add an entry to topicRegistry and a matching key under each element's 'topics'.",
+  "topicRegistry": [
+   {
+    "key": "atomicRadius",
+    "label": "Atomic Radius",
+    "page": "ara.html",
+    "source": "GW_AR.json",
+    "valueField": "Atomic Radius",
+    "unit": "pm",
+    "direction": "higher-larger"
+   },
+   {
+    "key": "electronegativity",
+    "label": "Electronegativity",
+    "page": "ena.html",
+    "source": "GW_EN.json",
+    "valueField": "Electronegativity",
+    "unit": "",
+    "direction": "higher-larger"
+   },
+   {
+    "key": "ionizationEnergy",
+    "label": "Ionization Energy",
+    "page": "iea.html",
+    "source": "GW_IE.json",
+    "valueField": "IE1",
+    "unit": "eV",
+    "direction": "higher-larger"
+   },
+   {
+    "key": "electronGainEnthalpy",
+    "label": "Electron Gain Enthalpy",
+    "page": "ege.html",
+    "source": "GW_EGE.json",
+    "valueField": "electron_gain_enthalpy",
+    "unit": "kJ/mol",
+    "direction": "lower-stronger"
+   }
+  ]
+ },
+ "elements": [
+  {
+   "number": 1,
+   "symbol": "H",
+   "name": "Hydrogen",
+   "mass": 1.008,
+   "period": 1,
+   "group": 1,
+   "category": "nonmetal",
+   "electronConfig": "1s¹",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 31,
+    "type": "cov",
+    "cov": 31,
+    "met": null,
+    "vdw": 120
+   },
+   "ionizationEnergy": {
+    "ie1": 1312.0,
+    "ie2": 0,
+    "ie3": 0,
+    "ie4": 0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 32.0,
+     "covalent": 32.0,
+     "metallic": 78.0,
+     "vanderwaals": 110.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.001,
+     "mulliken": 6.7992
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 13.5984,
+     "successive": [
+      13.5984
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -72.7685
+    }
+   }
+  },
+  {
+   "number": 2,
+   "symbol": "He",
+   "name": "Helium",
+   "mass": 4.0026,
+   "period": 1,
+   "group": 18,
+   "category": "noble-gas",
+   "electronConfig": "1s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": 140,
+    "type": "vdw",
+    "cov": 28,
+    "met": null,
+    "vdw": 140
+   },
+   "ionizationEnergy": {
+    "ie1": 2372.3,
+    "ie2": 5250.5,
+    "ie3": 0,
+    "ie4": 0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 140.0,
+     "covalent": 37.0,
+     "metallic": 122.0,
+     "vanderwaals": 140.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0008,
+     "pauling": null,
+     "allredRochow": 0.0008,
+     "mulliken": 12.2937
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 24.5874,
+     "successive": [
+      24.5874,
+      54.4178
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 1900.7545
+    }
+   }
+  },
+  {
+   "number": 3,
+   "symbol": "Li",
+   "name": "Lithium",
+   "mass": 6.94,
+   "period": 2,
+   "group": 1,
+   "category": "alkali-metal",
+   "electronConfig": "[He] 2s¹",
+   "electronegativity": 0.98,
+   "atomicRadius": {
+    "value": 152,
+    "type": "met",
+    "cov": 128,
+    "met": 152,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 520.2,
+    "ie2": 7298.1,
+    "ie3": 11815.0,
+    "ie4": 0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 130.0,
+     "covalent": 130.0,
+     "metallic": 155.0,
+     "vanderwaals": 182.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.98,
+     "pauling": 0.98,
+     "allredRochow": 0.0001,
+     "mulliken": 2.6959
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.3917,
+     "successive": [
+      5.3917,
+      75.6401,
+      122.4544
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -59.6325
+    }
+   }
+  },
+  {
+   "number": 4,
+   "symbol": "Be",
+   "name": "Beryllium",
+   "mass": 9.0122,
+   "period": 2,
+   "group": 2,
+   "category": "alkaline-earth",
+   "electronConfig": "[He] 2s²",
+   "electronegativity": 1.57,
+   "atomicRadius": {
+    "value": 96,
+    "type": "cov",
+    "cov": 96,
+    "met": 112,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 899.5,
+    "ie2": 1757.1,
+    "ie3": 14848.7,
+    "ie4": 21006.6
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 99.0,
+     "covalent": 99.0,
+     "metallic": 112.0,
+     "vanderwaals": 153.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.57,
+     "pauling": 1.57,
+     "allredRochow": 0.0002,
+     "mulliken": 4.6613
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.3227,
+     "successive": [
+      9.3227,
+      18.2112,
+      153.8962,
+      217.7186
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 240.0
+    }
+   }
+  },
+  {
+   "number": 5,
+   "symbol": "B",
+   "name": "Boron",
+   "mass": 10.81,
+   "period": 2,
+   "group": 13,
+   "category": "metalloid",
+   "electronConfig": "[He] 2s² 2p¹",
+   "electronegativity": 2.04,
+   "atomicRadius": {
+    "value": 84,
+    "type": "cov",
+    "cov": 84,
+    "met": null,
+    "vdw": 192
+   },
+   "ionizationEnergy": {
+    "ie1": 800.6,
+    "ie2": 2427.1,
+    "ie3": 3660.0,
+    "ie4": 25025.8
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 84.0,
+     "covalent": 84.0,
+     "metallic": 98.0,
+     "vanderwaals": 192.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.04,
+     "pauling": 2.04,
+     "allredRochow": 0.0004,
+     "mulliken": 4.149
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.298,
+     "successive": [
+      8.298,
+      25.1548,
+      37.9306,
+      259.3715,
+      340.226
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -26.9891
+    }
+   }
+  },
+  {
+   "number": 6,
+   "symbol": "C",
+   "name": "Carbon",
+   "mass": 12.011,
+   "period": 2,
+   "group": 14,
+   "category": "nonmetal",
+   "electronConfig": "[He] 2s² 2p²",
+   "electronegativity": 2.55,
+   "atomicRadius": {
+    "value": 76,
+    "type": "cov",
+    "cov": 76,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 1086.5,
+    "ie2": 2352.6,
+    "ie3": 4620.5,
+    "ie4": 6222.7
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 75.0,
+     "covalent": 75.0,
+     "metallic": 86.0,
+     "vanderwaals": 170.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.55,
+     "pauling": 2.55,
+     "allredRochow": 0.0006,
+     "mulliken": 5.6301
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 11.2603,
+     "successive": [
+      11.2603,
+      24.3845,
+      47.8878,
+      64.4936,
+      392.0905,
+      489.9932
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -121.7756
+    }
+   }
+  },
+  {
+   "number": 7,
+   "symbol": "N",
+   "name": "Nitrogen",
+   "mass": 14.007,
+   "period": 2,
+   "group": 15,
+   "category": "nonmetal",
+   "electronConfig": "[He] 2s² 2p³",
+   "electronegativity": 3.04,
+   "atomicRadius": {
+    "value": 71,
+    "type": "cov",
+    "cov": 71,
+    "met": null,
+    "vdw": 155
+   },
+   "ionizationEnergy": {
+    "ie1": 1402.3,
+    "ie2": 2856.0,
+    "ie3": 4578.1,
+    "ie4": 7475.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 71.0,
+     "covalent": 71.0,
+     "metallic": 53.0,
+     "vanderwaals": 155.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 3.04,
+     "pauling": 3.04,
+     "allredRochow": 0.0008,
+     "mulliken": 7.2671
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 14.5341,
+     "successive": [
+      14.5341,
+      29.6013,
+      47.4453,
+      77.4735,
+      97.8901,
+      552.0673,
+      667.0461
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 135.079
+    }
+   }
+  },
+  {
+   "number": 8,
+   "symbol": "O",
+   "name": "Oxygen",
+   "mass": 15.999,
+   "period": 2,
+   "group": 16,
+   "category": "nonmetal",
+   "electronConfig": "[He] 2s² 2p⁴",
+   "electronegativity": 3.44,
+   "atomicRadius": {
+    "value": 66,
+    "type": "cov",
+    "cov": 66,
+    "met": null,
+    "vdw": 152
+   },
+   "ionizationEnergy": {
+    "ie1": 1313.9,
+    "ie2": 3388.3,
+    "ie3": 5300.5,
+    "ie4": 7469.2
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 64.0,
+     "covalent": 64.0,
+     "metallic": null,
+     "vanderwaals": 152.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 3.44,
+     "pauling": 3.44,
+     "allredRochow": 0.0011,
+     "mulliken": 6.809
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 13.6181,
+     "successive": [
+      13.6181,
+      35.1211,
+      54.9355,
+      77.4135,
+      113.8989,
+      138.1189,
+      739.3268
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -140.9755
+    }
+   }
+  },
+  {
+   "number": 9,
+   "symbol": "F",
+   "name": "Fluorine",
+   "mass": 18.998,
+   "period": 2,
+   "group": 17,
+   "category": "halogen",
+   "electronConfig": "[He] 2s² 2p⁵",
+   "electronegativity": 3.98,
+   "atomicRadius": {
+    "value": 57,
+    "type": "cov",
+    "cov": 57,
+    "met": null,
+    "vdw": 147
+   },
+   "ionizationEnergy": {
+    "ie1": 1681.0,
+    "ie2": 3374.2,
+    "ie3": 6050.4,
+    "ie4": 8408.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 60.0,
+     "covalent": 60.0,
+     "metallic": null,
+     "vanderwaals": 147.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 3.98,
+     "pauling": 3.98,
+     "allredRochow": 0.0013,
+     "mulliken": 8.7114
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 17.4228,
+     "successive": [
+      17.4228,
+      34.9708,
+      62.708,
+      87.175,
+      114.249,
+      157.1631,
+      185.1868
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -328.1638
+    }
+   }
+  },
+  {
+   "number": 10,
+   "symbol": "Ne",
+   "name": "Neon",
+   "mass": 20.18,
+   "period": 2,
+   "group": 18,
+   "category": "noble-gas",
+   "electronConfig": "[He] 2s² 2p⁶",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": 154,
+    "type": "vdw",
+    "cov": 58,
+    "met": null,
+    "vdw": 154
+   },
+   "ionizationEnergy": {
+    "ie1": 2080.7,
+    "ie2": 3952.3,
+    "ie3": 6122.0,
+    "ie4": 9370.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 154.0,
+     "covalent": 62.0,
+     "metallic": null,
+     "vanderwaals": 154.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0013,
+     "pauling": null,
+     "allredRochow": 0.0013,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 21.5645,
+     "successive": [
+      21.5645,
+      40.963,
+      63.4233,
+      97.19,
+      126.247,
+      157.934,
+      207.271
+     ]
+    }
+   }
+  },
+  {
+   "number": 11,
+   "symbol": "Na",
+   "name": "Sodium",
+   "mass": 22.99,
+   "period": 3,
+   "group": 1,
+   "category": "alkali-metal",
+   "electronConfig": "[Ne] 3s¹",
+   "electronegativity": 0.93,
+   "atomicRadius": {
+    "value": 186,
+    "type": "met",
+    "cov": 166,
+    "met": 186,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 495.8,
+    "ie2": 4562.4,
+    "ie3": 6912.0,
+    "ie4": 9543.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 160.0,
+     "covalent": 160.0,
+     "metallic": 190.0,
+     "vanderwaals": 227.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.93,
+     "pauling": 0.93,
+     "allredRochow": 0.0001,
+     "mulliken": 2.5695
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.1391,
+     "successive": [
+      5.1391,
+      47.2864,
+      71.62,
+      98.936,
+      138.4,
+      172.228,
+      208.5
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -52.8666
+    }
+   }
+  },
+  {
+   "number": 12,
+   "symbol": "Mg",
+   "name": "Magnesium",
+   "mass": 24.305,
+   "period": 3,
+   "group": 2,
+   "category": "alkaline-earth",
+   "electronConfig": "[Ne] 3s²",
+   "electronegativity": 1.31,
+   "atomicRadius": {
+    "value": 141,
+    "type": "cov",
+    "cov": 141,
+    "met": 160,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 737.7,
+    "ie2": 1450.7,
+    "ie3": 7732.7,
+    "ie4": 10542.5
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 140.0,
+     "covalent": 140.0,
+     "metallic": 160.0,
+     "vanderwaals": 173.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.31,
+     "pauling": 1.31,
+     "allredRochow": 0.0001,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.6462,
+     "successive": [
+      7.6462,
+      15.0353,
+      80.1436,
+      109.2654,
+      141.335,
+      186.76,
+      225.015
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 230.0
+    }
+   }
+  },
+  {
+   "number": 13,
+   "symbol": "Al",
+   "name": "Aluminium",
+   "mass": 26.982,
+   "period": 3,
+   "group": 13,
+   "category": "post-transition",
+   "electronConfig": "[Ne] 3s² 3p¹",
+   "electronegativity": 1.61,
+   "atomicRadius": {
+    "value": 121,
+    "type": "cov",
+    "cov": 121,
+    "met": 143,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 577.5,
+    "ie2": 1816.7,
+    "ie3": 2744.8,
+    "ie4": 11577.4
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 124.0,
+     "covalent": 124.0,
+     "metallic": 143.0,
+     "vanderwaals": 184.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.61,
+     "pauling": 1.61,
+     "allredRochow": 0.0002,
+     "mulliken": 2.9929
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.9858,
+     "successive": [
+      5.9858,
+      18.8285,
+      28.4476,
+      119.9924,
+      153.8252,
+      190.49,
+      241.76
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -41.7616
+    }
+   }
+  },
+  {
+   "number": 14,
+   "symbol": "Si",
+   "name": "Silicon",
+   "mass": 28.085,
+   "period": 3,
+   "group": 14,
+   "category": "metalloid",
+   "electronConfig": "[Ne] 3s² 3p²",
+   "electronegativity": 1.9,
+   "atomicRadius": {
+    "value": 111,
+    "type": "cov",
+    "cov": 111,
+    "met": null,
+    "vdw": 210
+   },
+   "ionizationEnergy": {
+    "ie1": 786.5,
+    "ie2": 1577.1,
+    "ie3": 3231.6,
+    "ie4": 4355.5
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 114.0,
+     "covalent": 114.0,
+     "metallic": 138.0,
+     "vanderwaals": 210.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.9,
+     "pauling": 1.9,
+     "allredRochow": 0.0003,
+     "mulliken": 4.0758
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.1517,
+     "successive": [
+      8.1517,
+      16.3458,
+      33.493,
+      45.1418,
+      166.767,
+      205.267,
+      246.32
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -134.0679
+    }
+   }
+  },
+  {
+   "number": 15,
+   "symbol": "P",
+   "name": "Phosphorus",
+   "mass": 30.974,
+   "period": 3,
+   "group": 15,
+   "category": "nonmetal",
+   "electronConfig": "[Ne] 3s² 3p³",
+   "electronegativity": 2.19,
+   "atomicRadius": {
+    "value": 107,
+    "type": "cov",
+    "cov": 107,
+    "met": null,
+    "vdw": 180
+   },
+   "ionizationEnergy": {
+    "ie1": 1011.8,
+    "ie2": 1907.0,
+    "ie3": 2914.1,
+    "ie4": 4556.2
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 109.0,
+     "covalent": 109.0,
+     "metallic": 128.0,
+     "vanderwaals": 180.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.19,
+     "pauling": 2.19,
+     "allredRochow": 0.0004,
+     "mulliken": 5.2433
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 10.4867,
+     "successive": [
+      10.4867,
+      19.7695,
+      30.2026,
+      51.4439,
+      65.0251,
+      220.4304,
+      263.57
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -72.0364
+    }
+   }
+  },
+  {
+   "number": 16,
+   "symbol": "S",
+   "name": "Sulfur",
+   "mass": 32.06,
+   "period": 3,
+   "group": 16,
+   "category": "nonmetal",
+   "electronConfig": "[Ne] 3s² 3p⁴",
+   "electronegativity": 2.58,
+   "atomicRadius": {
+    "value": 105,
+    "type": "cov",
+    "cov": 105,
+    "met": null,
+    "vdw": 180
+   },
+   "ionizationEnergy": {
+    "ie1": 999.6,
+    "ie2": 2251.0,
+    "ie3": 3357.0,
+    "ie4": 4556.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 104.0,
+     "covalent": 104.0,
+     "metallic": 127.0,
+     "vanderwaals": 180.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.58,
+     "pauling": 2.58,
+     "allredRochow": 0.0005,
+     "mulliken": 5.18
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 10.36,
+     "successive": [
+      10.36,
+      23.3379,
+      34.856,
+      47.222,
+      72.5945,
+      88.0529,
+      280.954
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -200.4094
+    }
+   }
+  },
+  {
+   "number": 17,
+   "symbol": "Cl",
+   "name": "Chlorine",
+   "mass": 35.45,
+   "period": 3,
+   "group": 17,
+   "category": "halogen",
+   "electronConfig": "[Ne] 3s² 3p⁵",
+   "electronegativity": 3.16,
+   "atomicRadius": {
+    "value": 102,
+    "type": "cov",
+    "cov": 102,
+    "met": null,
+    "vdw": 175
+   },
+   "ionizationEnergy": {
+    "ie1": 1251.2,
+    "ie2": 2297.7,
+    "ie3": 3826.7,
+    "ie4": 5158.6
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 100.0,
+     "covalent": 100.0,
+     "metallic": 91.0,
+     "vanderwaals": 175.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 3.16,
+     "pauling": 3.16,
+     "allredRochow": 0.0006,
+     "mulliken": 6.4838
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 12.9676,
+     "successive": [
+      12.9676,
+      23.8136,
+      39.8,
+      53.24,
+      67.68,
+      96.94,
+      114.2013
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -348.5738
+    }
+   }
+  },
+  {
+   "number": 18,
+   "symbol": "Ar",
+   "name": "Argon",
+   "mass": 39.948,
+   "period": 3,
+   "group": 18,
+   "category": "noble-gas",
+   "electronConfig": "[Ne] 3s² 3p⁶",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": 188,
+    "type": "vdw",
+    "cov": 106,
+    "met": null,
+    "vdw": 188
+   },
+   "ionizationEnergy": {
+    "ie1": 1520.6,
+    "ie2": 2665.8,
+    "ie3": 3928.0,
+    "ie4": 5770.6
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 188.0,
+     "covalent": 101.0,
+     "metallic": null,
+     "vanderwaals": 188.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0007,
+     "pauling": null,
+     "allredRochow": 0.0007,
+     "mulliken": 7.8798
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 15.7596,
+     "successive": [
+      15.7596,
+      27.6297,
+      40.735,
+      59.58,
+      74.84,
+      91.29,
+      124.412
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 1109.5775
+    }
+   }
+  },
+  {
+   "number": 19,
+   "symbol": "K",
+   "name": "Potassium",
+   "mass": 39.098,
+   "period": 4,
+   "group": 1,
+   "category": "alkali-metal",
+   "electronConfig": "[Ar] 4s¹",
+   "electronegativity": 0.82,
+   "atomicRadius": {
+    "value": 227,
+    "type": "met",
+    "cov": 203,
+    "met": 227,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 418.8,
+    "ie2": 3052.0,
+    "ie3": 4420.0,
+    "ie4": 5877.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 200.0,
+     "covalent": 200.0,
+     "metallic": 235.0,
+     "vanderwaals": 275.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.82,
+     "pauling": 0.82,
+     "allredRochow": 0.0001,
+     "mulliken": 2.1703
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 4.3407,
+     "successive": [
+      4.3407,
+      31.625,
+      45.8031,
+      60.917,
+      82.66,
+      99.4,
+      117.56
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -48.3843
+    }
+   }
+  },
+  {
+   "number": 20,
+   "symbol": "Ca",
+   "name": "Calcium",
+   "mass": 40.078,
+   "period": 4,
+   "group": 2,
+   "category": "alkaline-earth",
+   "electronConfig": "[Ar] 4s²",
+   "electronegativity": 1,
+   "atomicRadius": {
+    "value": 176,
+    "type": "cov",
+    "cov": 176,
+    "met": 197,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 589.8,
+    "ie2": 1145.4,
+    "ie3": 4912.4,
+    "ie4": 6491.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 174.0,
+     "covalent": 174.0,
+     "metallic": 197.0,
+     "vanderwaals": 231.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.0,
+     "pauling": 1.0,
+     "allredRochow": 0.0001,
+     "mulliken": 3.0566
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.1132,
+     "successive": [
+      6.1132,
+      11.8717,
+      50.9132,
+      67.2732,
+      84.338,
+      108.78,
+      127.2
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -2.3687
+    }
+   }
+  },
+  {
+   "number": 21,
+   "symbol": "Sc",
+   "name": "Scandium",
+   "mass": 44.956,
+   "period": 4,
+   "group": 3,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d¹ 4s²",
+   "electronegativity": 1.36,
+   "atomicRadius": {
+    "value": 162,
+    "type": "met",
+    "cov": 170,
+    "met": 162,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 633.1,
+    "ie2": 1235.0,
+    "ie3": 2388.6,
+    "ie4": 7089.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 159.0,
+     "covalent": 159.0,
+     "metallic": 162.0,
+     "vanderwaals": 215.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.36,
+     "pauling": 1.36,
+     "allredRochow": 0.0001,
+     "mulliken": 3.2807
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.5615,
+     "successive": [
+      6.5615,
+      12.7998,
+      24.7568,
+      73.4894,
+      91.949,
+      110.68,
+      138.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -18.1392
+    }
+   }
+  },
+  {
+   "number": 22,
+   "symbol": "Ti",
+   "name": "Titanium",
+   "mass": 47.867,
+   "period": 4,
+   "group": 4,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d² 4s²",
+   "electronegativity": 1.54,
+   "atomicRadius": {
+    "value": 147,
+    "type": "met",
+    "cov": 160,
+    "met": 147,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 658.8,
+    "ie2": 1309.8,
+    "ie3": 2652.5,
+    "ie4": 4174.6
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 148.0,
+     "covalent": 148.0,
+     "metallic": 147.0,
+     "vanderwaals": 211.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.54,
+     "pauling": 1.54,
+     "allredRochow": 0.0002,
+     "mulliken": 3.4141
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.8281,
+     "successive": [
+      6.8281,
+      13.5755,
+      27.4917,
+      43.2672,
+      99.3,
+      119.53,
+      140.68
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -7.6223
+    }
+   }
+  },
+  {
+   "number": 23,
+   "symbol": "V",
+   "name": "Vanadium",
+   "mass": 50.942,
+   "period": 4,
+   "group": 5,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d³ 4s²",
+   "electronegativity": 1.63,
+   "atomicRadius": {
+    "value": 134,
+    "type": "met",
+    "cov": 153,
+    "met": 134,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 650.9,
+    "ie2": 1414.0,
+    "ie3": 2828.0,
+    "ie4": 4507.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 144.0,
+     "covalent": 144.0,
+     "metallic": 134.0,
+     "vanderwaals": 207.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.63,
+     "pauling": 1.63,
+     "allredRochow": 0.0002,
+     "mulliken": 3.3731
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.7462,
+     "successive": [
+      6.7462,
+      14.62,
+      29.311,
+      46.709,
+      65.2816,
+      128.13,
+      150.72
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -50.6546
+    }
+   }
+  },
+  {
+   "number": 24,
+   "symbol": "Cr",
+   "name": "Chromium",
+   "mass": 51.996,
+   "period": 4,
+   "group": 6,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d⁵ 4s¹",
+   "electronegativity": 1.66,
+   "atomicRadius": {
+    "value": 128,
+    "type": "met",
+    "cov": 139,
+    "met": 128,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 652.9,
+    "ie2": 1590.6,
+    "ie3": 2987.0,
+    "ie4": 4740.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 130.0,
+     "covalent": 130.0,
+     "metallic": 128.0,
+     "vanderwaals": 206.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.66,
+     "pauling": 1.66,
+     "allredRochow": 0.0002,
+     "mulliken": 3.3833
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.7665,
+     "successive": [
+      6.7665,
+      16.4863,
+      30.96,
+      49.16,
+      69.46,
+      90.635,
+      160.29
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -64.259
+    }
+   }
+  },
+  {
+   "number": 25,
+   "symbol": "Mn",
+   "name": "Manganese",
+   "mass": 54.938,
+   "period": 4,
+   "group": 7,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d⁵ 4s²",
+   "electronegativity": 1.55,
+   "atomicRadius": {
+    "value": 127,
+    "type": "met",
+    "cov": 150,
+    "met": 127,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 717.3,
+    "ie2": 1509.0,
+    "ie3": 3248.0,
+    "ie4": 4940.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 129.0,
+     "covalent": 129.0,
+     "metallic": 127.0,
+     "vanderwaals": 205.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.55,
+     "pauling": 1.55,
+     "allredRochow": 0.0003,
+     "mulliken": null
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.434,
+     "successive": [
+      7.434,
+      15.64,
+      33.668,
+      51.2,
+      72.4,
+      95.6,
+      119.203
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 26,
+   "symbol": "Fe",
+   "name": "Iron",
+   "mass": 55.845,
+   "period": 4,
+   "group": 8,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d⁶ 4s²",
+   "electronegativity": 1.83,
+   "atomicRadius": {
+    "value": 126,
+    "type": "met",
+    "cov": 142,
+    "met": 126,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 762.5,
+    "ie2": 1561.9,
+    "ie3": 2957.0,
+    "ie4": 5290.0
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 124.0,
+     "covalent": 124.0,
+     "metallic": 126.0,
+     "vanderwaals": 204.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.83,
+     "pauling": 1.83,
+     "allredRochow": 0.0003,
+     "mulliken": 3.9512
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.9025,
+     "successive": [
+      7.9025,
+      16.1992,
+      30.651,
+      54.91,
+      75.0,
+      98.985,
+      125.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -14.5692
+    }
+   }
+  },
+  {
+   "number": 27,
+   "symbol": "Co",
+   "name": "Cobalt",
+   "mass": 58.933,
+   "period": 4,
+   "group": 9,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d⁷ 4s²",
+   "electronegativity": 1.88,
+   "atomicRadius": {
+    "value": 125,
+    "type": "met",
+    "cov": 138,
+    "met": 125,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 760.4,
+    "ie2": 1648.0,
+    "ie3": 3232.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 118.0,
+     "covalent": 118.0,
+     "metallic": 125.0,
+     "vanderwaals": 200.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.88,
+     "pauling": 1.88,
+     "allredRochow": 0.0003,
+     "mulliken": 3.9405
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.881,
+     "successive": [
+      7.881,
+      17.0844,
+      33.5,
+      51.27,
+      79.5,
+      102.0,
+      129.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -63.8978
+    }
+   }
+  },
+  {
+   "number": 28,
+   "symbol": "Ni",
+   "name": "Nickel",
+   "mass": 58.693,
+   "period": 4,
+   "group": 10,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d⁸ 4s²",
+   "electronegativity": 1.91,
+   "atomicRadius": {
+    "value": 125,
+    "type": "met",
+    "cov": 124,
+    "met": 125,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 737.1,
+    "ie2": 1753.0,
+    "ie3": 3395.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 117.0,
+     "covalent": 117.0,
+     "metallic": 124.0,
+     "vanderwaals": 197.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.91,
+     "pauling": 1.91,
+     "allredRochow": 0.0003,
+     "mulliken": 3.8199
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.6399,
+     "successive": [
+      7.6399,
+      18.1688,
+      35.19,
+      54.9,
+      76.06,
+      108.0,
+      132.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -111.5367
+    }
+   }
+  },
+  {
+   "number": 29,
+   "symbol": "Cu",
+   "name": "Copper",
+   "mass": 63.546,
+   "period": 4,
+   "group": 11,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d¹⁰ 4s¹",
+   "electronegativity": 1.9,
+   "atomicRadius": {
+    "value": 128,
+    "type": "met",
+    "cov": 132,
+    "met": 128,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 745.5,
+    "ie2": 1957.9,
+    "ie3": 3555.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 122.0,
+     "covalent": 122.0,
+     "metallic": 128.0,
+     "vanderwaals": 196.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.9,
+     "pauling": 1.9,
+     "allredRochow": 0.0003,
+     "mulliken": 3.8632
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.7264,
+     "successive": [
+      7.7264,
+      20.2924,
+      36.841,
+      57.38,
+      79.8,
+      103.0,
+      139.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -119.159
+    }
+   }
+  },
+  {
+   "number": 30,
+   "symbol": "Zn",
+   "name": "Zinc",
+   "mass": 65.38,
+   "period": 4,
+   "group": 12,
+   "category": "transition-metal",
+   "electronConfig": "[Ar] 3d¹⁰ 4s²",
+   "electronegativity": 1.65,
+   "atomicRadius": {
+    "value": 137,
+    "type": "met",
+    "cov": 122,
+    "met": 137,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 906.4,
+    "ie2": 1733.3,
+    "ie3": 3833.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 120.0,
+     "covalent": 120.0,
+     "metallic": 134.0,
+     "vanderwaals": 201.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.65,
+     "pauling": 1.65,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.3942,
+     "successive": [
+      9.3942,
+      17.9644,
+      39.723,
+      59.573,
+      82.6,
+      108.0,
+      134.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 31,
+   "symbol": "Ga",
+   "name": "Gallium",
+   "mass": 69.723,
+   "period": 4,
+   "group": 13,
+   "category": "post-transition",
+   "electronConfig": "[Ar] 3d¹⁰ 4s² 4p¹",
+   "electronegativity": 1.81,
+   "atomicRadius": {
+    "value": 122,
+    "type": "cov",
+    "cov": 122,
+    "met": 153,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 578.8,
+    "ie2": 1979.4,
+    "ie3": 2963.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 123.0,
+     "covalent": 123.0,
+     "metallic": 140.0,
+     "vanderwaals": 187.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.81,
+     "pauling": 1.81,
+     "allredRochow": 0.0003,
+     "mulliken": 2.9997
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.9993,
+     "successive": [
+      5.9993,
+      20.5151,
+      30.726,
+      63.241,
+      86.01,
+      112.7,
+      140.8
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -41.4885
+    }
+   }
+  },
+  {
+   "number": 32,
+   "symbol": "Ge",
+   "name": "Germanium",
+   "mass": 72.63,
+   "period": 4,
+   "group": 14,
+   "category": "metalloid",
+   "electronConfig": "[Ar] 3d¹⁰ 4s² 4p²",
+   "electronegativity": 2.01,
+   "atomicRadius": {
+    "value": 120,
+    "type": "cov",
+    "cov": 120,
+    "met": null,
+    "vdw": 211
+   },
+   "ionizationEnergy": {
+    "ie1": 762.0,
+    "ie2": 1537.5,
+    "ie3": 3302.1,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 120.0,
+     "covalent": 120.0,
+     "metallic": 144.0,
+     "vanderwaals": 211.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.01,
+     "pauling": 2.01,
+     "allredRochow": 0.0004,
+     "mulliken": 3.9497
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.8994,
+     "successive": [
+      7.8994,
+      15.9346,
+      34.0576,
+      45.715,
+      90.5,
+      115.9,
+      144.9
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -118.9382
+    }
+   }
+  },
+  {
+   "number": 33,
+   "symbol": "As",
+   "name": "Arsenic",
+   "mass": 74.922,
+   "period": 4,
+   "group": 15,
+   "category": "metalloid",
+   "electronConfig": "[Ar] 3d¹⁰ 4s² 4p³",
+   "electronegativity": 2.18,
+   "atomicRadius": {
+    "value": 119,
+    "type": "cov",
+    "cov": 119,
+    "met": null,
+    "vdw": 185
+   },
+   "ionizationEnergy": {
+    "ie1": 947.0,
+    "ie2": 1798.0,
+    "ie3": 2735.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 120.0,
+     "covalent": 120.0,
+     "metallic": 148.0,
+     "vanderwaals": 185.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.18,
+     "pauling": 2.18,
+     "allredRochow": 0.0004,
+     "mulliken": 4.8945
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.789,
+     "successive": [
+      9.789,
+      18.5892,
+      28.349,
+      50.15,
+      62.767,
+      121.19,
+      147.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -77.5739
+    }
+   }
+  },
+  {
+   "number": 34,
+   "symbol": "Se",
+   "name": "Selenium",
+   "mass": 78.971,
+   "period": 4,
+   "group": 16,
+   "category": "nonmetal",
+   "electronConfig": "[Ar] 3d¹⁰ 4s² 4p⁴",
+   "electronegativity": 2.55,
+   "atomicRadius": {
+    "value": 120,
+    "type": "cov",
+    "cov": 120,
+    "met": null,
+    "vdw": 190
+   },
+   "ionizationEnergy": {
+    "ie1": 941.0,
+    "ie2": 2045.0,
+    "ie3": 2973.7,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 118.0,
+     "covalent": 118.0,
+     "metallic": 140.0,
+     "vanderwaals": 190.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.55,
+     "pauling": 2.55,
+     "allredRochow": 0.0005,
+     "mulliken": 4.8762
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.7524,
+     "successive": [
+      9.7524,
+      21.196,
+      31.697,
+      42.947,
+      68.3,
+      81.827,
+      155.33
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -194.9643
+    }
+   }
+  },
+  {
+   "number": 35,
+   "symbol": "Br",
+   "name": "Bromine",
+   "mass": 79.904,
+   "period": 4,
+   "group": 17,
+   "category": "halogen",
+   "electronConfig": "[Ar] 3d¹⁰ 4s² 4p⁵",
+   "electronegativity": 2.96,
+   "atomicRadius": {
+    "value": 120,
+    "type": "cov",
+    "cov": 120,
+    "met": null,
+    "vdw": 185
+   },
+   "ionizationEnergy": {
+    "ie1": 1139.9,
+    "ie2": 2103.0,
+    "ie3": 3500.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 117.0,
+     "covalent": 117.0,
+     "metallic": 117.0,
+     "vanderwaals": 185.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.96,
+     "pauling": 2.96,
+     "allredRochow": 0.0006,
+     "mulliken": 5.9069
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 11.8138,
+     "successive": [
+      11.8138,
+      21.591,
+      35.0,
+      47.78,
+      59.595,
+      85.1,
+      103.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -324.5358
+    }
+   }
+  },
+  {
+   "number": 36,
+   "symbol": "Kr",
+   "name": "Krypton",
+   "mass": 83.798,
+   "period": 4,
+   "group": 18,
+   "category": "noble-gas",
+   "electronConfig": "[Ar] 3d¹⁰ 4s² 4p⁶",
+   "electronegativity": 3,
+   "atomicRadius": {
+    "value": 202,
+    "type": "vdw",
+    "cov": 116,
+    "met": null,
+    "vdw": 202
+   },
+   "ionizationEnergy": {
+    "ie1": 1350.8,
+    "ie2": 2350.4,
+    "ie3": 3565.0,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 202.0,
+     "covalent": 116.0,
+     "metallic": null,
+     "vanderwaals": 202.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0006,
+     "pauling": null,
+     "allredRochow": 0.0006,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 13.9996,
+     "successive": [
+      13.9996,
+      24.3598,
+      35.67,
+      50.85,
+      64.69,
+      78.49,
+      109.13
+     ]
+    }
+   }
+  },
+  {
+   "number": 37,
+   "symbol": "Rb",
+   "name": "Rubidium",
+   "mass": 85.468,
+   "period": 5,
+   "group": 1,
+   "category": "alkali-metal",
+   "electronConfig": "[Kr] 5s¹",
+   "electronegativity": 0.82,
+   "atomicRadius": {
+    "value": 248,
+    "type": "met",
+    "cov": 220,
+    "met": 248,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 403.0,
+    "ie2": 2632.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 215.0,
+     "covalent": 215.0,
+     "metallic": 248.0,
+     "vanderwaals": 303.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.82,
+     "pauling": 0.82,
+     "allredRochow": 0.0,
+     "mulliken": 2.0886
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 4.1771,
+     "successive": [
+      4.1771,
+      27.2895,
+      39.247,
+      52.2,
+      68.4,
+      82.9,
+      98.67
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -46.884
+    }
+   }
+  },
+  {
+   "number": 38,
+   "symbol": "Sr",
+   "name": "Strontium",
+   "mass": 87.62,
+   "period": 5,
+   "group": 2,
+   "category": "alkaline-earth",
+   "electronConfig": "[Kr] 5s²",
+   "electronegativity": 0.95,
+   "atomicRadius": {
+    "value": 195,
+    "type": "cov",
+    "cov": 195,
+    "met": 215,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 549.5,
+    "ie2": 1064.2,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 190.0,
+     "covalent": 190.0,
+     "metallic": 215.0,
+     "vanderwaals": 249.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.95,
+     "pauling": 0.95,
+     "allredRochow": 0.0001,
+     "mulliken": 2.8474
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.6949,
+     "successive": [
+      5.6949,
+      11.0303,
+      42.8835,
+      56.28,
+      71.0,
+      88.0,
+      104.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -4.6313
+    }
+   }
+  },
+  {
+   "number": 39,
+   "symbol": "Y",
+   "name": "Yttrium",
+   "mass": 88.906,
+   "period": 5,
+   "group": 3,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d¹ 5s²",
+   "electronegativity": 1.22,
+   "atomicRadius": {
+    "value": 180,
+    "type": "met",
+    "cov": 190,
+    "met": 180,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 599.8,
+    "ie2": 1181.2,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 176.0,
+     "covalent": 176.0,
+     "metallic": 180.0,
+     "vanderwaals": 232.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.22,
+     "pauling": 1.22,
+     "allredRochow": 0.0001,
+     "mulliken": 3.1086
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.2173,
+     "successive": [
+      6.2173,
+      12.224,
+      20.5244,
+      60.607,
+      74.97,
+      91.39,
+      110.02
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -29.6209
+    }
+   }
+  },
+  {
+   "number": 40,
+   "symbol": "Zr",
+   "name": "Zirconium",
+   "mass": 91.224,
+   "period": 5,
+   "group": 4,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d² 5s²",
+   "electronegativity": 1.33,
+   "atomicRadius": {
+    "value": 160,
+    "type": "met",
+    "cov": 175,
+    "met": 160,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 640.1,
+    "ie2": 1267.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 164.0,
+     "covalent": 164.0,
+     "metallic": 160.0,
+     "vanderwaals": 223.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.33,
+     "pauling": 1.33,
+     "allredRochow": 0.0001,
+     "mulliken": 3.3169
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.6339,
+     "successive": [
+      6.6339,
+      13.13,
+      23.17,
+      34.4184,
+      80.348,
+      96.27,
+      112.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -41.1026
+    }
+   }
+  },
+  {
+   "number": 41,
+   "symbol": "Nb",
+   "name": "Niobium",
+   "mass": 92.906,
+   "period": 5,
+   "group": 5,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d⁴ 5s¹",
+   "electronegativity": 1.6,
+   "atomicRadius": {
+    "value": 146,
+    "type": "met",
+    "cov": 164,
+    "met": 146,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 652.1,
+    "ie2": 1382.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 156.0,
+     "covalent": 156.0,
+     "metallic": 146.0,
+     "vanderwaals": 218.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.6,
+     "pauling": 1.6,
+     "allredRochow": 0.0001,
+     "mulliken": 3.3794
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.7588,
+     "successive": [
+      6.7588,
+      14.32,
+      25.0,
+      37.611,
+      50.5728,
+      102.069,
+      119.14
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -88.5159
+    }
+   }
+  },
+  {
+   "number": 42,
+   "symbol": "Mo",
+   "name": "Molybdenum",
+   "mass": 95.95,
+   "period": 5,
+   "group": 6,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d⁵ 5s¹",
+   "electronegativity": 2.16,
+   "atomicRadius": {
+    "value": 139,
+    "type": "met",
+    "cov": 154,
+    "met": 139,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 684.3,
+    "ie2": 1558.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 146.0,
+     "covalent": 146.0,
+     "metallic": 139.0,
+     "vanderwaals": 217.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.16,
+     "pauling": 2.16,
+     "allredRochow": 0.0002,
+     "mulliken": 3.5462
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.0924,
+     "successive": [
+      7.0924,
+      16.16,
+      27.13,
+      40.33,
+      54.485,
+      68.827,
+      125.638
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -72.1708
+    }
+   }
+  },
+  {
+   "number": 43,
+   "symbol": "Tc",
+   "name": "Technetium",
+   "mass": 98,
+   "period": 5,
+   "group": 7,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d⁵ 5s²",
+   "electronegativity": 1.9,
+   "atomicRadius": {
+    "value": 136,
+    "type": "met",
+    "cov": 147,
+    "met": 136,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 702.0,
+    "ie2": 1472.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 138.0,
+     "covalent": 138.0,
+     "metallic": 136.0,
+     "vanderwaals": 216.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.1,
+     "pauling": 2.1,
+     "allredRochow": 0.0002,
+     "mulliken": 3.5597
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.1194,
+     "successive": [
+      7.1194,
+      15.26,
+      29.55,
+      41.0,
+      57.0,
+      72.0,
+      88.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -53.0667
+    }
+   }
+  },
+  {
+   "number": 44,
+   "symbol": "Ru",
+   "name": "Ruthenium",
+   "mass": 101.07,
+   "period": 5,
+   "group": 8,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d⁷ 5s¹",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 134,
+    "type": "met",
+    "cov": 146,
+    "met": 134,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 710.2,
+    "ie2": 1617.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 136.0,
+     "covalent": 136.0,
+     "metallic": 134.0,
+     "vanderwaals": 213.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.0002,
+     "mulliken": 3.6803
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.3605,
+     "successive": [
+      7.3605,
+      16.76,
+      28.47,
+      45.0,
+      59.0,
+      76.0,
+      93.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -101.3093
+    }
+   }
+  },
+  {
+   "number": 45,
+   "symbol": "Rh",
+   "name": "Rhodium",
+   "mass": 102.91,
+   "period": 5,
+   "group": 9,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d⁸ 5s¹",
+   "electronegativity": 2.28,
+   "atomicRadius": {
+    "value": 134,
+    "type": "met",
+    "cov": 142,
+    "met": 134,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 719.7,
+    "ie2": 1744.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 134.0,
+     "covalent": 134.0,
+     "metallic": 134.0,
+     "vanderwaals": 210.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.28,
+     "pauling": 2.28,
+     "allredRochow": 0.0002,
+     "mulliken": 3.7294
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.4589,
+     "successive": [
+      7.4589,
+      18.08,
+      31.06,
+      42.0,
+      63.0,
+      80.0,
+      97.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -109.7034
+    }
+   }
+  },
+  {
+   "number": 46,
+   "symbol": "Pd",
+   "name": "Palladium",
+   "mass": 106.42,
+   "period": 5,
+   "group": 10,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d¹⁰",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 137,
+    "type": "met",
+    "cov": 139,
+    "met": 137,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 804.4,
+    "ie2": 1874.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 130.0,
+     "covalent": 130.0,
+     "metallic": 137.0,
+     "vanderwaals": 210.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.0005,
+     "mulliken": 4.1684
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.3369,
+     "successive": [
+      8.3369,
+      19.43,
+      32.93,
+      46.0,
+      61.0,
+      84.1,
+      101.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -54.2246
+    }
+   }
+  },
+  {
+   "number": 47,
+   "symbol": "Ag",
+   "name": "Silver",
+   "mass": 107.87,
+   "period": 5,
+   "group": 11,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d¹⁰ 5s¹",
+   "electronegativity": 1.93,
+   "atomicRadius": {
+    "value": 144,
+    "type": "met",
+    "cov": 145,
+    "met": 144,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 731.0,
+    "ie2": 2073.4,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 136.0,
+     "covalent": 136.0,
+     "metallic": 144.0,
+     "vanderwaals": 211.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.93,
+     "pauling": 1.93,
+     "allredRochow": 0.0002,
+     "mulliken": 3.7881
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.5762,
+     "successive": [
+      7.5762,
+      21.4844,
+      34.83,
+      49.0,
+      65.0,
+      82.0,
+      106.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -125.6235
+    }
+   }
+  },
+  {
+   "number": 48,
+   "symbol": "Cd",
+   "name": "Cadmium",
+   "mass": 112.41,
+   "period": 5,
+   "group": 12,
+   "category": "transition-metal",
+   "electronConfig": "[Kr] 4d¹⁰ 5s²",
+   "electronegativity": 1.69,
+   "atomicRadius": {
+    "value": 151,
+    "type": "met",
+    "cov": 144,
+    "met": 151,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 867.8,
+    "ie2": 1631.4,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 140.0,
+     "covalent": 140.0,
+     "metallic": 151.0,
+     "vanderwaals": 218.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.69,
+     "pauling": 1.69,
+     "allredRochow": 0.0002,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.9938,
+     "successive": [
+      8.9938,
+      16.9083,
+      37.47,
+      51.0,
+      67.9,
+      87.0,
+      105.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 49,
+   "symbol": "In",
+   "name": "Indium",
+   "mass": 114.82,
+   "period": 5,
+   "group": 13,
+   "category": "post-transition",
+   "electronConfig": "[Kr] 4d¹⁰ 5s² 5p¹",
+   "electronegativity": 1.78,
+   "atomicRadius": {
+    "value": 142,
+    "type": "cov",
+    "cov": 142,
+    "met": 167,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 558.3,
+    "ie2": 1820.7,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 142.0,
+     "covalent": 142.0,
+     "metallic": 158.0,
+     "vanderwaals": 193.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.78,
+     "pauling": 1.78,
+     "allredRochow": 0.0002,
+     "mulliken": 2.8932
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.7864,
+     "successive": [
+      5.7864,
+      18.8704,
+      28.0441,
+      55.45,
+      69.3,
+      90.0,
+      109.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -28.9455
+    }
+   }
+  },
+  {
+   "number": 50,
+   "symbol": "Sn",
+   "name": "Tin",
+   "mass": 118.71,
+   "period": 5,
+   "group": 14,
+   "category": "post-transition",
+   "electronConfig": "[Kr] 4d¹⁰ 5s² 5p²",
+   "electronegativity": 1.96,
+   "atomicRadius": {
+    "value": 139,
+    "type": "cov",
+    "cov": 139,
+    "met": null,
+    "vdw": 217
+   },
+   "ionizationEnergy": {
+    "ie1": 708.6,
+    "ie2": 1411.8,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 140.0,
+     "covalent": 140.0,
+     "metallic": 163.0,
+     "vanderwaals": 217.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.96,
+     "pauling": 1.96,
+     "allredRochow": 0.0003,
+     "mulliken": 3.672
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.3439,
+     "successive": [
+      7.3439,
+      14.6322,
+      30.5026,
+      40.735,
+      77.03,
+      94.0,
+      112.9
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -107.2978
+    }
+   }
+  },
+  {
+   "number": 51,
+   "symbol": "Sb",
+   "name": "Antimony",
+   "mass": 121.76,
+   "period": 5,
+   "group": 15,
+   "category": "metalloid",
+   "electronConfig": "[Kr] 4d¹⁰ 5s² 5p³",
+   "electronegativity": 2.05,
+   "atomicRadius": {
+    "value": 139,
+    "type": "cov",
+    "cov": 139,
+    "met": null,
+    "vdw": 206
+   },
+   "ionizationEnergy": {
+    "ie1": 834.0,
+    "ie2": 1594.9,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 140.0,
+     "covalent": 140.0,
+     "metallic": 166.0,
+     "vanderwaals": 206.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.05,
+     "pauling": 2.05,
+     "allredRochow": 0.0003,
+     "mulliken": 4.3042
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.6084,
+     "successive": [
+      8.6084,
+      16.63,
+      25.3235,
+      43.8,
+      55.0,
+      99.51,
+      117.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -100.9233
+    }
+   }
+  },
+  {
+   "number": 52,
+   "symbol": "Te",
+   "name": "Tellurium",
+   "mass": 127.6,
+   "period": 5,
+   "group": 16,
+   "category": "metalloid",
+   "electronConfig": "[Kr] 4d¹⁰ 5s² 5p⁴",
+   "electronegativity": 2.1,
+   "atomicRadius": {
+    "value": 138,
+    "type": "cov",
+    "cov": 138,
+    "met": null,
+    "vdw": 206
+   },
+   "ionizationEnergy": {
+    "ie1": 869.3,
+    "ie2": 1790.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 137.0,
+     "covalent": 137.0,
+     "metallic": 160.0,
+     "vanderwaals": 206.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.1,
+     "pauling": 2.1,
+     "allredRochow": 0.0004,
+     "mulliken": 4.5048
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.0097,
+     "successive": [
+      9.0097,
+      19.0,
+      27.838,
+      37.4155,
+      59.25,
+      69.1,
+      124.201
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -190.16
+    }
+   }
+  },
+  {
+   "number": 53,
+   "symbol": "I",
+   "name": "Iodine",
+   "mass": 126.9,
+   "period": 5,
+   "group": 17,
+   "category": "halogen",
+   "electronConfig": "[Kr] 4d¹⁰ 5s² 5p⁵",
+   "electronegativity": 2.66,
+   "atomicRadius": {
+    "value": 139,
+    "type": "cov",
+    "cov": 139,
+    "met": null,
+    "vdw": 198
+   },
+   "ionizationEnergy": {
+    "ie1": 1008.4,
+    "ie2": 1845.9,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 136.0,
+     "covalent": 136.0,
+     "metallic": 139.0,
+     "vanderwaals": 198.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.66,
+     "pauling": 2.66,
+     "allredRochow": 0.0004,
+     "mulliken": 5.2256
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 10.4513,
+     "successive": [
+      10.4513,
+      19.1313,
+      29.57,
+      40.36,
+      51.517,
+      74.37,
+      87.61
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -295.1512
+    }
+   }
+  },
+  {
+   "number": 54,
+   "symbol": "Xe",
+   "name": "Xenon",
+   "mass": 131.29,
+   "period": 5,
+   "group": 18,
+   "category": "noble-gas",
+   "electronConfig": "[Kr] 4d¹⁰ 5s² 5p⁶",
+   "electronegativity": 2.6,
+   "atomicRadius": {
+    "value": 216,
+    "type": "vdw",
+    "cov": 140,
+    "met": null,
+    "vdw": 216
+   },
+   "ionizationEnergy": {
+    "ie1": 1170.4,
+    "ie2": 2046.4,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 216.0,
+     "covalent": 136.0,
+     "metallic": null,
+     "vanderwaals": 216.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0005,
+     "pauling": 2.6,
+     "allredRochow": 0.0005,
+     "mulliken": 6.0649
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 12.1298,
+     "successive": [
+      12.1298,
+      20.975,
+      31.05,
+      42.2,
+      54.14,
+      66.703,
+      91.6
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 5.4032
+    }
+   }
+  },
+  {
+   "number": 55,
+   "symbol": "Cs",
+   "name": "Cesium",
+   "mass": 132.91,
+   "period": 6,
+   "group": 1,
+   "category": "alkali-metal",
+   "electronConfig": "[Xe] 6s¹",
+   "electronegativity": 0.79,
+   "atomicRadius": {
+    "value": 265,
+    "type": "met",
+    "cov": 244,
+    "met": 265,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 375.7,
+    "ie2": 2234.4,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 238.0,
+     "covalent": 238.0,
+     "metallic": 267.0,
+     "vanderwaals": 343.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.79,
+     "pauling": 0.79,
+     "allredRochow": 0.0,
+     "mulliken": 1.947
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 3.8939,
+     "successive": [
+      3.8939,
+      23.1575,
+      33.195,
+      43.0,
+      56.0,
+      69.1,
+      82.9
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -45.5048
+    }
+   }
+  },
+  {
+   "number": 56,
+   "symbol": "Ba",
+   "name": "Barium",
+   "mass": 137.33,
+   "period": 6,
+   "group": 2,
+   "category": "alkaline-earth",
+   "electronConfig": "[Xe] 6s²",
+   "electronegativity": 0.89,
+   "atomicRadius": {
+    "value": 215,
+    "type": "cov",
+    "cov": 215,
+    "met": 222,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 502.9,
+    "ie2": 965.2,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 206.0,
+     "covalent": 206.0,
+     "metallic": 222.0,
+     "vanderwaals": 268.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.89,
+     "pauling": 0.89,
+     "allredRochow": 0.0001,
+     "mulliken": 2.6058
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.2117,
+     "successive": [
+      5.2117,
+      10.0038,
+      35.84,
+      47.03,
+      58.0,
+      71.0,
+      86.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -13.9537
+    }
+   }
+  },
+  {
+   "number": 57,
+   "symbol": "La",
+   "name": "Lanthanum",
+   "mass": 138.91,
+   "period": 6,
+   "group": 3,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 5d¹ 6s²",
+   "electronegativity": 1.1,
+   "atomicRadius": {
+    "value": 187,
+    "type": "met",
+    "cov": 207,
+    "met": 187,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 538.1,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -45.3479
+    }
+   }
+  },
+  {
+   "number": 58,
+   "symbol": "Ce",
+   "name": "Cerium",
+   "mass": 140.12,
+   "period": 9,
+   "group": 4,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹ 5d¹ 6s²",
+   "electronegativity": 1.12,
+   "atomicRadius": {
+    "value": 181,
+    "type": "met",
+    "cov": 204,
+    "met": 181,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 534.4,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 59,
+   "symbol": "Pr",
+   "name": "Praseodymium",
+   "mass": 140.91,
+   "period": 9,
+   "group": 5,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f³ 6s²",
+   "electronegativity": 1.13,
+   "atomicRadius": {
+    "value": 182,
+    "type": "met",
+    "cov": 203,
+    "met": 182,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 527.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 60,
+   "symbol": "Nd",
+   "name": "Neodymium",
+   "mass": 144.24,
+   "period": 9,
+   "group": 6,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f⁴ 6s²",
+   "electronegativity": 1.14,
+   "atomicRadius": {
+    "value": 181,
+    "type": "met",
+    "cov": 201,
+    "met": 181,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 533.1,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 61,
+   "symbol": "Pm",
+   "name": "Promethium",
+   "mass": 145,
+   "period": 9,
+   "group": 7,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f⁵ 6s²",
+   "electronegativity": 1.13,
+   "atomicRadius": {
+    "value": 183,
+    "type": "met",
+    "cov": 199,
+    "met": 183,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 540.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 62,
+   "symbol": "Sm",
+   "name": "Samarium",
+   "mass": 150.36,
+   "period": 9,
+   "group": 8,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f⁶ 6s²",
+   "electronegativity": 1.17,
+   "atomicRadius": {
+    "value": 180,
+    "type": "met",
+    "cov": 198,
+    "met": 180,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 544.5,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 63,
+   "symbol": "Eu",
+   "name": "Europium",
+   "mass": 151.96,
+   "period": 9,
+   "group": 9,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f⁷ 6s²",
+   "electronegativity": 1.2,
+   "atomicRadius": {
+    "value": 180,
+    "type": "met",
+    "cov": 198,
+    "met": 180,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 547.1,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 64,
+   "symbol": "Gd",
+   "name": "Gadolinium",
+   "mass": 157.25,
+   "period": 9,
+   "group": 10,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f⁷ 5d¹ 6s²",
+   "electronegativity": 1.2,
+   "atomicRadius": {
+    "value": 180,
+    "type": "met",
+    "cov": 196,
+    "met": 180,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 593.4,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 65,
+   "symbol": "Tb",
+   "name": "Terbium",
+   "mass": 158.93,
+   "period": 9,
+   "group": 11,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f⁹ 6s²",
+   "electronegativity": 1.2,
+   "atomicRadius": {
+    "value": 177,
+    "type": "met",
+    "cov": 194,
+    "met": 177,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 565.8,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 66,
+   "symbol": "Dy",
+   "name": "Dysprosium",
+   "mass": 162.5,
+   "period": 9,
+   "group": 12,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹⁰ 6s²",
+   "electronegativity": 1.22,
+   "atomicRadius": {
+    "value": 178,
+    "type": "met",
+    "cov": 192,
+    "met": 178,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 573.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 67,
+   "symbol": "Ho",
+   "name": "Holmium",
+   "mass": 164.93,
+   "period": 9,
+   "group": 13,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹¹ 6s²",
+   "electronegativity": 1.23,
+   "atomicRadius": {
+    "value": 176,
+    "type": "met",
+    "cov": 192,
+    "met": 176,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 581.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 68,
+   "symbol": "Er",
+   "name": "Erbium",
+   "mass": 167.26,
+   "period": 9,
+   "group": 14,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹² 6s²",
+   "electronegativity": 1.24,
+   "atomicRadius": {
+    "value": 176,
+    "type": "met",
+    "cov": 189,
+    "met": 176,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 589.3,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 69,
+   "symbol": "Tm",
+   "name": "Thulium",
+   "mass": 168.93,
+   "period": 9,
+   "group": 15,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹³ 6s²",
+   "electronegativity": 1.25,
+   "atomicRadius": {
+    "value": 176,
+    "type": "met",
+    "cov": 190,
+    "met": 176,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 596.7,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 70,
+   "symbol": "Yb",
+   "name": "Ytterbium",
+   "mass": 173.05,
+   "period": 9,
+   "group": 16,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹⁴ 6s²",
+   "electronegativity": 1.1,
+   "atomicRadius": {
+    "value": 176,
+    "type": "met",
+    "cov": 187,
+    "met": 176,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 603.4,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 71,
+   "symbol": "Lu",
+   "name": "Lutetium",
+   "mass": 174.97,
+   "period": 9,
+   "group": 17,
+   "category": "lanthanide",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹ 6s²",
+   "electronegativity": 1.27,
+   "atomicRadius": {
+    "value": 174,
+    "type": "met",
+    "cov": 187,
+    "met": 174,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 523.5,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {}
+  },
+  {
+   "number": 72,
+   "symbol": "Hf",
+   "name": "Hafnium",
+   "mass": 178.49,
+   "period": 6,
+   "group": 4,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d² 6s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": 159,
+    "type": "met",
+    "cov": 175,
+    "met": 159,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 658.5,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 164.0,
+     "covalent": 164.0,
+     "metallic": 159.0,
+     "vanderwaals": 223.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.3,
+     "pauling": 1.3,
+     "allredRochow": 0.0001,
+     "mulliken": 3.4125
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.8251,
+     "successive": [
+      6.8251,
+      15.0,
+      23.28,
+      33.37,
+      68.375,
+      98.0,
+      118.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -1.3508
+    }
+   }
+  },
+  {
+   "number": 73,
+   "symbol": "Ta",
+   "name": "Tantalum",
+   "mass": 180.95,
+   "period": 6,
+   "group": 5,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d³ 6s²",
+   "electronegativity": 1.5,
+   "atomicRadius": {
+    "value": 146,
+    "type": "met",
+    "cov": 170,
+    "met": 146,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 761.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 158.0,
+     "covalent": 158.0,
+     "metallic": 146.0,
+     "vanderwaals": 222.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.5,
+     "pauling": 1.5,
+     "allredRochow": 0.0002,
+     "mulliken": 3.7748
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.5496,
+     "successive": [
+      7.5496,
+      16.2,
+      23.1,
+      35.0,
+      48.272,
+      94.011,
+      119.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -31.0682
+    }
+   }
+  },
+  {
+   "number": 74,
+   "symbol": "W",
+   "name": "Tungsten",
+   "mass": 183.84,
+   "period": 6,
+   "group": 6,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d⁴ 6s²",
+   "electronegativity": 2.36,
+   "atomicRadius": {
+    "value": 139,
+    "type": "met",
+    "cov": 162,
+    "met": 139,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 770.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 150.0,
+     "covalent": 150.0,
+     "metallic": 139.0,
+     "vanderwaals": 218.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.7,
+     "pauling": 1.7,
+     "allredRochow": 0.0002,
+     "mulliken": 3.932
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.864,
+     "successive": [
+      7.864,
+      16.4,
+      26.02,
+      38.21,
+      51.59,
+      64.766,
+      122.01
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -78.7568
+    }
+   }
+  },
+  {
+   "number": 75,
+   "symbol": "Re",
+   "name": "Rhenium",
+   "mass": 186.21,
+   "period": 6,
+   "group": 7,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d⁵ 6s²",
+   "electronegativity": 1.9,
+   "atomicRadius": {
+    "value": 137,
+    "type": "met",
+    "cov": 151,
+    "met": 137,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 760.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 141.0,
+     "covalent": 141.0,
+     "metallic": 137.0,
+     "vanderwaals": 216.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.9,
+     "pauling": 1.9,
+     "allredRochow": 0.0002,
+     "mulliken": 3.9168
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.8335,
+     "successive": [
+      7.8335,
+      16.6,
+      27.0,
+      39.1,
+      51.9,
+      67.0,
+      82.71
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -14.4727
+    }
+   }
+  },
+  {
+   "number": 76,
+   "symbol": "Os",
+   "name": "Osmium",
+   "mass": 190.23,
+   "period": 6,
+   "group": 8,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d⁶ 6s²",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 135,
+    "type": "met",
+    "cov": 144,
+    "met": 135,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 840.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 136.0,
+     "covalent": 136.0,
+     "metallic": 135.0,
+     "vanderwaals": 216.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.0002,
+     "mulliken": 4.2191
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.4382,
+     "successive": [
+      8.4382,
+      17.0,
+      25.0,
+      41.0,
+      55.0,
+      70.1,
+      85.1
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -106.1335
+    }
+   }
+  },
+  {
+   "number": 77,
+   "symbol": "Ir",
+   "name": "Iridium",
+   "mass": 192.22,
+   "period": 6,
+   "group": 9,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d⁷ 6s²",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 136,
+    "type": "met",
+    "cov": 141,
+    "met": 136,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 880.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 132.0,
+     "covalent": 132.0,
+     "metallic": 136.0,
+     "vanderwaals": 213.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.0003,
+     "mulliken": 4.4835
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.967,
+     "successive": [
+      8.967,
+      17.0,
+      28.0,
+      40.0,
+      57.0,
+      72.0,
+      89.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -150.8832
+    }
+   }
+  },
+  {
+   "number": 78,
+   "symbol": "Pt",
+   "name": "Platinum",
+   "mass": 195.08,
+   "period": 6,
+   "group": 10,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d⁹ 6s¹",
+   "electronegativity": 2.28,
+   "atomicRadius": {
+    "value": 139,
+    "type": "met",
+    "cov": 136,
+    "met": 139,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 870.0,
+    "ie2": 1791.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 130.0,
+     "covalent": 130.0,
+     "metallic": 139.0,
+     "vanderwaals": 213.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.0002,
+     "mulliken": 4.4794
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.9588,
+     "successive": [
+      8.9588,
+      18.56,
+      29.0,
+      43.0,
+      56.0,
+      75.0,
+      91.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -205.3201
+    }
+   }
+  },
+  {
+   "number": 79,
+   "symbol": "Au",
+   "name": "Gold",
+   "mass": 196.97,
+   "period": 6,
+   "group": 11,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+   "electronegativity": 2.54,
+   "atomicRadius": {
+    "value": 144,
+    "type": "met",
+    "cov": 136,
+    "met": 144,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 890.1,
+    "ie2": 1980.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 130.0,
+     "covalent": 130.0,
+     "metallic": 144.0,
+     "vanderwaals": 214.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.4,
+     "pauling": 2.4,
+     "allredRochow": 0.0002,
+     "mulliken": 4.6128
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.2256,
+     "successive": [
+      9.2256,
+      20.203,
+      30.0,
+      45.0,
+      60.0,
+      74.0,
+      94.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -222.7482
+    }
+   }
+  },
+  {
+   "number": 80,
+   "symbol": "Hg",
+   "name": "Mercury",
+   "mass": 200.59,
+   "period": 6,
+   "group": 12,
+   "category": "transition-metal",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+   "electronegativity": 2,
+   "atomicRadius": {
+    "value": 151,
+    "type": "met",
+    "cov": 132,
+    "met": 151,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 1007.1,
+    "ie2": 1810.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 132.0,
+     "covalent": 132.0,
+     "metallic": 151.0,
+     "vanderwaals": 223.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.9,
+     "pauling": 1.9,
+     "allredRochow": 0.0002,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 10.4375,
+     "successive": [
+      10.4375,
+      18.7569,
+      34.46,
+      48.55,
+      61.2,
+      76.6,
+      93.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 81,
+   "symbol": "Tl",
+   "name": "Thallium",
+   "mass": 204.38,
+   "period": 6,
+   "group": 13,
+   "category": "post-transition",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
+   "electronegativity": 1.62,
+   "atomicRadius": {
+    "value": 145,
+    "type": "cov",
+    "cov": 145,
+    "met": 170,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 589.4,
+    "ie2": 1971.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 144.0,
+     "covalent": 144.0,
+     "metallic": 160.0,
+     "vanderwaals": 196.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.8,
+     "pauling": 1.8,
+     "allredRochow": 0.0002,
+     "mulliken": 3.0541
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.1083,
+     "successive": [
+      6.1083,
+      20.4283,
+      29.852,
+      51.14,
+      62.6,
+      80.0,
+      98.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -36.3748
+    }
+   }
+  },
+  {
+   "number": 82,
+   "symbol": "Pb",
+   "name": "Lead",
+   "mass": 207.2,
+   "period": 6,
+   "group": 14,
+   "category": "post-transition",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+   "electronegativity": 2.33,
+   "atomicRadius": {
+    "value": 146,
+    "type": "cov",
+    "cov": 146,
+    "met": null,
+    "vdw": 202
+   },
+   "ionizationEnergy": {
+    "ie1": 715.6,
+    "ie2": 1450.5,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 145.0,
+     "covalent": 145.0,
+     "metallic": 170.0,
+     "vanderwaals": 202.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.8,
+     "pauling": 1.8,
+     "allredRochow": 0.0003,
+     "mulliken": 3.7083
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.4167,
+     "successive": [
+      7.4167,
+      15.0325,
+      31.9373,
+      42.3326,
+      68.8,
+      82.9,
+      100.1
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -34.4204
+    }
+   }
+  },
+  {
+   "number": 83,
+   "symbol": "Bi",
+   "name": "Bismuth",
+   "mass": 208.98,
+   "period": 6,
+   "group": 15,
+   "category": "post-transition",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+   "electronegativity": 2.02,
+   "atomicRadius": {
+    "value": 148,
+    "type": "cov",
+    "cov": 148,
+    "met": 170,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 703.0,
+    "ie2": 1610.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 150.0,
+     "covalent": 150.0,
+     "metallic": 178.0,
+     "vanderwaals": 207.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 1.9,
+     "pauling": 1.9,
+     "allredRochow": 0.0003,
+     "mulliken": 3.6428
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.2855,
+     "successive": [
+      7.2855,
+      16.703,
+      25.563,
+      45.37,
+      54.85,
+      88.4,
+      103.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -90.9238
+    }
+   }
+  },
+  {
+   "number": 84,
+   "symbol": "Po",
+   "name": "Polonium",
+   "mass": 209,
+   "period": 6,
+   "group": 16,
+   "category": "post-transition",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴",
+   "electronegativity": 2,
+   "atomicRadius": {
+    "value": 140,
+    "type": "cov",
+    "cov": 140,
+    "met": null,
+    "vdw": 197
+   },
+   "ionizationEnergy": {
+    "ie1": 812.1,
+    "ie2": 1800.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 142.0,
+     "covalent": 142.0,
+     "metallic": null,
+     "vanderwaals": 197.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.0,
+     "pauling": 2.0,
+     "allredRochow": 0.0003,
+     "mulliken": 4.207
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 8.414,
+     "successive": [
+      8.414,
+      19.3,
+      27.0,
+      36.0,
+      57.0,
+      69.1,
+      108.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -183.3215
+    }
+   }
+  },
+  {
+   "number": 85,
+   "symbol": "At",
+   "name": "Astatine",
+   "mass": 210,
+   "period": 6,
+   "group": 17,
+   "category": "halogen",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 150,
+    "type": "cov",
+    "cov": 150,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 920.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 148.0,
+     "covalent": 148.0,
+     "metallic": null,
+     "vanderwaals": 202.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 2.2,
+     "pauling": 2.2,
+     "allredRochow": 0.0004,
+     "mulliken": 4.6588
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 9.3175,
+     "successive": [
+      9.3175,
+      17.88,
+      26.58,
+      39.65,
+      50.39,
+      72.0,
+      85.1
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -270.158
+    }
+   }
+  },
+  {
+   "number": 86,
+   "symbol": "Rn",
+   "name": "Radon",
+   "mass": 222,
+   "period": 6,
+   "group": 18,
+   "category": "noble-gas",
+   "electronConfig": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
+   "electronegativity": 2.2,
+   "atomicRadius": {
+    "value": 220,
+    "type": "vdw",
+    "cov": 150,
+    "met": null,
+    "vdw": 220
+   },
+   "ionizationEnergy": {
+    "ie1": 1037.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 220.0,
+     "covalent": 146.0,
+     "metallic": null,
+     "vanderwaals": 220.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0004,
+     "pauling": null,
+     "allredRochow": 0.0004,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 10.7485,
+     "successive": [
+      10.7485,
+      21.4,
+      29.4,
+      36.9,
+      52.9,
+      64.0,
+      88.0
+     ]
+    }
+   }
+  },
+  {
+   "number": 87,
+   "symbol": "Fr",
+   "name": "Francium",
+   "mass": 223,
+   "period": 7,
+   "group": 1,
+   "category": "alkali-metal",
+   "electronConfig": "[Rn] 7s¹",
+   "electronegativity": 0.7,
+   "atomicRadius": {
+    "value": 270,
+    "type": "met",
+    "cov": 260,
+    "met": 270,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 393.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 242.0,
+     "covalent": 242.0,
+     "metallic": null,
+     "vanderwaals": 348.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.7,
+     "pauling": 0.7,
+     "allredRochow": 0.0,
+     "mulliken": 2.0364
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 4.0727,
+     "successive": [
+      4.0727,
+      22.4,
+      33.0,
+      39.1,
+      50.0,
+      67.0,
+      80.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -46.8917
+    }
+   }
+  },
+  {
+   "number": 88,
+   "symbol": "Ra",
+   "name": "Radium",
+   "mass": 226,
+   "period": 7,
+   "group": 2,
+   "category": "alkaline-earth",
+   "electronConfig": "[Rn] 7s²",
+   "electronegativity": 0.9,
+   "atomicRadius": {
+    "value": 221,
+    "type": "cov",
+    "cov": 221,
+    "met": 223,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 509.3,
+    "ie2": 979.0,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 211.0,
+     "covalent": 211.0,
+     "metallic": null,
+     "vanderwaals": 283.0
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.9,
+     "pauling": 0.9,
+     "allredRochow": 0.0001,
+     "mulliken": 2.6392
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 5.2784,
+     "successive": [
+      5.2784,
+      10.1472,
+      31.0,
+      41.0,
+      52.9,
+      64.0,
+      82.0
+     ]
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -9.6485
+    }
+   }
+  },
+  {
+   "number": 89,
+   "symbol": "Ac",
+   "name": "Actinium",
+   "mass": 227,
+   "period": 7,
+   "group": 3,
+   "category": "actinide",
+   "electronConfig": "[Rn] 6d¹ 7s²",
+   "electronegativity": 1.1,
+   "atomicRadius": {
+    "value": 188,
+    "type": "met",
+    "cov": 215,
+    "met": 188,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 499.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": -33.7698
+    }
+   }
+  },
+  {
+   "number": 90,
+   "symbol": "Th",
+   "name": "Thorium",
+   "mass": 232.04,
+   "period": 10,
+   "group": 4,
+   "category": "actinide",
+   "electronConfig": "[Rn] 6d² 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": 180,
+    "type": "met",
+    "cov": 206,
+    "met": 180,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 587.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 91,
+   "symbol": "Pa",
+   "name": "Protactinium",
+   "mass": 231.04,
+   "period": 10,
+   "group": 5,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f² 6d¹ 7s²",
+   "electronegativity": 1.5,
+   "atomicRadius": {
+    "value": 161,
+    "type": "met",
+    "cov": 200,
+    "met": 161,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 568.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 92,
+   "symbol": "U",
+   "name": "Uranium",
+   "mass": 238.03,
+   "period": 10,
+   "group": 6,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f³ 6d¹ 7s²",
+   "electronegativity": 1.38,
+   "atomicRadius": {
+    "value": 138,
+    "type": "met",
+    "cov": 196,
+    "met": 138,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 597.6,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 93,
+   "symbol": "Np",
+   "name": "Neptunium",
+   "mass": 237,
+   "period": 10,
+   "group": 7,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f⁴ 6d¹ 7s²",
+   "electronegativity": 1.36,
+   "atomicRadius": {
+    "value": 130,
+    "type": "met",
+    "cov": 190,
+    "met": 130,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 604.5,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 94,
+   "symbol": "Pu",
+   "name": "Plutonium",
+   "mass": 244,
+   "period": 10,
+   "group": 8,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f⁶ 7s²",
+   "electronegativity": 1.28,
+   "atomicRadius": {
+    "value": 151,
+    "type": "met",
+    "cov": 187,
+    "met": 151,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 584.7,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 95,
+   "symbol": "Am",
+   "name": "Americium",
+   "mass": 243,
+   "period": 10,
+   "group": 9,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f⁷ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": 173,
+    "type": "met",
+    "cov": 180,
+    "met": 173,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 578.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 96,
+   "symbol": "Cm",
+   "name": "Curium",
+   "mass": 247,
+   "period": 10,
+   "group": 10,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f⁷ 6d¹ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": 169,
+    "type": "met",
+    "cov": 169,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": 581.0,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 97,
+   "symbol": "Bk",
+   "name": "Berkelium",
+   "mass": 247,
+   "period": 10,
+   "group": 11,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f⁹ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 98,
+   "symbol": "Cf",
+   "name": "Californium",
+   "mass": 251,
+   "period": 10,
+   "group": 12,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f¹⁰ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 99,
+   "symbol": "Es",
+   "name": "Einsteinium",
+   "mass": 252,
+   "period": 10,
+   "group": 13,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f¹¹ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 100,
+   "symbol": "Fm",
+   "name": "Fermium",
+   "mass": 257,
+   "period": 10,
+   "group": 14,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f¹² 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 101,
+   "symbol": "Md",
+   "name": "Mendelevium",
+   "mass": 258,
+   "period": 10,
+   "group": 15,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f¹³ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 102,
+   "symbol": "No",
+   "name": "Nobelium",
+   "mass": 259,
+   "period": 10,
+   "group": 16,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f¹⁴ 7s²",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 103,
+   "symbol": "Lr",
+   "name": "Lawrencium",
+   "mass": 266,
+   "period": 10,
+   "group": 17,
+   "category": "actinide",
+   "electronConfig": "[Rn] 5f¹⁴ 7s² 7p¹",
+   "electronegativity": 1.3,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 104,
+   "symbol": "Rf",
+   "name": "Rutherfordium",
+   "mass": 267,
+   "period": 7,
+   "group": 4,
+   "category": "transition-metal",
+   "electronConfig": "[Rn] 5f¹⁴ 6d² 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 157.0,
+     "covalent": 157.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0001,
+     "pauling": null,
+     "allredRochow": 0.0001,
+     "mulliken": null
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.01,
+     "successive": [
+      6.01,
+      14.7,
+      23.9,
+      31.7,
+      64.0,
+      77.0,
+      102.0
+     ]
+    }
+   }
+  },
+  {
+   "number": 105,
+   "symbol": "Db",
+   "name": "Dubnium",
+   "mass": 268,
+   "period": 7,
+   "group": 5,
+   "category": "transition-metal",
+   "electronConfig": "[Rn] 5f¹⁴ 6d³ 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 149.0,
+     "covalent": 149.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0001,
+     "pauling": null,
+     "allredRochow": 0.0001,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 6.8,
+     "successive": [
+      6.8,
+      14.0,
+      23.1,
+      33.0,
+      43.0,
+      86.0,
+      98.9
+     ]
+    }
+   }
+  },
+  {
+   "number": 106,
+   "symbol": "Sg",
+   "name": "Seaborgium",
+   "mass": 269,
+   "period": 7,
+   "group": 6,
+   "category": "transition-metal",
+   "electronConfig": "[Rn] 5f¹⁴ 6d⁴ 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 143.0,
+     "covalent": 143.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": null
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.8,
+     "successive": [
+      7.8,
+      17.1,
+      25.8,
+      35.5,
+      47.2,
+      59.3,
+      109.0
+     ]
+    }
+   }
+  },
+  {
+   "number": 107,
+   "symbol": "Bh",
+   "name": "Bohrium",
+   "mass": 270,
+   "period": 7,
+   "group": 7,
+   "category": "transition-metal",
+   "electronConfig": "[Rn] 5f¹⁴ 6d⁵ 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 141.0,
+     "covalent": 141.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": null
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.7,
+     "successive": [
+      7.7,
+      17.5,
+      26.7,
+      37.3,
+      49.0,
+      62.1,
+      74.9
+     ]
+    }
+   }
+  },
+  {
+   "number": 108,
+   "symbol": "Hs",
+   "name": "Hassium",
+   "mass": 269,
+   "period": 7,
+   "group": 8,
+   "category": "transition-metal",
+   "electronConfig": "[Rn] 5f¹⁴ 6d⁶ 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 134.0,
+     "covalent": 134.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": 0.0
+    },
+    "ionizationEnergy": {
+     "label": "Ionization Energy",
+     "page": "iea.html",
+     "unit": "eV",
+     "value": 7.6,
+     "successive": [
+      7.6,
+      18.2,
+      29.3,
+      37.7,
+      51.2,
+      64.0,
+      78.0
+     ]
+    }
+   }
+  },
+  {
+   "number": 109,
+   "symbol": "Mt",
+   "name": "Meitnerium",
+   "mass": 278,
+   "period": 7,
+   "group": 9,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d⁷ 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 129.0,
+     "covalent": 129.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": null
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 110,
+   "symbol": "Ds",
+   "name": "Darmstadtium",
+   "mass": 281,
+   "period": 7,
+   "group": 10,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d⁹ 7s¹",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 128.0,
+     "covalent": 128.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": 0.0
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 111,
+   "symbol": "Rg",
+   "name": "Roentgenium",
+   "mass": 282,
+   "period": 7,
+   "group": 11,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s¹",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 121.0,
+     "covalent": 121.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0003,
+     "pauling": null,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    }
+   }
+  },
+  {
+   "number": 112,
+   "symbol": "Cn",
+   "name": "Copernicium",
+   "mass": 285,
+   "period": 7,
+   "group": 12,
+   "category": "transition-metal",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "met",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 122.0,
+     "covalent": 122.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0003,
+     "pauling": null,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    }
+   }
+  },
+  {
+   "number": 113,
+   "symbol": "Nh",
+   "name": "Nihonium",
+   "mass": 286,
+   "period": 7,
+   "group": 13,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 136.0,
+     "covalent": 136.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0003,
+     "pauling": null,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 114,
+   "symbol": "Fl",
+   "name": "Flerovium",
+   "mass": 289,
+   "period": 7,
+   "group": 14,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 143.0,
+     "covalent": 143.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0003,
+     "pauling": null,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 115,
+   "symbol": "Mc",
+   "name": "Moscovium",
+   "mass": 289,
+   "period": 7,
+   "group": 15,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 162.0,
+     "covalent": 162.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": 0.0
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 116,
+   "symbol": "Lv",
+   "name": "Livermorium",
+   "mass": 293,
+   "period": 7,
+   "group": 16,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 175.0,
+     "covalent": 175.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0002,
+     "pauling": null,
+     "allredRochow": 0.0002,
+     "mulliken": 0.0
+    }
+   }
+  },
+  {
+   "number": 117,
+   "symbol": "Ts",
+   "name": "Tennessine",
+   "mass": 294,
+   "period": 7,
+   "group": 17,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "atomicRadius": {
+     "label": "Atomic Radius",
+     "page": "ara.html",
+     "unit": "pm",
+     "value": 165.0,
+     "covalent": 165.0,
+     "metallic": null,
+     "vanderwaals": null
+    },
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0003,
+     "pauling": null,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    },
+    "electronGainEnthalpy": {
+     "label": "Electron Gain Enthalpy",
+     "page": "ege.html",
+     "unit": "kJ/mol",
+     "value": 0.0
+    }
+   }
+  },
+  {
+   "number": 118,
+   "symbol": "Og",
+   "name": "Oganesson",
+   "mass": 294,
+   "period": 7,
+   "group": 18,
+   "category": "unknown",
+   "electronConfig": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
+   "electronegativity": null,
+   "atomicRadius": {
+    "value": null,
+    "type": "cov",
+    "cov": null,
+    "met": null,
+    "vdw": null
+   },
+   "ionizationEnergy": {
+    "ie1": null,
+    "ie2": null,
+    "ie3": null,
+    "ie4": null
+   },
+   "topics": {
+    "electronegativity": {
+     "label": "Electronegativity",
+     "page": "ena.html",
+     "unit": "",
+     "value": 0.0003,
+     "pauling": null,
+     "allredRochow": 0.0003,
+     "mulliken": 0.0
+    }
+   }
+  }
+ ]
+}

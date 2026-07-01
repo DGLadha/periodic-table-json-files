@@ -1,0 +1,302 @@
+[
+    {
+        "atomic_number":57,
+        "name":"Lanthanum",
+        "symbol":"La",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 5d 6s2",
+        "electron_gain_enthalpy":-45.34795,
+        "Analysis":"The lanthanides display an irregular electron gain enthalpy trend, shaped by the gradual filling of the 4f orbitals and the effects of lanthanide contraction. From lanthanum (La) to praseodymium (Pr), the electron gain enthalpy becomes more negative as the effective nuclear charge increases due to the poor shielding by the 4f electrons.\n\nThe trend is interrupted by especially stable electronic configurations. Europium (Eu) has a less negative electron gain enthalpy because its half-filled 4f\u2077 configuration resists the addition of an electron. Thulium (Tm) becomes more favorable again, as gaining an electron completes the highly stable 4f\u00b9\u2074 configuration.\n\nYtterbium (Yb) is the biggest surprise. With its already filled 4f\u00b9\u2074 subshell, an extra electron must enter the higher-energy 5d orbital, giving it a slightly positive electron gain enthalpy. Lutetium (Lu) then returns to a moderately negative value as the incoming electron occupies the 5d subshell, providing only limited stabilization.",
+        "jmol_color":"#70d4ff"
+    },
+    {
+        "atomic_number":58,
+        "name":"Cerium",
+        "symbol":"Ce",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f 5d 6s2",
+        "electron_gain_enthalpy":-62.71525,
+        "Analysis":null,
+        "jmol_color":"#ffffc7"
+    },
+    {
+        "atomic_number":59,
+        "name":"Praseodymium",
+        "symbol":"Pr",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f3 6s2",
+        "electron_gain_enthalpy":-92.81857,
+        "Analysis":null,
+        "jmol_color":"#d9ffc7"
+    },
+    {
+        "atomic_number":60,
+        "name":"Neodymium",
+        "symbol":"Nd",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f4 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#c7ffc7"
+    },
+    {
+        "atomic_number":61,
+        "name":"Promethium",
+        "symbol":"Pm",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f5 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#a3ffc7"
+    },
+    {
+        "atomic_number":62,
+        "name":"Samarium",
+        "symbol":"Sm",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f6 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#8fffc7"
+    },
+    {
+        "atomic_number":63,
+        "name":"Europium",
+        "symbol":"Eu",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f7 6s2",
+        "electron_gain_enthalpy":-83.36304,
+        "Analysis":null,
+        "jmol_color":"#61ffc7"
+    },
+    {
+        "atomic_number":64,
+        "name":"Gadolinium",
+        "symbol":"Gd",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f7 5d 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#45ffc7"
+    },
+    {
+        "atomic_number":65,
+        "name":"Terbium",
+        "symbol":"Tb",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f9 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#30ffc7"
+    },
+    {
+        "atomic_number":66,
+        "name":"Dysprosium",
+        "symbol":"Dy",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f10 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#1fffc7"
+    },
+    {
+        "atomic_number":67,
+        "name":"Holmium",
+        "symbol":"Ho",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f11 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#00ff9c"
+    },
+    {
+        "atomic_number":68,
+        "name":"Erbium",
+        "symbol":"Er",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f12 6s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#00e675"
+    },
+    {
+        "atomic_number":69,
+        "name":"Thulium",
+        "symbol":"Tm",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f13 6s2",
+        "electron_gain_enthalpy":-99.283065,
+        "Analysis":null,
+        "jmol_color":"#00d452"
+    },
+    {
+        "atomic_number":70,
+        "name":"Ytterbium",
+        "symbol":"Yb",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f14 6s2",
+        "electron_gain_enthalpy":1.9297,
+        "Analysis":null,
+        "jmol_color":"#00bf38"
+    },
+    {
+        "atomic_number":71,
+        "name":"Lutetium",
+        "symbol":"Lu",
+        "LanthanideandActinide":"Lanthanide",
+        "electronic_configuration":"[Xe] 4f14 5d 6s2",
+        "electron_gain_enthalpy":-32.8049,
+        "Analysis":null,
+        "jmol_color":"#00ab24"
+    },
+    {
+        "atomic_number":89,
+        "name":"Actinium",
+        "symbol":"Ac",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 6d 7s2",
+        "electron_gain_enthalpy":-33.76975,
+        "Analysis":"The actinides remain one of the least explored regions of the periodic table. Reliable electron gain enthalpy data are available only for actinium (Ac), while values for the remaining actinides are largely unknown because these elements are highly radioactive and extremely difficult to study.\n\nTheoretical predictions suggest an irregular trend, shaped by the progressive filling of the 5f orbitals, electron pairing, and actinide contraction. As the effective nuclear charge increases across the series, the attraction for an incoming electron generally becomes stronger.\n\nHowever, electronic configuration introduces important exceptions. The half-filled 5f\u2077 configuration of americium and the filled 5f\u00b9\u2074 configuration of nobelium are especially stable, making electron gain less favorable.\n\nIn the heavier actinides, strong relativistic effects further reshape the 5f, 6d, and 7s orbitals, producing deviations from simple periodic trends and making the electron gain behavior of these elements one of the most intriguing challenges in modern chemistry.",
+        "jmol_color":"#70abfa"
+    },
+    {
+        "atomic_number":90,
+        "name":"Thorium",
+        "symbol":"Th",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 6d2 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#00baff"
+    },
+    {
+        "atomic_number":91,
+        "name":"Protactinium",
+        "symbol":"Pa",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f2 6d 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#00a1ff"
+    },
+    {
+        "atomic_number":92,
+        "name":"Uranium",
+        "symbol":"U",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f3 6d 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#008fff"
+    },
+    {
+        "atomic_number":93,
+        "name":"Neptunium",
+        "symbol":"Np",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f4 6d 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#0080ff"
+    },
+    {
+        "atomic_number":94,
+        "name":"Plutonium",
+        "symbol":"Pu",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f6 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#006bff"
+    },
+    {
+        "atomic_number":95,
+        "name":"Americium",
+        "symbol":"Am",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f7 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#545cf2"
+    },
+    {
+        "atomic_number":96,
+        "name":"Curium",
+        "symbol":"Cm",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f7 6d 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#785ce3"
+    },
+    {
+        "atomic_number":97,
+        "name":"Berkelium",
+        "symbol":"Bk",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f9 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#8a4fe3"
+    },
+    {
+        "atomic_number":98,
+        "name":"Californium",
+        "symbol":"Cf",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f10 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#a136d4"
+    },
+    {
+        "atomic_number":99,
+        "name":"Einsteinium",
+        "symbol":"Es",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f11 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#b31fd4"
+    },
+    {
+        "atomic_number":100,
+        "name":"Fermium",
+        "symbol":"Fm",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f12 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#b31fba"
+    },
+    {
+        "atomic_number":101,
+        "name":"Mendelevium",
+        "symbol":"Md",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f13 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#b30da6"
+    },
+    {
+        "atomic_number":102,
+        "name":"Nobelium",
+        "symbol":"No",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f14 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#bd0d87"
+    },
+    {
+        "atomic_number":103,
+        "name":"Lawrencium",
+        "symbol":"Lr",
+        "LanthanideandActinide":"Actinide",
+        "electronic_configuration":"[Rn] 5f14 6d 7s2",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":"#c70066"
+    }
+]

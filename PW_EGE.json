@@ -1,0 +1,562 @@
+[
+    {
+        "atomic_number":1,
+        "name":"Hydrogen",
+        "symbol":"H",
+        "period":1,
+        "electronic_configuration":"1s",
+        "electron_gain_enthalpy":-72.768504575,
+        "Analysis":"Period 1 tells the simplest\u2014and most dramatic\u2014electron gain enthalpy story. Hydrogen readily gains an electron, while helium strongly resists it.\n\nHydrogen has a negative electron gain enthalpy because accepting an electron completes its 1s\u00b2 configuration, releasing energy and forming the stable hydride ion (H\u207b).\n\nHelium, however, already has a completely filled 1s\u00b2 shell. Any additional electron must enter the much higher-energy 2s orbital, requiring a huge input of energy. As a result, helium has an exceptionally large positive electron gain enthalpy.\n\nThe dramatic jump from hydrogen to helium highlights the extraordinary stability of a completely filled noble-gas shell\u2014making helium one of the least willing atoms to accept an extra electron.",
+        "jmol_color":"#ffffff"
+    },
+    {
+        "atomic_number":3,
+        "name":"Lithium",
+        "symbol":"Li",
+        "period":2,
+        "electronic_configuration":"[He] 2s",
+        "electron_gain_enthalpy":-59.632457765,
+        "Analysis":"Period 2 is full of surprises, with electron gain enthalpy swinging between highly favorable and highly unfavorable values. The trend is controlled not just by nuclear charge, but also by subshell stability and electron\u2013electron repulsion.\n\nLithium readily gains an electron to complete its 2s subshell, giving a moderately negative value. Beryllium, however, has a large positive electron gain enthalpy because the incoming electron must enter the higher-energy 2p orbital beyond the stable 2s\u00b2 configuration.\n\nCarbon becomes much more favorable because gaining an electron creates the stable half-filled 2p\u00b3 configuration. Nitrogen then breaks the trend\u2014its half-filled 2p\u00b3 subshell is already exceptionally stable, so adding another electron forces pairing and becomes energetically unfavorable, giving a positive electron gain enthalpy.\n\nOxygen returns to a negative value as the stronger nuclear attraction outweighs electron\u2013electron repulsion, while fluorine has the most negative electron gain enthalpy in the period due to its strong drive to complete the 2p\u2076 noble-gas configuration.\n\nNeon ends the period with another twist. Its filled 2s\u00b22p\u2076 shell makes electron gain highly unfavorable, as an additional electron would have to occupy the much higher-energy 3s orbital, so reliable experimental values are generally unavailable.",
+        "jmol_color":"#d9ffff"
+    },
+    {
+        "atomic_number":11,
+        "name":"Sodium",
+        "symbol":"Na",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s",
+        "electron_gain_enthalpy":-52.86664011,
+        "Analysis":"Period 3 shows a clear increase in the tendency to gain an electron\u2014but with some fascinating exceptions. As we move from sodium (Na) to chlorine (Cl), electron gain enthalpy generally becomes more negative because the effective nuclear charge increases. However, subshell stability creates several interesting deviations.\n\nSodium readily gains an electron to complete its 3s subshell, while magnesium has an electron gain enthalpy close to zero because the incoming electron must enter the higher-energy 3p orbital beyond its stable 3s\u00b2 configuration.\n\nSilicon shows a sharp increase in negativity because gaining an electron forms the stable half-filled 3p\u00b3 configuration. Phosphorus then breaks the trend\u2014its 3p\u00b3 subshell is already exceptionally stable, so adding another electron causes pairing and reduces stability.\n\nSulfur becomes much more favorable as the increasing nuclear attraction outweighs the repulsion between paired electrons, and chlorine reaches the most negative electron gain enthalpy in the period by completing the stable 3p\u2076 noble-gas configuration.\n\nArgon ends the period with the biggest surprise. Its filled 3s\u00b23p\u2076 shell is so stable that an additional electron must enter the much higher-energy 4s orbital, giving it a very large positive electron gain enthalpy.",
+        "jmol_color":"#cc80ff"
+    },
+    {
+        "atomic_number":19,
+        "name":"Potassium",
+        "symbol":"K",
+        "period":4,
+        "electronic_configuration":"[Ar] 4s",
+        "electron_gain_enthalpy":-48.38433295,
+        "Analysis":"Period 4 follows the familiar trend of becoming more favorable for electron gain\u2014but the transition metals add several twists. From potassium (K) to bromine (Br), electron gain enthalpy generally becomes more negative as the effective nuclear charge increases, although subshell stability creates several interesting irregularities.\n\nPotassium readily gains an electron to complete its 4s subshell, whereas calcium has an electron gain enthalpy close to zero because the incoming electron must enter the higher-energy 3d orbital. Scandium gains slight stabilization as the extra electron occupies a 3d orbital.\n\nIn the p-block, gallium shows only a moderately negative value, but germanium displays a sharp increase because gaining an electron forms the stable half-filled 4p\u00b3 configuration. Arsenic then breaks the trend\u2014its 4p\u00b3 subshell is already exceptionally stable, so electron pairing makes electron gain less favorable.\n\nSelenium becomes more favorable again as the increasing nuclear attraction outweighs pairing repulsion, and bromine reaches the most negative electron gain enthalpy in the period by completing the stable 4p\u2076 noble-gas configuration.",
+        "jmol_color":"#c2ff00"
+    },
+    {
+        "atomic_number":37,
+        "name":"Rubidium",
+        "symbol":"Rb",
+        "period":5,
+        "electronic_configuration":"[Kr] 5s",
+        "electron_gain_enthalpy":-46.8839912,
+        "Analysis":"Period 5 follows the familiar trend of becoming more favorable for electron gain\u2014but several electronic configurations create fascinating twists. From rubidium (Rb) to iodine (I), electron gain enthalpy generally becomes more negative as the effective nuclear charge increases.\n\nRubidium readily gains an electron to complete its 5s subshell, while strontium has a value close to zero because the incoming electron must enter the higher-energy 4d orbital. Yttrium gains slight stabilization as the added electron forms a 4d\u00b2 configuration.\n\nIn the p-block, indium shows only a moderately negative value, but tin displays a sharp increase because gaining an electron forms the stable half-filled 5p\u00b3 configuration. Antimony then breaks the trend\u2014its 5p\u00b3 subshell is already exceptionally stable, so electron pairing makes electron gain slightly less favorable.\n\nTellurium again becomes more favorable as the increasing nuclear attraction overcomes pairing repulsion, while iodine has a highly negative electron gain enthalpy because gaining one electron completes its 5p\u2076 noble-gas configuration.\n\nXenon ends the period with a surprise. Its filled valence shell makes electron gain slightly unfavorable, as an additional electron must occupy the higher-energy 6s orbital, giving it a small positive electron gain enthalpy.",
+        "jmol_color":"#ffb5b5"
+    },
+    {
+        "atomic_number":55,
+        "name":"Cesium",
+        "symbol":"Cs",
+        "period":6,
+        "electronic_configuration":"[Xe] 6s",
+        "electron_gain_enthalpy":-45.50483461,
+        "Analysis":"Period 6 generally becomes more favorable for electron gain from cesium (Cs) to astatine (At), but the trend is shaped by several fascinating exceptions. Increasing effective nuclear charge makes the electron gain enthalpy progressively more negative, while lanthanide contraction adds an extra layer of complexity.\n\nCesium readily gains an electron to complete its 6s subshell, whereas barium shows a much less negative value because the incoming electron must enter a higher-energy orbital beyond the stable 6s\u00b2 configuration. Hafnium has a slightly negative electron gain enthalpy (\u22121.3 kJ mol\u207b\u00b9), indicating that electron gain is only weakly favorable. Although the added electron forms the more stable 5d3 configuration, the stabilization gained is largely offset by the effects of lanthanide contraction, changes in 5d orbital energies, and electron correlation.\n\nIn the p-block, thallium gains an electron to form a 6p\u00b2 configuration, while lead forms the stable half-filled 6p\u00b3 configuration. However, the large 6p orbitals limit the stabilization achieved. From lead to bismuth and polonium, the electron gain enthalpy becomes increasingly more negative as the rising effective nuclear charge outweighs the effects of electron pairing.\n\nAstatine reaches the most negative electron gain enthalpy in the period, reflecting its strong tendency to gain one electron and move toward the stable radon-like configuration.",
+        "jmol_color":"#909090"
+    },
+    {
+        "atomic_number":87,
+        "name":"Francium",
+        "symbol":"Fr",
+        "period":7,
+        "electronic_configuration":"[Rn] 7s",
+        "electron_gain_enthalpy":-46.89171,
+        "Analysis":"Period 7 is the least explored region of the periodic table. Most of its elements are highly radioactive, exist for only fractions of a second, and are produced atom-by-atom, making reliable electron gain enthalpy measurements extremely challenging.\n\nAmong the known values, francium (Fr) has a moderately negative electron gain enthalpy because the added electron completes its 7s subshell. Radium (Ra) is much less favorable, as the incoming electron must occupy a higher-energy orbital beyond the stable 7s\u00b2 configuration.\n\nThe actinides show moderately negative electron gain enthalpies, with the added electron entering the 5f orbitals, where exchange energy, actinide contraction, and shielding effects all influence the trend.\n\nFor the transactinides and superheavy p-block elements\u2014from rutherfordium (Rf) to oganesson (Og)\u2014experimental data are largely unavailable. Theoretical studies predict that strong relativistic effects dramatically reshape the 7s, 7p, 6d, and 5f orbitals, causing their electron gain behavior to deviate from the familiar periodic trends observed in lighter elements.",
+        "jmol_color":"#3050f8"
+    },
+    {
+        "atomic_number":4,
+        "name":"Beryllium",
+        "symbol":"Be",
+        "period":2,
+        "electronic_configuration":"[He] 2s2",
+        "electron_gain_enthalpy":231.564,
+        "Analysis":null,
+        "jmol_color":"#ff0d0d"
+    },
+    {
+        "atomic_number":12,
+        "name":"Magnesium",
+        "symbol":"Mg",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#90e050"
+    },
+    {
+        "atomic_number":20,
+        "name":"Calcium",
+        "symbol":"Ca",
+        "period":4,
+        "electronic_configuration":"[Ar] 4s2",
+        "electron_gain_enthalpy":-2.36870675,
+        "Analysis":null,
+        "jmol_color":"#b3e3f5"
+    },
+    {
+        "atomic_number":38,
+        "name":"Strontium",
+        "symbol":"Sr",
+        "period":5,
+        "electronic_configuration":"[Kr] 5s2",
+        "electron_gain_enthalpy":-4.63128,
+        "Analysis":null,
+        "jmol_color":"#ab5cf2"
+    },
+    {
+        "atomic_number":56,
+        "name":"Barium",
+        "symbol":"Ba",
+        "period":6,
+        "electronic_configuration":"[Xe] 6s2",
+        "electron_gain_enthalpy":-13.9536607,
+        "Analysis":null,
+        "jmol_color":"#8aff00"
+    },
+    {
+        "atomic_number":88,
+        "name":"Radium",
+        "symbol":"Ra",
+        "period":7,
+        "electronic_configuration":"[Rn] 7s2",
+        "electron_gain_enthalpy":-9.6485,
+        "Analysis":null,
+        "jmol_color":"#bfa6a6"
+    },
+    {
+        "atomic_number":"21-30",
+        "name":"TransitionMetals I",
+        "symbol":"Sc",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d 4s2",
+        "electron_gain_enthalpy":-18.13918,
+        "Analysis":null,
+        "jmol_color":"#f0c8a0"
+    },
+    {
+        "atomic_number":"39-48",
+        "name":"Transition Metals II",
+        "symbol":"Y",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d 5s2",
+        "electron_gain_enthalpy":-29.620895,
+        "Analysis":null,
+        "jmol_color":"#ff8000"
+    },
+    {
+        "atomic_number":"57-71",
+        "name":"Lanthanides",
+        "symbol":"Ln",
+        "period":6,
+        "electronic_configuration":"[Xe] 5d 6s2",
+        "electron_gain_enthalpy":-45.34795,
+        "Analysis":null,
+        "jmol_color":"#ffff30"
+    },
+    {
+        "atomic_number":"89-103",
+        "name":"Actinides",
+        "symbol":"Ac",
+        "period":7,
+        "electronic_configuration":"[Rn] 6d 7s2",
+        "electron_gain_enthalpy":-33.76975,
+        "Analysis":null,
+        "jmol_color":"#1ff01f"
+    },
+    {
+        "atomic_number":"72-80",
+        "name":"Transition Metals III",
+        "symbol":"Hf",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d2 6s2",
+        "electron_gain_enthalpy":-1.35079,
+        "Analysis":null,
+        "jmol_color":"#80d1e3"
+    },
+    {
+        "atomic_number":"104-112",
+        "name":"Transition Metals IV",
+        "symbol":"Rf",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d2 7s2",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#8f40d4"
+    },
+    {
+        "atomic_number":5,
+        "name":"Boron",
+        "symbol":"B",
+        "period":2,
+        "electronic_configuration":"[He] 2s2 2p",
+        "electron_gain_enthalpy":-26.989073655,
+        "Analysis":null,
+        "jmol_color":"#3dff00"
+    },
+    {
+        "atomic_number":13,
+        "name":"Aluminum",
+        "symbol":"Al",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2 3p",
+        "electron_gain_enthalpy":-41.76160255,
+        "Analysis":null,
+        "jmol_color":"#e6e6e6"
+    },
+    {
+        "atomic_number":31,
+        "name":"Gallium",
+        "symbol":"Ga",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d10 4s2 4p",
+        "electron_gain_enthalpy":-41.48855,
+        "Analysis":null,
+        "jmol_color":"#c28f8f"
+    },
+    {
+        "atomic_number":49,
+        "name":"Indium",
+        "symbol":"In",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d10 5s2 5p",
+        "electron_gain_enthalpy":-28.9455,
+        "Analysis":null,
+        "jmol_color":"#668f8f"
+    },
+    {
+        "atomic_number":81,
+        "name":"Thallium",
+        "symbol":"Tl",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p",
+        "electron_gain_enthalpy":-36.374845,
+        "Analysis":null,
+        "jmol_color":"#bd80e3"
+    },
+    {
+        "atomic_number":113,
+        "name":"Nihonium",
+        "symbol":"Nh",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p1",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#ffa100"
+    },
+    {
+        "atomic_number":6,
+        "name":"Carbon",
+        "symbol":"C",
+        "period":2,
+        "electronic_configuration":"[He] 2s2 2p2",
+        "electron_gain_enthalpy":-121.775551715,
+        "Analysis":null,
+        "jmol_color":"#a62929"
+    },
+    {
+        "atomic_number":14,
+        "name":"Silicon",
+        "symbol":"Si",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2 3p2",
+        "electron_gain_enthalpy":-134.0679433335,
+        "Analysis":null,
+        "jmol_color":"#5cb8d1"
+    },
+    {
+        "atomic_number":32,
+        "name":"Germanium",
+        "symbol":"Ge",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d10 4s2 4p2",
+        "electron_gain_enthalpy":-118.93821732,
+        "Analysis":null,
+        "jmol_color":"#702eb0"
+    },
+    {
+        "atomic_number":50,
+        "name":"Tin",
+        "symbol":"Sn",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d10 5s2 5p2",
+        "electron_gain_enthalpy":-107.297784495,
+        "Analysis":null,
+        "jmol_color":"#00ff00"
+    },
+    {
+        "atomic_number":82,
+        "name":"Lead",
+        "symbol":"Pb",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p2",
+        "electron_gain_enthalpy":-34.4203637926,
+        "Analysis":null,
+        "jmol_color":"#94ffff"
+    },
+    {
+        "atomic_number":114,
+        "name":"Flerovium",
+        "symbol":"Fl",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p2",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#a67573"
+    },
+    {
+        "atomic_number":7,
+        "name":"Nitrogen",
+        "symbol":"N",
+        "period":2,
+        "electronic_configuration":"[He] 2s2 2p3",
+        "electron_gain_enthalpy":135.079,
+        "Analysis":null,
+        "jmol_color":"#668080"
+    },
+    {
+        "atomic_number":15,
+        "name":"Phosphorus",
+        "symbol":"P",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2 3p3",
+        "electron_gain_enthalpy":-72.036376395,
+        "Analysis":null,
+        "jmol_color":"#9e63b5"
+    },
+    {
+        "atomic_number":33,
+        "name":"Arsenic",
+        "symbol":"As",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d10 4s2 4p3",
+        "electron_gain_enthalpy":-77.57394,
+        "Analysis":null,
+        "jmol_color":"#d47a00"
+    },
+    {
+        "atomic_number":51,
+        "name":"Antimony",
+        "symbol":"Sb",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d10 5s2 5p3",
+        "electron_gain_enthalpy":-100.92331,
+        "Analysis":null,
+        "jmol_color":"#940094"
+    },
+    {
+        "atomic_number":83,
+        "name":"Bismuth",
+        "symbol":"Bi",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p3",
+        "electron_gain_enthalpy":-90.92379757,
+        "Analysis":null,
+        "jmol_color":"#429eb0"
+    },
+    {
+        "atomic_number":115,
+        "name":"Moscovium",
+        "symbol":"Mc",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p3",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#57178f"
+    },
+    {
+        "atomic_number":8,
+        "name":"Oxygen",
+        "symbol":"O",
+        "period":2,
+        "electronic_configuration":"[He] 2s2 2p4",
+        "electron_gain_enthalpy":-140.9755360475,
+        "Analysis":null,
+        "jmol_color":"#00c900"
+    },
+    {
+        "atomic_number":16,
+        "name":"Sulfur",
+        "symbol":"S",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2 3p4",
+        "electron_gain_enthalpy":-200.4093823346,
+        "Analysis":null,
+        "jmol_color":"#70d4ff"
+    },
+    {
+        "atomic_number":34,
+        "name":"Selenium",
+        "symbol":"Se",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d10 4s2 4p4",
+        "electron_gain_enthalpy":-194.96434495,
+        "Analysis":null,
+        "jmol_color":"#4dc2ff"
+    },
+    {
+        "atomic_number":52,
+        "name":"Tellurium",
+        "symbol":"Te",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d10 5s2 5p4",
+        "electron_gain_enthalpy":-190.15997086,
+        "Analysis":null,
+        "jmol_color":"#a6544d"
+    },
+    {
+        "atomic_number":84,
+        "name":"Polonium",
+        "symbol":"Po",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p4",
+        "electron_gain_enthalpy":-183.3215,
+        "Analysis":null,
+        "jmol_color":"#575961"
+    },
+    {
+        "atomic_number":116,
+        "name":"Livermorium",
+        "symbol":"Lv",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p4",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#9e4fb5"
+    },
+    {
+        "atomic_number":9,
+        "name":"Fluorine",
+        "symbol":"F",
+        "period":2,
+        "electronic_configuration":"[He] 2s2 2p5",
+        "electron_gain_enthalpy":-328.1637882045,
+        "Analysis":null,
+        "jmol_color":"#ab5c00"
+    },
+    {
+        "atomic_number":17,
+        "name":"Chlorine",
+        "symbol":"Cl",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2 3p5",
+        "electron_gain_enthalpy":-348.573771625,
+        "Analysis":null,
+        "jmol_color":"#754f45"
+    },
+    {
+        "atomic_number":35,
+        "name":"Bromine",
+        "symbol":"Br",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d10 4s2 4p5",
+        "electron_gain_enthalpy":-324.535807477,
+        "Analysis":null,
+        "jmol_color":"#428296"
+    },
+    {
+        "atomic_number":53,
+        "name":"Iodine",
+        "symbol":"I",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d10 5s2 5p5",
+        "electron_gain_enthalpy":-295.151165648,
+        "Analysis":null,
+        "jmol_color":"#420066"
+    },
+    {
+        "atomic_number":85,
+        "name":"Astatine",
+        "symbol":"At",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p5",
+        "electron_gain_enthalpy":-270.158,
+        "Analysis":null,
+        "jmol_color":"#007d00"
+    },
+    {
+        "atomic_number":117,
+        "name":"Tennessine",
+        "symbol":"Ts",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p5",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":"#70abfa"
+    },
+    {
+        "atomic_number":2,
+        "name":"Helium",
+        "symbol":"He",
+        "period":1,
+        "electronic_configuration":"1s2",
+        "electron_gain_enthalpy":1900.7545,
+        "Analysis":null,
+        "jmol_color":"#cc0059"
+    },
+    {
+        "atomic_number":10,
+        "name":"Neon",
+        "symbol":"Ne",
+        "period":2,
+        "electronic_configuration":"[He] 2s2 2p6",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null,
+        "jmol_color":null
+    },
+    {
+        "atomic_number":18,
+        "name":"Argon",
+        "symbol":"Ar",
+        "period":3,
+        "electronic_configuration":"[Ne] 3s2 3p6",
+        "electron_gain_enthalpy":1109.5775,
+        "Analysis":null,
+        "jmol_color":null
+    },
+    {
+        "atomic_number":36,
+        "name":"Krypton",
+        "symbol":"Kr",
+        "period":4,
+        "electronic_configuration":"[Ar] 3d10 4s2 4p6",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":null
+    },
+    {
+        "atomic_number":54,
+        "name":"Xenon",
+        "symbol":"Xe",
+        "period":5,
+        "electronic_configuration":"[Kr] 4d10 5s2 5p6",
+        "electron_gain_enthalpy":5.40316,
+        "Analysis":null,
+        "jmol_color":null
+    },
+    {
+        "atomic_number":86,
+        "name":"Radon",
+        "symbol":"Rn",
+        "period":6,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2 6p6",
+        "electron_gain_enthalpy":null,
+        "Analysis":null,
+        "jmol_color":null
+    },
+    {
+        "atomic_number":118,
+        "name":"Oganesson",
+        "symbol":"Og",
+        "period":7,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2 7p6",
+        "electron_gain_enthalpy":-5.40316,
+        "Analysis":null,
+        "jmol_color":null
+    }
+]

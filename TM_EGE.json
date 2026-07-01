@@ -1,0 +1,382 @@
+[
+    {
+        "atomic_number":21,
+        "name":"Scandium",
+        "symbol":"Sc",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d 4s2",
+        "jmol_color":"#e6e6e6",
+        "electron_gain_enthalpy":-18.13918,
+        "Analysis":"The 3d transition series has one of the most irregular electron gain enthalpy trends in the periodic table. Instead of a smooth pattern, the values are shaped by a tug-of-war between exchange energy, electron pairing, d-orbital stability, and the steadily increasing effective nuclear charge.\n\nScandium and titanium show only slightly negative values because the added electron provides little extra stabilization. Vanadium and especially chromium gain electrons more readily as the added electron increases exchange energy, with chromium approaching the highly stable half-filled 3d\u2075 configuration.\n\nManganese is the major exception. Its 3d\u20754s\u00b2 configuration is already exceptionally stable, so adding an electron disrupts the half-filled subshell, giving it an electron gain enthalpy close to zero.\n\nFrom iron to nickel, the electron gain enthalpy becomes progressively more negative. Although electron pairing increases, the rising effective nuclear charge and poor shielding by the 3d electrons strengthen the attraction for the incoming electron, outweighing the unfavorable pairing effects.\n\nCopper has one of the most negative electron gain enthalpies because gaining an electron forms the highly stable 3d\u00b9\u20704s\u00b2 configuration. Zinc, however, ends the series with a value close to zero, as its already stable 3d\u00b9\u20704s\u00b2 configuration forces the extra electron into the higher-energy 4p orbital."
+    },
+    {
+        "atomic_number":22,
+        "name":"Titanium",
+        "symbol":"Ti",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d2 4s2",
+        "jmol_color":"#a6a6ab",
+        "electron_gain_enthalpy":-7.622315,
+        "Analysis":null
+    },
+    {
+        "atomic_number":23,
+        "name":"Vanadium",
+        "symbol":"V",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d3 4s2",
+        "jmol_color":"#f090a0",
+        "electron_gain_enthalpy":-50.654625,
+        "Analysis":null
+    },
+    {
+        "atomic_number":24,
+        "name":"Chromium",
+        "symbol":"Cr",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d5 4s",
+        "jmol_color":"#94ffff",
+        "electron_gain_enthalpy":-64.25901,
+        "Analysis":null
+    },
+    {
+        "atomic_number":25,
+        "name":"Manganese",
+        "symbol":"Mn",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d5 4s2",
+        "jmol_color":"#3b9e9e",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":26,
+        "name":"Iron",
+        "symbol":"Fe",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d6 4s2",
+        "jmol_color":"#c0c0c0",
+        "electron_gain_enthalpy":-14.569235,
+        "Analysis":null
+    },
+    {
+        "atomic_number":27,
+        "name":"Cobalt",
+        "symbol":"Co",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d7 4s2",
+        "jmol_color":"#2194d6",
+        "electron_gain_enthalpy":-63.8978145431,
+        "Analysis":null
+    },
+    {
+        "atomic_number":28,
+        "name":"Nickel",
+        "symbol":"Ni",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d8 4s2",
+        "jmol_color":"#d0d0e0",
+        "electron_gain_enthalpy":-111.53666,
+        "Analysis":null
+    },
+    {
+        "atomic_number":29,
+        "name":"Copper",
+        "symbol":"Cu",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d10 4s",
+        "jmol_color":"#d1004f",
+        "electron_gain_enthalpy":-119.158975,
+        "Analysis":null
+    },
+    {
+        "atomic_number":30,
+        "name":"Zinc",
+        "symbol":"Zn",
+        "series":1,
+        "electronic_configuration":"[Ar] 3d10 4s2",
+        "jmol_color":"#eb0026",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":39,
+        "name":"Yttrium",
+        "symbol":"Y",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d 5s2",
+        "jmol_color":"#bfc2c7",
+        "electron_gain_enthalpy":-29.620895,
+        "Analysis":"The 4d transition series is full of peaks and dips, with electron gain enthalpy controlled by the interplay of exchange energy, electron pairing, and effective nuclear charge.\n\nFrom yttrium to zirconium, the values become more negative as increasing effective nuclear charge and the gain in exchange energy make electron gain more favorable. Niobium reaches a major peak because gaining an electron produces the exceptionally stable half-filled 4d\u2075 configuration.\n\nMolybdenum and technetium reverse the trend. Adding an electron disrupts the 4d\u2075 configuration, reducing exchange energy, while technetium also experiences additional electron pairing, making electron gain less favorable.\n\nThe values become more negative again for ruthenium and rhodium, where the increasing effective nuclear charge outweighs the effects of electron pairing. Palladium then shows a sharp drop because its filled 4d\u00b9\u2070 subshell is already highly stable, forcing the extra electron into the higher-energy 5p orbital.\n\nSilver has the most negative electron gain enthalpy in the series as electron gain forms the stable 4d\u00b9\u20705s\u00b2 configuration, while cadmium ends the trend with a value close to zero because the incoming electron must occupy the higher-energy 5p subshell."
+    },
+    {
+        "atomic_number":40,
+        "name":"Zirconium",
+        "symbol":"Zr",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d2 5s2",
+        "jmol_color":"#8a99c7",
+        "electron_gain_enthalpy":-41.10261,
+        "Analysis":null
+    },
+    {
+        "atomic_number":41,
+        "name":"Niobium",
+        "symbol":"Nb",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d4 5s",
+        "jmol_color":"#50d050",
+        "electron_gain_enthalpy":-88.51591791,
+        "Analysis":null
+    },
+    {
+        "atomic_number":42,
+        "name":"Molybdenum",
+        "symbol":"Mo",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d5 5s",
+        "jmol_color":"#94e0e0",
+        "electron_gain_enthalpy":-72.17078,
+        "Analysis":null
+    },
+    {
+        "atomic_number":43,
+        "name":"Technetium",
+        "symbol":"Tc",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d5 5s2",
+        "jmol_color":"#248f8f",
+        "electron_gain_enthalpy":-53.06675,
+        "Analysis":null
+    },
+    {
+        "atomic_number":44,
+        "name":"Ruthenium",
+        "symbol":"Ru",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d7 5s",
+        "jmol_color":"#ffd98f",
+        "electron_gain_enthalpy":-101.30925,
+        "Analysis":null
+    },
+    {
+        "atomic_number":45,
+        "name":"Rhodium",
+        "symbol":"Rh",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d8 5s",
+        "jmol_color":"#267dab",
+        "electron_gain_enthalpy":-109.703445,
+        "Analysis":null
+    },
+    {
+        "atomic_number":46,
+        "name":"Palladium",
+        "symbol":"Pd",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d10",
+        "jmol_color":"#ffd123",
+        "electron_gain_enthalpy":-54.22457,
+        "Analysis":null
+    },
+    {
+        "atomic_number":47,
+        "name":"Silver",
+        "symbol":"Ag",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d10 5s",
+        "jmol_color":"#d90045",
+        "electron_gain_enthalpy":-125.62347,
+        "Analysis":null
+    },
+    {
+        "atomic_number":48,
+        "name":"Cadmium",
+        "symbol":"Cd",
+        "series":2,
+        "electronic_configuration":"[Kr] 4d10 5s2",
+        "jmol_color":"#ffd98f",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":72,
+        "name":"Hafnium",
+        "symbol":"Hf",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d2 6s2",
+        "jmol_color":"#9c7ac7",
+        "electron_gain_enthalpy":-1.35079,
+        "Analysis":"The 5d transition series displays one of the most fascinating electron gain enthalpy trends, shaped by exchange energy, lanthanide contraction, and powerful relativistic effects.\n\nFrom hafnium to tungsten, the electron gain enthalpy becomes increasingly negative as the effective nuclear charge rises and the added electron increases exchange energy, with tungsten approaching the stable half-filled 5d\u2075 configuration.\n\nRhenium breaks the trend. Gaining an electron disrupts the 5d\u2075 configuration and introduces electron pairing, making electron gain much less favorable.\n\nFrom osmium to platinum, the values become more negative again as the increasing effective nuclear charge overcomes the unfavorable effects of electron pairing. Gold reaches the most negative electron gain enthalpy in the series because gaining an electron forms the highly stable 5d\u00b9\u20706s\u00b2 configuration, while strong relativistic stabilization of the 6s orbital makes electron gain exceptionally favorable.\n\nMercury ends the series with a value close to zero. Its already stable 5d\u00b9\u20706s\u00b2 configuration forces the incoming electron into the higher-energy 6p orbital, making electron gain energetically unfavorable."
+    },
+    {
+        "atomic_number":73,
+        "name":"Tantalum",
+        "symbol":"Ta",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d3 6s2",
+        "jmol_color":"#c88033",
+        "electron_gain_enthalpy":-31.06817,
+        "Analysis":null
+    },
+    {
+        "atomic_number":74,
+        "name":"Tungsten",
+        "symbol":"W",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d4 6s2",
+        "jmol_color":"#73c2c9",
+        "electron_gain_enthalpy":-78.7568461,
+        "Analysis":null
+    },
+    {
+        "atomic_number":75,
+        "name":"Rhenium",
+        "symbol":"Re",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d5 6s2",
+        "jmol_color":"#0a7d8c",
+        "electron_gain_enthalpy":-14.47275,
+        "Analysis":null
+    },
+    {
+        "atomic_number":76,
+        "name":"Osmium",
+        "symbol":"Os",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d6 6s2",
+        "jmol_color":"#4dc2ff",
+        "electron_gain_enthalpy":-106.1335,
+        "Analysis":null
+    },
+    {
+        "atomic_number":77,
+        "name":"Iridium",
+        "symbol":"Ir",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d7 6s2",
+        "jmol_color":"#266696",
+        "electron_gain_enthalpy":-150.883243,
+        "Analysis":null
+    },
+    {
+        "atomic_number":78,
+        "name":"Platinum",
+        "symbol":"Pt",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d9 6s",
+        "jmol_color":"#b8b8d0",
+        "electron_gain_enthalpy":-205.32008,
+        "Analysis":null
+    },
+    {
+        "atomic_number":79,
+        "name":"Gold",
+        "symbol":"Au",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s",
+        "jmol_color":"#e00038",
+        "electron_gain_enthalpy":-222.74816555,
+        "Analysis":null
+    },
+    {
+        "atomic_number":80,
+        "name":"Mercury",
+        "symbol":"Hg",
+        "series":3,
+        "electronic_configuration":"[Xe] 4f14 5d10 6s2",
+        "jmol_color":"#b8b8d0",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":104,
+        "name":"Rutherfordium",
+        "symbol":"Rf",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d2 7s2",
+        "jmol_color":"#e06633",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":"The 6d transition series remains one of the greatest frontiers of modern chemistry. Reliable electron gain enthalpy values for rutherfordium (Rf) to copernicium (Cn) are unavailable because these superheavy elements are produced atom-by-atom and exist for only fractions of a second.\n\nTheoretical studies suggest that their electron gain enthalpies are governed by the same factors as the lighter transition metals\u2014effective nuclear charge, exchange energy, electron pairing, and the stability of half-filled and fully filled d-subshells.\n\nBut there is a crucial difference. In the 6d series, relativistic effects become dominant. The enormous nuclear charge reshapes the 6d and 7s orbitals, changing their energies and even their ordering. As a result, these superheavy elements are expected to deviate significantly from the familiar trends observed in the 3d, 4d, and 5d transition series, making them one of the most fascinating\u2014and least explored\u2014regions of the periodic table."
+    },
+    {
+        "atomic_number":105,
+        "name":"Dubnium",
+        "symbol":"Db",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d3 7s2",
+        "jmol_color":"#7d80b0",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":106,
+        "name":"Seaborgium",
+        "symbol":"Sg",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d4 7s2",
+        "jmol_color":"#54b5b5",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":107,
+        "name":"Bohrium",
+        "symbol":"Bh",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d5 7s2",
+        "jmol_color":"#006985",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":108,
+        "name":"Hassium",
+        "symbol":"Hs",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d6 7s2",
+        "jmol_color":"#4da6ff",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":109,
+        "name":"Meitnerium",
+        "symbol":"Mt",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d7 7s2",
+        "jmol_color":"#175487",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":110,
+        "name":"Darmstadtium",
+        "symbol":"Ds",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d9 7s1",
+        "jmol_color":"#cc0059",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":111,
+        "name":"Roentgenium",
+        "symbol":"Rg",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s1",
+        "jmol_color":"#e6002e",
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    },
+    {
+        "atomic_number":112,
+        "name":"Copernicium",
+        "symbol":"Cn",
+        "series":4,
+        "electronic_configuration":"[Rn] 5f14 6d10 7s2",
+        "jmol_color":null,
+        "electron_gain_enthalpy":0.0,
+        "Analysis":null
+    }
+]
